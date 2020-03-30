@@ -24,12 +24,13 @@ class Target(object):
 
     logger = logging.getLogger("TotalPwd")
 
-    def __init__(self, host=None, port=None, protocol=None, url=None):
+    def __init__(self, host=None, port=None, category=None, protocal=None, url=None):
         self.host = host
         port = port or opts.port
         port = int(re.sub(r"\D", "", str(port))) if port else None
         self.port = port if port and 0 < port < 65535 else None
-        self.protocal = protocol
+        self.category = category
+        self.protocal = protocal
         self.url = url
 
     def __eq__(self, other):
@@ -79,6 +80,7 @@ class Target(object):
         elif isinstance(target, tuple) or isinstance(target, list):
             for t in target:
                 mid_targets += cls._parse_str(t)
+        # return mid_targets
         # 为targets补全端口
         for t in mid_targets:
             if t.port:
@@ -89,6 +91,7 @@ class Target(object):
                 if port:
                     nt = copy.deepcopy(t)
                     nt.port = port
+                    nt.category = cat
                     ret_targets.append(nt)
         return ret_targets
 

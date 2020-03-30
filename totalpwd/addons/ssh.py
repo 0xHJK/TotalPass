@@ -48,6 +48,8 @@ def mkscanners(pwds, targets) -> list:
         if pwd.category != "ssh" and pwd.category != opts.common:
             continue
         for target in targets:
+            if target.category and target.category != "ssh":
+                continue
             for cred in pwd.credentials:
                 scanners.append(
                     SSHScanner(

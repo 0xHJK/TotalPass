@@ -49,6 +49,8 @@ def mkscanners(pwds, targets) -> list:
         if pwd.category != "telnet" and pwd.category != opts.common:
             continue
         for target in targets:
+            if target.category and target.category != "telnet":
+                continue
             for cred in pwd.credentials:
                 scanners.append(
                     TelnetScanner(
