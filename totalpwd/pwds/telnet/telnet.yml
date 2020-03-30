@@ -1,0 +1,14 @@
+auth:
+  credentials:
+  - username: root
+    password: 
+  - username: root
+    password: root
+  - username: test
+    password: test
+  - username: admin
+    password: password
+category: telnet
+port: 23
+vendor: TELNET
+comment: telnet test
