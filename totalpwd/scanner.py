@@ -52,11 +52,13 @@ class Scanner(object):
         """
         if not opts.running:
             return False
-        click.echo("Trying scan %s " % self.__str__())
+        click.echo("Trying to scan %s " % self.__str__())
         try:
             self.evidence = self._check()
             if not self.evidence:
                 raise InvalidCredential
+            # 只取第一行结果
+            self.evidence = self.evidence.split("\n")[0]
             msg = "[+] Found %s credential %s:%s at %s" % (
                 self.vendor,
                 self.username,
