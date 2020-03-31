@@ -15,16 +15,18 @@ import click
 from netaddr import IPNetwork
 from netaddr.core import AddrFormatError
 from .settings import opts
+from . import addons
 
 
 class Target(object):
     """
-        测试目标对象
+        测试目标对象，不同目标之间IP、端口、分类均不同
     """
 
     logger = logging.getLogger("TotalPwd")
 
     def __init__(self, host=None, port=None, category=None, protocal=None, url=None):
+        self.logger = Target.logger
         self.host = host
         port = port or opts.port
         port = int(re.sub(r"\D", "", str(port))) if port else None
@@ -60,8 +62,34 @@ class Target(object):
             return True
         except Exception as e:
             click.secho("[x] %s:%s is close." % (self.host, self.port), fg="red")
-            logging.debug("%s Exception: %s" % (type(e).__name__, str(e)))
+            self.logger.debug("%s Exception: %s" % (type(e).__name__, str(e)))
             return False
+
+    def load_scanners(self) -> list:
+        """
+            加载对应的扫描器
+        """
+        scanners = []
+        if self.category and self.category in addons.__all__:
+            addon = sys.modules.get("%s.addons.%s" % (__package__, self.category))
+            self.logger.info("Creating %s %s scanners..." % (self.category, self))
+            for pwd in opts.pwds:
+                if pwd.category != self.category and pwd.category != opts.common:
+                    continue
+                for cred in pwd.credentials:
+                    scanners.append(
+                        addon.mkscanner(
+                            pwd,
+                            self,
+                            cred.get("username", ""),
+                            cred.get("password", ""),
+                        )
+                    )
+        else:
+            click.secho(
+                "[x] #%s %s is not yet supported." % (self.category, self), fg="red"
+            )
+        return scanners
 
     @classmethod
     def parse(cls, target) -> list:
@@ -81,18 +109,17 @@ class Target(object):
             for t in target:
                 mid_targets += cls._parse_str(t)
         # return mid_targets
-        # 为targets补全端口
+        # 为targets补全端口和分类
         for t in mid_targets:
-            if t.port:
-                ret_targets.append(t)
-                continue
             for cat in opts.categories:
-                port = opts.port_map.get(cat, 0)
-                if port:
-                    nt = copy.deepcopy(t)
+                nt = copy.deepcopy(t)
+                if not nt.port:
+                    # 添加端口
+                    port = opts.port or opts.port_map.get(cat, 0)
                     nt.port = port
-                    nt.category = cat
-                    ret_targets.append(nt)
+                # 添加分类
+                nt.category = cat
+                ret_targets.append(nt)
         return ret_targets
 
     @classmethod

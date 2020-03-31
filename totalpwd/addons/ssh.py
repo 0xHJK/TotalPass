@@ -39,21 +39,5 @@ class SSHScanner(Scanner):
         return evidence
 
 
-def mkscanners(pwds, targets) -> list:
-    logger = logging.getLogger("TotalPwd")
-    logger.info("Creating SSHScanners...")
-    scanners = []
-    for pwd in pwds:
-        # 如果不属于SSH Pwd或通用Pwd
-        if pwd.category != "ssh" and pwd.category != opts.common:
-            continue
-        for target in targets:
-            if target.category and target.category != "ssh":
-                continue
-            for cred in pwd.credentials:
-                scanners.append(
-                    SSHScanner(
-                        pwd, target, cred.get("username", ""), cred.get("password", "")
-                    )
-                )
-    return scanners
+def mkscanner(pwd, target, username, password):
+    return SSHScanner(pwd, target, username, password)

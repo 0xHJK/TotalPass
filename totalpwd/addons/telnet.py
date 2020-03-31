@@ -40,21 +40,5 @@ class TelnetScanner(Scanner):
         return data.decode(errors="ignore")
 
 
-def mkscanners(pwds, targets) -> list:
-    logger = logging.getLogger("TotalPwd")
-    logger.info("Creating TelnetScanners...")
-    scanners = []
-    for pwd in pwds:
-        # 如果不属于Telnet Pwd或通用Pwd
-        if pwd.category != "telnet" and pwd.category != opts.common:
-            continue
-        for target in targets:
-            if target.category and target.category != "telnet":
-                continue
-            for cred in pwd.credentials:
-                scanners.append(
-                    TelnetScanner(
-                        pwd, target, cred.get("username", ""), cred.get("password", "")
-                    )
-                )
-    return scanners
+def mkscanner(pwd, target, username, password):
+    return TelnetScanner(pwd, target, username, password)

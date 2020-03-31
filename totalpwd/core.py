@@ -26,16 +26,13 @@ class TPCore(object):
 
     def any_scan(self):
         click.echo("Checking if the target port is open...")
-        targets = [t for t in opts.targets if t.alive()]
-        if not targets:
-            return
+
+        scanners = []
+        for t in opts.targets:
+            if t.alive():
+                scanners += t.load_scanners()
 
         click.echo("\nLoaded %i credential profiles." % len(opts.pwds))
-
-        scanners = self.load_scanners(
-            pwds=opts.pwds, categories=opts.categories, targets=targets
-        )
-
         click.echo("Loaded %i unique scanners.\n" % len(scanners))
 
         tasks = []
@@ -53,15 +50,3 @@ class TPCore(object):
     def scan_task(self, scanners):
         for s in scanners:
             s.scan()
-
-    def load_scanners(self, pwds, categories, targets):
-        scanners = []
-        for cat in categories:
-            # 按需加载插件
-            if cat in addons.__all__:
-                addon = sys.modules.get("%s.addons.%s" % (__package__, cat))
-                scanners += addon.mkscanners(pwds, targets)
-        # click.echo("Loaded %i scanners." % len(scanners))
-        scanners = list(set(scanners))
-
-        return scanners
