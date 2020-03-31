@@ -24,7 +24,7 @@ class TPCore(object):
     def __init__(self):
         self.logger = logging.getLogger("TotalPwd")
 
-    def any_scan(self):
+    def anyscan(self):
         click.echo("Checking if the target port is open...")
 
         scanners = []

@@ -38,15 +38,18 @@ def run():
     opts.running = True
     try:
         tpc = TPCore()
-        tpc.any_scan()
+        tpc.anyscan()
     except KeyboardInterrupt as e:
         opts.running = False
         click.echo("Exit.")
         sys.exit()
     finally:
         click.echo("\n--- Result -------------")
-        for msg in opts.result:
-            click.secho(msg, fg="green")
+        if not opts.result:
+            click.secho("[x] Not Found", fg="red")
+        else:
+            for msg in opts.result:
+                click.secho(msg, fg="green")
         click.echo("------------------------\n")
 
 
