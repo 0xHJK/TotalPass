@@ -52,13 +52,22 @@ class Target(object):
         if not self.port:
             click.secho("[x] %s No port specified." % self.host, fg="red")
             return False
-        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        s.settimeout(opts.timeout_alive)
+        addr = (self.host, int(self.port))
         try:
-            s.connect((self.host, int(self.port)))
-            # s.shutdown(opts.timeout_alive)
+            # 检测TCP
+            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            s.settimeout(opts.timeout_alive)
+            s.connect(addr)
             s.close()
-            click.secho("[+] %s:%s is open." % (self.host, self.port), fg="green")
+            click.secho("[+] [TCP] %s:%s is open." % (self.host, self.port), fg="green")
+            return True
+        except ConnectionRefusedError as e:
+            # 检测UDP
+            s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+            s.settimeout(opts.timeout_alive)
+            s.connect(addr)
+            s.close()
+            click.secho("[+] [UDP] %s:%s is open." % (self.host, self.port), fg="green")
             return True
         except Exception as e:
             click.secho("[x] %s:%s is close." % (self.host, self.port), fg="red")
