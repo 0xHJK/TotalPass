@@ -25,21 +25,21 @@ class Target(object):
 
     logger = logging.getLogger("TotalPwd")
 
-    def __init__(self, host=None, port=None, category=None, protocal=None, url=None):
+    def __init__(self, host=None, port=None, category=None, protocol=None, url=None):
         self.logger = Target.logger
         self.host = host
         port = port or opts.port
         port = int(re.sub(r"\D", "", str(port))) if port else None
         self.port = port if port and 0 < port < 65535 else None
-        self.category = category
-        self.protocal = protocal
+        self.category = category or protocol
+        self.protocol = protocol
         self.url = url
 
     def __eq__(self, other):
         return self.__dict__ == other.__dict__
 
     def __repr__(self):
-        s1 = "%s://" % self.protocal if self.protocal else ""
+        s1 = "%s://" % self.protocol if self.protocol else ""
         s2 = self.host or ""
         s3 = ":%s" % self.port if self.port else ""
         s = s1 + s2 + s3 if s2 else ""
@@ -120,15 +120,15 @@ class Target(object):
         # return mid_targets
         # 为targets补全端口和分类
         for t in mid_targets:
-            for cat in opts.categories:
-                nt = copy.deepcopy(t)
-                if not nt.port:
-                    # 添加端口
-                    port = opts.port or opts.port_map.get(cat, 0)
-                    nt.port = port
-                # 添加分类
-                nt.category = cat
-                ret_targets.append(nt)
+            if t.category:
+                t.port = t.port or opts.port or opts.port_map.get(t.category, 0)                
+                ret_targets.append(t)
+            else:
+                for cat in opts.categories:
+                    nt = copy.deepcopy(t)
+                    nt.category = cat
+                    nt.port = nt.port or opts.port or opts.port_map.get(cat, 0)
+                    ret_targets.append(nt)
         return ret_targets
 
     @classmethod
