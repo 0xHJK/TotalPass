@@ -56,12 +56,13 @@ def run():
 @click.command()
 @click.version_option(message=version())
 @click.argument("target", nargs=-1, required=True)
-@click.option("-c", "--category", multiple=True)
-@click.option("-p", "--port", type=int)
-@click.option("-v", "--verbose", count=True)
-@click.option("-t", "--threads", default=10, type=int)
-# @click.option("-g")
-def main(category, target, port, verbose, threads):
+@click.option("-x", "--vendor", help="指定设备型号或品牌")
+@click.option("-c", "--category", multiple=True, help="指定扫描类型")
+@click.option("-p", "--port", type=int, help="指定扫描端口")
+@click.option("-t", "--threads", default=10, type=int, help="指定线程数量")
+@click.option("--common", is_flag=True, default=False, help="使用常见弱口令字典")
+@click.option("-v", "--verbose", count=True, help="详细输出模式")
+def main(target, vendor, category, port, threads, common, verbose):
     print(banner())
 
     if verbose < 1:
@@ -76,6 +77,12 @@ def main(category, target, port, verbose, threads):
         datefmt="%H:%M:%S",
     )
 
+    if vendor:
+        opts.vendor = vendor.upper()
+    
+    if common:
+        opts.common = "common"
+
     if category:
         opts.categories = category
     else:
@@ -85,8 +92,9 @@ def main(category, target, port, verbose, threads):
 
     opts.port = port
     opts.threads = threads
-    opts.targets = Target.parse(target)
+    # pwds会影响categories，所以必须先load pwds
     opts.pwds = Pwd.load()
+    opts.targets = Target.parse(target)
 
     # print(opts.info(), "\n")
 

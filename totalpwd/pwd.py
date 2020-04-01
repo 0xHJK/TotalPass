@@ -83,9 +83,29 @@ class Pwd(object):
     @classmethod
     def merge(cls, pwds) -> list:
         """
+            去除不符合要求的密码对
             TODO:合并pwds中的用户名和密码对
         """
-        return pwds
+        vendors = []
+        if opts.vendor:
+            vendors.append(opts.vendor)
+        if opts.common:
+            vendors.append("COMMON")
+        if not vendors:
+            # 如果没有指定vendor并且设置了通用密码则直接返回
+            return pwds
+        # 否则需要去除不符合要求的pwds
+        ret_pwds = []
+        catgories = set()
+        for pwd in pwds:
+            for vn in vendors:
+                if vn.upper() in pwd.vendor.upper():
+                    ret_pwds.append(pwd)
+                    catgories.add(pwd.category)
+                    continue
+        # 对于分类也取并集
+        opts.categories = [cat for cat in opts.categories if cat in catgories]
+        return ret_pwds
 
     @classmethod
     def _load_dir(cls, dirname) -> list:
