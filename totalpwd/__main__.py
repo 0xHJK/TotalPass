@@ -79,7 +79,7 @@ def main(target, vendor, category, port, threads, common, verbose):
 
     if vendor:
         opts.vendor = vendor.upper()
-    
+
     if common:
         opts.common = "common"
 

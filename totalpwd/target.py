@@ -121,7 +121,7 @@ class Target(object):
         # 为targets补全端口和分类
         for t in mid_targets:
             if t.category:
-                t.port = t.port or opts.port or opts.port_map.get(t.category, 0)                
+                t.port = t.port or opts.port or opts.port_map.get(t.category, 0)
                 ret_targets.append(t)
             else:
                 for cat in opts.categories:

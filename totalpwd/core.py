@@ -25,7 +25,7 @@ class TPCore(object):
         self.logger = logging.getLogger("TotalPwd")
 
     def anyscan(self):
-        click.echo("Checking if the target port is open...")
+        click.echo("Checking if the target ports are open...")
 
         scanners = []
         for t in opts.targets:
@@ -50,3 +50,8 @@ class TPCore(object):
     def scan_task(self, scanners):
         for s in scanners:
             s.scan()
+
+    # def anyping(self):
+    #     click.echo("Checking if the targets are up...")
+    #     hosts = [t.host for t in opts.targets]
+    #     # TODO
