@@ -2,13 +2,15 @@
 
 TotalPwd 是一款快速扫描目标设备是否存在默认密码（弱口令）的工具
 
+<https://github.com/0xHJK/TotalPwd>
+
 目前支持的扫描类型有
 - ssh
 - telnet
 - snmp
 - redis
 
-![TotalPwd](docs/totalpwd.png)
+![github.com/0xHJK/TotalPwd](https://github.com/0xHJK/TotalPwd/blob/master/docs/totalpwd.png)
 
 ## 快速开始
 
