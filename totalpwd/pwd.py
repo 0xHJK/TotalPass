@@ -19,9 +19,10 @@ class Pwd(object):
         self,
         vendor=None,
         category=None,
-        credentials=None,
+        credentials=[],
         port=None,
         comment=None,
+        name=None,
         raw=None,
     ):
         self.vendor = vendor.upper()
@@ -29,8 +30,10 @@ class Pwd(object):
         self.credentials = credentials
         self.port = int(port)
         self.comment = comment
+        # 唯一标识符（设备型号等信息）
+        self.name = name or self.vendor
         # 用来合并去重
-        self.key = "%s-%s-%s" % (self.vendor, self.category, self.port)
+        self.key = "%s-%s-%s" % (self.name, self.category, self.port)
         # 用来以后拓展
         self.raw = raw
 
@@ -38,7 +41,8 @@ class Pwd(object):
         return self.__dict__ == other.__dict__
 
     def __repr__(self):
-        s1 = "Vendor: %s, Category: %s, Port: %s, Credentials: " % (
+        s1 = "Name: %s, Vendor: %s, Category: %s, Port: %s, Credentials: " % (
+            self.name,
             self.vendor,
             self.category,
             self.port,
@@ -49,15 +53,29 @@ class Pwd(object):
     def __str__(self):
         return self.__repr__()
 
+    def yaml(self):
+        """
+            把pwd信息格式化成yaml
+        """
+        schema = {
+            "auth": {"credentials": self.credentials},
+            "category": self.category,
+            "port": int(self.port),
+            "vendor": self.vendor,
+            "name": self.name,
+            "comment": self.comment,
+        }
+        return yaml.dump(schema)
+
     @classmethod
     def info(cls, pwds_path=opts.pwds_path) -> list:
         """
             返回pwd摘要信息
-            vendor, category, credentials count
+            name, category, credentials count
         """
         pwds = cls.load(pwds_path)
         return [
-            [pwd.vendor, pwd.category, pwd.port, len(pwd.credentials)] for pwd in pwds
+            [pwd.name, pwd.category, pwd.port, len(pwd.credentials)] for pwd in pwds
         ]
 
     @classmethod
@@ -86,20 +104,20 @@ class Pwd(object):
             去除不符合要求的密码对
             TODO:合并pwds中的用户名和密码对
         """
-        vendors = []
-        if opts.vendor:
-            vendors.append(opts.vendor)
+        names = []
+        if opts.name:
+            names.append(opts.name)
         if opts.common:
-            vendors.append("COMMON")
-        if not vendors:
-            # 如果没有指定vendor并且设置了通用密码则直接返回
+            names.append("COMMON")
+        if not names:
+            # 如果没有指定name并且设置了通用密码则直接返回
             return pwds
         # 否则需要去除不符合要求的pwds
         ret_pwds = []
         catgories = set()
         for pwd in pwds:
-            for vn in vendors:
-                if vn.upper() in pwd.vendor.upper():
+            for vn in names:
+                if vn.upper() in pwd.name.upper():
                     ret_pwds.append(pwd)
                     catgories.add(pwd.category)
                     continue
@@ -146,6 +164,7 @@ class Pwd(object):
             raw = open(file, "r").read()
             parsed = yaml.safe_load(raw)
             pwd = Pwd(
+                name=parsed["name"],
                 vendor=parsed["vendor"],
                 category=parsed["category"],
                 credentials=parsed["auth"]["credentials"],
@@ -156,17 +175,17 @@ class Pwd(object):
             pwds.append(pwd)
         except Exception as e:
             cls.logger.error("Parse yaml file %s failed." % file)
-            cls.logger.info(e)
+            cls.logger.error(e)
         return pwds
 
     @classmethod
     def _load_csv(cls, file) -> list:
         """
             导入csv文件中的pwd
-            csv文件格式 username, password [, vendor, category, port, comment]
+            csv文件格式 username, password [, name, category, port, comment]
         """
         cls.logger.info("Loading csv file %s" % file)
-        pwds_set = {}
+        pwds_map = {}
         try:
             with open(file, "r") as f:
                 for row in f.readlines():
@@ -174,30 +193,29 @@ class Pwd(object):
                     padding = [None for i in range(6 - len(cells))]  # 补全长度
                     full_cells = cells + padding
 
-                    vendor = full_cells[2] or "COMMON"
+                    name = full_cells[2] or "COMMON"
                     category = full_cells[3] or full_cells[2] or "common"
                     port = full_cells[4] or 0
                     username, password = full_cells[0:2]
 
-                    key = "%s-%s-%s" % (vendor, category, port)
-
-                    if key in pwds_set:
+                    key = "%s-%s-%s" % (name, category, port)
+                    cred = dict(username=username, password=password)
+                    if key in pwds_map:
                         # 合并
-                        pwds_set.get(key).credentials.append(
-                            dict(username=username, password=password)
-                        )
+                        pwds_map.get(key).credentials.append(cred)
                     else:
                         pwd = Pwd(
-                            vendor=vendor,
+                            name=name,
+                            vendor=name,
                             category=category,
-                            credentials=[dict(username=username, password=password)],
+                            credentials=[cred],
                             port=full_cells[4] or 0,
                             comment=full_cells[5],
                             raw=cells,
                         )
-                        pwds_set[pwd.key] = pwd
+                        pwds_map[pwd.key] = pwd
         except Exception as e:
             cls.logger.error("Parse csv file %s failed." % file)
             cls.logger.info(e)
-        pwds = pwds_set.values()
+        pwds = pwds_map.values()
         return pwds

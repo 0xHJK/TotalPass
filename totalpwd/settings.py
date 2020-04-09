@@ -29,6 +29,7 @@ class Options(metaclass=Singleton):
         self.targets = []
         self.categories = []
         self.vendor = ""
+        self.name = ""
         self.port = 0
         self.threads = 10
         self.timeout = 7
