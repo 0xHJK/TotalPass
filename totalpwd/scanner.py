@@ -69,8 +69,8 @@ class Scanner(object):
             click.secho(self.evidence, fg="green")
             opts.result.append(msg)
             return True
-        except EOFError as e:
-            print(e)
+        # except EOFError as e:
+        # print(e)
         except Exception as e:
             self.logger.info(
                 "Invalid %s credential %s:%s at %s"

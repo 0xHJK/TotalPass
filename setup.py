@@ -34,7 +34,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
-    data_files= data_files,
+    data_files=data_files,
     test_suite="tests",
     entry_points={"console_scripts": ["totalpwd = totalpwd.__main__:main"]},
     install_requires=requirements,
