@@ -4,7 +4,12 @@ TotalPwd 是一款快速扫描目标设备是否存在默认密码（弱口令�
 
 <https://github.com/0xHJK/TotalPwd>
 
-目前支持的扫描类型有
+主要功能有：
+1. 扫描目标设备是否存在默认密码
+2. 搜索常见设备默认密码
+3. 支持手动和自动更新密码库
+
+目前支持的默认密码扫描类型有
 - ssh
 - telnet
 - snmp
@@ -14,29 +19,49 @@ TotalPwd 是一款快速扫描目标设备是否存在默认密码（弱口令�
 
 ## 快速开始
 
-安装（也可以直接使用python3 totalpwd.py）
+安装（也可以不安装直接使用python3 totalpwd.py）
 ```bash
 $ python3 setup.py install
 ```
 
 对单一IP进行所有扫描
 ```bash
-$ totalpwd 192.168.1.1
+$ totalpwd scan 192.168.1.1
 ```
 
 使用详细模式
 ```bash
-$ totalpwd -v 192.168.1.1
+$ totalpwd scan -v 192.168.1.1
 ```
 
 指定扫描类型进行扫描
 ```bash
-$ totalpwd -c ssh 192.168.1.1
+$ totalpwd scan -c ssh 192.168.1.1
 ```
 
 对多个IP的指定端口进行所有扫描
 ```bash
-$ totalpwd -p 22 192.168.1.1 192.168.1.2
+$ totalpwd scan -p 22 192.168.1.1 192.168.1.2
+```
+
+查看支持的扫描类型
+```bash
+$ totalpwd list
+```
+
+在密码库中搜索密码
+```bash
+$ totalpwd search weblogic
+```
+
+多个条件搜索
+```bash
+$ totalpwd search oracle unix
+```
+
+更新密码库
+```bash
+$ totalpwd update
 ```
 
 ## 使用说明
@@ -45,54 +70,55 @@ $ totalpwd -p 22 192.168.1.1 192.168.1.2
 
 ```bash
 $ totalpwd --help
-Usage: totalpwd [OPTIONS] TARGET...
+Usage: totalpwd.py [OPTIONS] COMMAND [ARGS]...
 
 Options:
-  --version              Show the version and exit.
-  -x, --vendor TEXT      指定设备型号或品牌
+  --version  Show the version and exit.
+  --help     Show this message and exit.
+
+Commands:
+  list    列出所有支持的设备信息和服务类型
+  scan    指定目标进行密码扫描
+  search  从密码库中搜索密码
+  update  从 cirt.net 更新密码库
+```
+
+查看扫描命令帮助
+```bash
+$ totalpwd scan --help
+Usage: totalpwd.py scan [OPTIONS] TARGET...
+
+  指定目标进行密码扫描
+
+Options:
+  -x, --name TEXT        指定设备型号或品牌
   -c, --category TEXT    指定扫描类型
   -p, --port INTEGER     指定扫描端口
-  -t, --threads INTEGER  指定线程数量
   --common               使用常见弱口令字典
+  -t, --threads INTEGER  指定线程数量
   -v, --verbose          详细输出模式
   --help                 Show this message and exit.
 ```
 
-查看版本和支持的扫描类型
-
-```bash
-$ totalpwd --version
-TotalPwd, Version 0.0.1, By HJK
-
-+--------+----------+------+-----------+
-| Vendor | Category | Port | Pwd Count |
-+--------+----------+------+-----------+
-| COMMON |  common  |  0   |     11    |
-|  SNMP  |   snmp   | 161  |     2     |
-| REDIS  |  redis   | 6379 |     1     |
-|  SSH   |   ssh    |  22  |     5     |
-| TELNET |  telnet  |  23  |     4     |
-+--------+----------+------+-----------+
-```
 
 ### 扫描目标
 
 扫描目标支持单个IP、多个IP、子网、指定类型和端口等形式
 ```bash
-$ totalpwd 192.168.1.1
+$ totalpwd scan 192.168.1.1
 
-$ totalpwd 192.168.1.1 192.168.1.2
+$ totalpwd scan 192.168.1.1 192.168.1.2
 
-$ totalpwd 192.168.1.1/24
+$ totalpwd scan 192.168.1.1/24
 
-$ totalpwd redis://192.168.1.1:6379
+$ totalpwd scan redis://192.168.1.1:6379
 ```
 
 ### 设备类型
 
-参数：`-x`或`--vendor=`
+参数：`-x`或`--name=`
 
-对应pwds目录中的yml文件的vendor属性
+对应pwds目录中的yml文件的name属性
 
 ### 扫描类型
 
@@ -110,7 +136,7 @@ $ totalpwd redis://192.168.1.1:6379
 
 参数：`-t`或`--threads=`
 
-默认10线程（仅在扫描密码时使用多线程）
+默认10线程
 
 ### 常见弱口令
 
@@ -136,6 +162,8 @@ $ totalpwd redis://192.168.1.1:6379
 参考格式：
 
 ```yml
+name: Cisco - NETRANGER/SECURE IDS # 名称中可以包含服务商、型号、版本等信息，是唯一识别符
+vendor: CISCO
 auth:
   credentials:
   - username: cisco
@@ -144,7 +172,6 @@ auth:
     password: 用户名和密码可以创建多对
 category: snmp # 类别必须和插件名称一致
 port: 161
-vendor: CISCO SNMP
 comment: 这是备注，可以备注来源链接
 ```
 
@@ -152,9 +179,9 @@ comment: 这是备注，可以备注来源链接
 
 如果需要添加多个密码，可以使用csv文件
 
-csv格式：username, password [, vendor, category, port, comment]
+csv格式：username, password [, name, category, port, comment]
 
-用户名和密码必须，设备类型、扫描类型、端口、备注可选
+用户名和密码必须，配置名称、扫描类型、端口、备注可选
 
 ### 开发扫描器插件
 
