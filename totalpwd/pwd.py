@@ -53,19 +53,37 @@ class Pwd(object):
     def __str__(self):
         return self.__repr__()
 
+    def row(self) -> list:
+        """
+            返回pwd信息数组（表格中的一行）
+        """
+        creds = [
+            (item.get("username", ""), item.get("password", ""))
+            for item in self.credentials
+        ]
+        return [self.name, self.category, self.port, creds]
+
     def yaml(self):
         """
             把pwd信息格式化成yaml
         """
         schema = {
-            "auth": {"credentials": self.credentials},
-            "category": self.category,
-            "port": int(self.port),
-            "vendor": self.vendor,
             "name": self.name,
+            "vendor": self.vendor,
+            "category": self.category,
+            "auth": {"credentials": self.credentials},
+            "port": int(self.port),
             "comment": self.comment,
         }
         return yaml.dump(schema)
+
+    def match(self, keywords) -> bool:
+        """ 关键字匹配 pwd """
+        s = str(self.yaml()).lower()
+        for kw in keywords:
+            if not kw in s:
+                return False
+        return True
 
     @classmethod
     def info(cls, pwds_path=opts.pwds_path) -> list:

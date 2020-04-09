@@ -63,10 +63,22 @@ def update():
 
 
 @main.command()
-@click.option("-x", "--name", help="指定设备型号或品牌")
-def search():
+@click.argument("keywords", nargs=-1, required=True)
+def search(keywords):
     """ 从密码库中搜索密码 """
-    click.echo("Searching...")
+    click.echo("Searching passwords from profiles...")
+    pwds = Pwd.load()
+    matched_pwds = []
+    click.echo("[+] Loaded %s pwd profiles." % len(pwds))
+    for pwd in pwds:
+        if pwd.match(keywords):
+            print("\n------------------------------------")
+            print(pwd.yaml())
+            matched_pwds.append(pwd)
+    if matched_pwds:
+        click.secho("[+] Found %s pwd profiles." % len(matched_pwds), fg="green")
+    else:
+        click.secho("[x] No matching pwd profile found.", fg="red")
 
 
 @main.command()
@@ -79,7 +91,6 @@ def search():
 @click.option("-v", "--verbose", count=True, help="详细输出模式")
 def scan(target, name, common, category, port, threads, verbose):
     """ 指定目标进行密码扫描 """
-    click.echo("Scaning...")
 
     if verbose < 1:
         level = logging.WARNING
