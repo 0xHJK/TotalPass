@@ -26,15 +26,93 @@ def banner():
 
 
 def version():
-    s1 = "\nTotalPwd, Version %s, By %s\n\n" % (__version__, __author__)
-    pt = PrettyTable(["Vendor", "Category", "Port", "Pwd Count"])
+    s1 = "\nTotalPwd, Version %s, By %s\n" % (__version__, __author__)
+    return s1
+
+
+@click.group()
+@click.version_option(message=version())
+def main():
+    print(banner())
+
+
+@main.command()
+def list():
+    """ 列出所有支持的设备信息和服务类型 """
+    pt = PrettyTable(["Name", "Category", "Port", "Pwd Count"])
+    pt.align["Name"] = "l"
     info = Pwd.info()
     for row in info:
         pt.add_row(row)
-    return s1 + pt.get_string()
+    print(pt.get_string())
+    click.secho("[+] Loaded %s pwd profiles." % len(info), fg="green")
 
 
-def run():
+@main.command()
+def update():
+    """ 从 cirt.net 更新密码库"""
+    click.echo("Updating passwords from cirt.net...")
+    from .cirt import CirtPass
+
+    try:
+        CirtPass.update()
+        click.secho("[+] Passwords update completed.", fg="green")
+    except Exception as e:
+        click.secho("[x] Passwords update failed.", fg="red")
+        print("%s Exception: %s" % (type(e).__name__, str(e)))
+
+
+@main.command()
+@click.option("-x", "--name", help="指定设备型号或品牌")
+def search():
+    """ 从密码库中搜索密码 """
+    click.echo("Searching...")
+
+
+@main.command()
+@click.argument("target", nargs=-1, required=True)
+@click.option("-x", "--name", help="指定设备型号或品牌")
+@click.option("-c", "--category", multiple=True, help="指定扫描类型")
+@click.option("-p", "--port", type=int, help="指定扫描端口")
+@click.option("--common", is_flag=True, default=False, help="使用常见弱口令字典")
+@click.option("-t", "--threads", default=10, type=int, help="指定线程数量")
+@click.option("-v", "--verbose", count=True, help="详细输出模式")
+def scan(target, name, common, category, port, threads, verbose):
+    """ 指定目标进行密码扫描 """
+    click.echo("Scaning...")
+
+    if verbose < 1:
+        level = logging.WARNING
+    elif verbose < 2:
+        level = logging.INFO
+    else:
+        level = logging.DEBUG
+    logging.basicConfig(
+        level=level,
+        format="[%(asctime)s] %(levelname)-8s | %(msg)s ",
+        datefmt="%H:%M:%S",
+    )
+
+    opts.threads = threads
+
+    if name:
+        opts.name = name.upper()
+
+    if common:
+        opts.common = "common"
+
+    if category:
+        opts.categories = category
+    else:
+        from . import addons
+
+        opts.categories = addons.__all__
+
+    opts.port = port
+    # pwds会影响categories，所以必须先load pwds
+    opts.pwds = Pwd.load()
+    opts.targets = Target.parse(target)
+
     opts.running = True
     try:
         tpc = TPCore()
@@ -51,54 +129,6 @@ def run():
             for msg in opts.result:
                 click.secho(msg, fg="green")
         click.echo("------------------------\n")
-
-
-@click.command()
-@click.version_option(message=version())
-@click.argument("target", nargs=-1, required=True)
-@click.option("-x", "--vendor", help="指定设备型号或品牌")
-@click.option("-c", "--category", multiple=True, help="指定扫描类型")
-@click.option("-p", "--port", type=int, help="指定扫描端口")
-@click.option("-t", "--threads", default=10, type=int, help="指定线程数量")
-@click.option("--common", is_flag=True, default=False, help="使用常见弱口令字典")
-@click.option("-v", "--verbose", count=True, help="详细输出模式")
-def main(target, vendor, category, port, threads, common, verbose):
-    print(banner())
-
-    if verbose < 1:
-        level = logging.WARNING
-    elif verbose < 2:
-        level = logging.INFO
-    else:
-        level = logging.DEBUG
-    logging.basicConfig(
-        level=level,
-        format="[%(asctime)s] %(levelname)-8s | %(msg)s ",
-        datefmt="%H:%M:%S",
-    )
-
-    if vendor:
-        opts.vendor = vendor.upper()
-
-    if common:
-        opts.common = "common"
-
-    if category:
-        opts.categories = category
-    else:
-        from . import addons
-
-        opts.categories = addons.__all__
-
-    opts.port = port
-    opts.threads = threads
-    # pwds会影响categories，所以必须先load pwds
-    opts.pwds = Pwd.load()
-    opts.targets = Target.parse(target)
-
-    # print(opts.info(), "\n")
-
-    run()
 
 
 if __name__ == "__main__":
