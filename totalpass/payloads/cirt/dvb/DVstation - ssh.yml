@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: pixmet2003
+    username: root
+category: ssh
+comment: 'Level: Administrator; '
+name: DVB - DVstation - ssh
+port: 0
+vendor: DVB

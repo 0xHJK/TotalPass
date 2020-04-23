@@ -1,0 +1,12 @@
+auth:
+  credentials:
+  - password: alien
+    username: root
+  - password: alien
+    username: alien
+category: telnet
+comment: 'Level: Administrator; Doc: http://seclists.org/fulldisclosure/2010/May/63;
+  Notes: Undocumented telnet ports: 23,2323.; '
+name: Alien Technology - ALR-9900
+port: 0
+vendor: ALIEN TECHNOLOGY

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: nimda
+    username: admin
+category: http
+comment: 'Version: 5.4; Level: Administrator; '
+name: Black Widow Web Design Ltd - Saxon
+port: 0
+vendor: BLACK WIDOW WEB DESIGN LTD

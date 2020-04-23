@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: axis2
+    username: admin
+category: unknown
+comment: 'Level: Administrator; Doc: https://spl0it.wordpress.com/2010/11/23/axis2-deployer-metasploit-modules-upload-exec-via-soap/;
+  Notes: dswsbobje, SOAP web service deployer.; '
+name: SAP - Axis2
+port: 0
+vendor: SAP

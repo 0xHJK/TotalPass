@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: BRIDGE
+    username: ''
+  - password: password
+    username: ''
+category: telnet
+comment: 'Level: Administrator; '
+name: Digicorp - Viper
+port: 0
+vendor: DIGICORP

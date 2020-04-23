@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: ISPMODE
+    username: admin
+  - password: '[^_^]'
+    username: admin
+category: serial
+comment: 'Level: Administrator; '
+name: PLANET Technology Corp. - FGSW-2402RS
+port: 0
+vendor: PLANET TECHNOLOGY CORP.

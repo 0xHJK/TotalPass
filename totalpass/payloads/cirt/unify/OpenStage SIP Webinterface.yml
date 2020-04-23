@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: '123456'
+    username: ''
+category: unknown
+comment: 'Level: Administrator; Doc: http://wiki.unify.com/wiki/OpenStage_SIP_FAQ#What_are_the_default_passwords.3F;
+  Notes: Admin Menu; '
+name: Unify - OpenStage SIP Webinterface
+port: 0
+vendor: UNIFY

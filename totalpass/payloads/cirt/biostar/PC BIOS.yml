@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: Biostar
+    username: ''
+  - password: Q54arwms
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: Biostar - PC BIOS
+port: 0
+vendor: BIOSTAR

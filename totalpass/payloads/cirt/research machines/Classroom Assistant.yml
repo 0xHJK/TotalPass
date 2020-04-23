@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: changeme
+    username: manager
+category: unknown
+comment: 'Level: Administrator; '
+name: Research Machines - Classroom Assistant
+port: 0
+vendor: RESEARCH MACHINES

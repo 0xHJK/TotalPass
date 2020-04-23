@@ -1,0 +1,53 @@
+auth:
+  credentials:
+  - password: QSRV
+    username: QSRV
+  - password: '11111111'
+    username: QSRV
+  - password: '22222222'
+    username: QSRV
+  - password: USERP
+    username: user
+  - password: secacm
+    username: sedacm
+  - password: sysopr
+    username: sysopr
+  - password: password
+    username: ibm
+  - password: '2222'
+    username: ibm
+  - password: service
+    username: ibm
+  - password: qpgmr
+    username: qpgmr
+  - password: qsecofr
+    username: qsecofr
+  - password: '11111111'
+    username: qsecofr
+  - password: '22222222'
+    username: qsecofr
+  - password: qserv
+    username: qserv
+  - password: qsvr
+    username: qsvr
+  - password: quser
+    username: quser
+  - password: qsrv
+    username: qsrv
+  - password: qsrvbas
+    username: qsrvbas
+  - password: '11111111'
+    username: '11111111'
+  - password: '22222222'
+    username: '22222222'
+  - password: ibmcel
+    username: qsvr
+  - password: qsysopr
+    username: qsysopr
+  - password: secofr
+    username: secofr
+category: multi
+comment: ''
+name: IBM - OS/400
+port: 0
+vendor: IBM

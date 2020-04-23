@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: ''
+category: http
+comment: 'Version: GW-200; Level: Administrator; '
+name: Airlink - AnyGate
+port: 0
+vendor: AIRLINK

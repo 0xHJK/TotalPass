@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: clickshare
+    username: ''
+category: ssid
+comment: 'Doc: https://www.barco.com/tde/(2331390682231610)/R5900004/08/Barco_InstallationManual_R5900004_08__ClickShare-CSC-1-Installation-Guide.pdf;
+  Notes: SSID: clickshare-serialnumber; '
+name: Barco, Inc. - ClickShare - ssid
+port: 0
+vendor: BARCO, INC.

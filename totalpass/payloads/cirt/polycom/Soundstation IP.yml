@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '* * #'
+    username: administrator
+category: http
+comment: 'Version: 3000; Level: Administrator; '
+name: Polycom - Soundstation IP
+port: 0
+vendor: POLYCOM

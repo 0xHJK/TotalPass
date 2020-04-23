@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: PASSW0RD
+    username: USERID
+category: http
+comment: 'Doc: http://pic.dhe.ibm.com/infocenter/ts7600/serv/index.jsp?topic=%2Fcom.ibm.storage.ts7650_3-1.service.doc%2Fts7650pdg_server_logon_imm_web.html; '
+name: IBM - Integrated Management Module (IMM)
+port: 0
+vendor: IBM

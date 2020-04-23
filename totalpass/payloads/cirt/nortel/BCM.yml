@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: PlsChgMe!
+    username: administrator
+  - password: visor
+    username: supervisor
+category: unknown
+comment: 'Version: 3.5 - 3-7; Level: Administrator; '
+name: Nortel - BCM
+port: 0
+vendor: NORTEL

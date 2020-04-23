@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: access
+    username: ''
+  - password: system
+    username: ''
+category: port 7000
+comment: 'Level: User; '
+name: Digital Equipment - Terminal Server
+port: 0
+vendor: DIGITAL EQUIPMENT

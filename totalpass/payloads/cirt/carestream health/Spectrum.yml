@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: DV5800
+    username: KeyOperator
+  - password: DV5800
+    username: LocalService
+category: http
+comment: 'Level: Level 2; Doc: http://www.spectrumxray.com/sites/default/files/pdfs/Carestream-DryView-5800-5850.pdf; '
+name: CareStream Health - Spectrum
+port: 0
+vendor: CARESTREAM HEALTH

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: mydlp
+    username: mydlp
+category: http
+comment: 'Version: 2.0; Level: Administrator; Doc: https://www.mydlp.com/wp-content/uploads/Comodo_MyDLP_Admin_guide.pdf; '
+name: Comodo Group, Inc - MyDLP
+port: 0
+vendor: COMODO GROUP, INC

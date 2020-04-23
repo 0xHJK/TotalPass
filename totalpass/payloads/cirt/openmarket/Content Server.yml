@@ -1,0 +1,39 @@
+auth:
+  credentials:
+  - password: hello
+    username: Coco
+  - password: hello
+    username: Bobo
+  - password: hello
+    username: Flo
+  - password: hello
+    username: Joe
+  - password: hello
+    username: Moe
+  - password: demo
+    username: admin
+  - password: demo
+    username: user_analyst
+  - password: demo
+    username: user_approver
+  - password: demo
+    username: user_author
+  - password: demo
+    username: user_checker
+  - password: demo
+    username: user_designer
+  - password: demo
+    username: user_editor
+  - password: demo
+    username: user_expert
+  - password: demo
+    username: user_marketer
+  - password: demo
+    username: user_pricer
+  - password: demo
+    username: user_publisher
+category: http
+comment: ''
+name: OpenMarket - Content Server
+port: 0
+vendor: OPENMARKET

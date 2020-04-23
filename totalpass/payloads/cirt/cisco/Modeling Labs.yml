@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: password
+    username: uwmadmin
+category: http
+comment: 'Level: Administrator; Doc: http://www.cisco.com/c/en/us/td/docs/cloud_services/cisco_modeling_labs/v100/installation/guide/administrator/b_cml_install_sys_admin/b_cml_install_sys_admin_chapter_0111.html;
+  Notes: User Workspace Management; '
+name: Cisco - Modeling Labs
+port: 0
+vendor: CISCO

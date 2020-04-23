@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin123
+    username: admin
+category: http
+comment: 'Level: Administrator; Notes: Now owned by Blue Coat Systems.; '
+name: NetApp - SANscreen
+port: 0
+vendor: NETAPP

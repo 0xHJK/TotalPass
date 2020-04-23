@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: SAP
+    username: SAPR3
+category: unknown
+comment: ''
+name: SAP - SAP Local Database
+port: 0
+vendor: SAP

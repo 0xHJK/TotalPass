@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: password
+    username: root
+category: ssh
+comment: 'Level: Administrator; '
+name: Sourcefire - RNA Sensor - ssh
+port: 0
+vendor: SOURCEFIRE

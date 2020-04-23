@@ -1,0 +1,59 @@
+auth:
+  credentials:
+  - password: pwpw
+    username: pw
+  - password: sysadmpw
+    username: sysadm
+  - password: admpw
+    username: sysadm
+  - password: syspw
+    username: sysadm
+  - password: bciimpw
+    username: bciim
+  - password: bcimpw
+    username: bcim
+  - password: bcmspw
+    username: bcms
+  - password: bcnaspw
+    username: bcnas
+  - password: bluepw
+    username: blue
+  - password: browsepw
+    username: browse
+  - password: looker
+    username: browse
+  - password: craft
+    username: craft
+  - password: craftpw
+    username: craft
+  - password: custpw
+    username: cust
+  - password: enquirypw
+    username: enquiry
+  - password: support
+    username: field
+  - password: indspw
+    username: inads
+  - password: inads
+    username: inads
+  - password: initpw
+    username: init
+  - password: locatepw
+    username: locate
+  - password: maintpw
+    username: maint
+  - password: rwmaint
+    username: maint
+  - password: nmspw
+    username: nms
+  - password: rcustpw
+    username: rcust
+  - password: supportpw
+    username: support
+  - password: field
+    username: tech
+category: multi
+comment: ''
+name: Lucent - System 75
+port: 0
+vendor: LUCENT

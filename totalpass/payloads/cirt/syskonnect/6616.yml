@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: default.password
+category: unknown
+comment: ''
+name: SysKonnect - 6616
+port: 0
+vendor: SYSKONNECT

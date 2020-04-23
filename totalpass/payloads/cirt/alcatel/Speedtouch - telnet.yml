@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: ''
+    username: ''
+category: telnet
+comment: 'Version: 510; Doc: http://www.speedtouch.com/support.htm; Notes: Default
+  IP 192.168.1.254/24; '
+name: Alcatel - Speedtouch - telnet
+port: 0
+vendor: ALCATEL

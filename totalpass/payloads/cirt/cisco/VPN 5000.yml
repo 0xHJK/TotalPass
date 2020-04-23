@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: letmein
+    username: ''
+category: unknown
+comment: 'Level: Administrator; '
+name: Cisco - VPN 5000
+port: 0
+vendor: CISCO

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: unknown
+comment: 'Level: Administrator; '
+name: Asus - 520g
+port: 0
+vendor: ASUS

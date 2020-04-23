@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '12345'
+    username: ''
+category: http
+comment: 'Version: 8550; Level: Administrator; '
+name: 3COM - US Robotics ADSL Router
+port: 0
+vendor: 3COM

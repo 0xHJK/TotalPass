@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: sap123
+    username: xmi_demo
+category: unknown
+comment: ''
+name: SAP - xMII
+port: 0
+vendor: SAP

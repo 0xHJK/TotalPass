@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: unknown
+comment: 'Level: Administrator; '
+name: Colubris Networks - CN3200
+port: 0
+vendor: COLUBRIS NETWORKS

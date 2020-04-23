@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: last
+    username: ''
+category: unknown
+comment: 'Level: Administrator; '
+name: Concord - PC BIOS
+port: 0
+vendor: CONCORD

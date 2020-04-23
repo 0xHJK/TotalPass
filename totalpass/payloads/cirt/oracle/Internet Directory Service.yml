@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: welcome
+    username: cn=orcladmin
+category: unknown
+comment: ''
+name: Oracle - Internet Directory Service
+port: 0
+vendor: ORACLE

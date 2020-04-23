@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: ''
+category: http
+comment: 'Level: Administrator; '
+name: GrandStream - HandyTone Budgetone-100 IP Phone
+port: 0
+vendor: GRANDSTREAM

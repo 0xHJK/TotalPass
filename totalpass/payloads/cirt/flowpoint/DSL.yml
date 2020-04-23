@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+  - password: password
+    username: ''
+category: telnet
+comment: 'Version: 2000; Level: Administrator; '
+name: Flowpoint - DSL
+port: 0
+vendor: FLOWPOINT

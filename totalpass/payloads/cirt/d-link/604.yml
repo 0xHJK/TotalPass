@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: Admin
+category: telnet
+comment: 'Level: Administrator; '
+name: D-Link - 604
+port: 0
+vendor: D-LINK

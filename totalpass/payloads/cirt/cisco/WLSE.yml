@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: blender
+    username: root
+  - password: wlsedb
+    username: wlse
+category: multi
+comment: 'Level: Administrator; '
+name: Cisco - WLSE
+port: 0
+vendor: CISCO

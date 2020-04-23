@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: pass
+    username: root
+category: ftp
+comment: 'Version: 2120, 2110, 2100, 200+, 200; Level: Administrator; '
+name: Axis Communications - Axis Network Camera
+port: 0
+vendor: AXIS COMMUNICATIONS

@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: password
+    username: admin
+  - password: setup
+    username: admin
+category: unknown
+comment: 'Version: v5; Level: Administrator; '
+name: Netgear - WGR614
+port: 0
+vendor: NETGEAR

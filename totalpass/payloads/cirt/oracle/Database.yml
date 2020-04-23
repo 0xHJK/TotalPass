@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: welcome
+    username: admin
+category: unknown
+comment: 'Version: OC4J 10g (10.1.3) Developer Preview; '
+name: Oracle - Database
+port: 0
+vendor: ORACLE

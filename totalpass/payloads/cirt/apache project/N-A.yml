@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: jj
+category: unknown
+comment: 'Version: Apache; Level: script; '
+name: Apache Project - N/A
+port: 0
+vendor: APACHE PROJECT

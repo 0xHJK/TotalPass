@@ -1,0 +1,13 @@
+auth:
+  credentials:
+  - password: monitor
+    username: monitor
+  - password: manager
+    username: manager
+  - password: ''
+    username: admin
+category: snmp
+comment: 'Version: 3714; '
+name: ACCTON - CheetahChassis Workgroup Switch
+port: 0
+vendor: ACCTON

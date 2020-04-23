@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '1234'
+    username: Draytek
+category: http
+comment: 'Level: Administrator; '
+name: Draytek - Vigor3300v
+port: 0
+vendor: DRAYTEK

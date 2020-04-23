@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: etas
+    username: disttech
+category: modem
+comment: ''
+name: Nortel - Meridian Link/CCR/Max - modem
+port: 0
+vendor: NORTEL

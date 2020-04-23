@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: adtran
+    username: ''
+category: telnet
+comment: ''
+name: Adtran - MX2800
+port: 0
+vendor: ADTRAN

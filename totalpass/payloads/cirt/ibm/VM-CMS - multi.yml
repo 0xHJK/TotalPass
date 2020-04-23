@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: VTAMUSER
+category: multi
+comment: ''
+name: IBM - VM/CMS - multi
+port: 0
+vendor: IBM

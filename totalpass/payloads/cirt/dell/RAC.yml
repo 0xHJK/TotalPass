@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: calvin
+    username: root
+category: unknown
+comment: 'Level: Administrator; Notes: Remote Access Card; '
+name: Dell - RAC
+port: 0
+vendor: DELL

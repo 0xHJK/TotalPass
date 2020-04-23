@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: ''
+category: http
+comment: 'Level: Administrator; '
+name: Schneider Electric - PowerLogic Ethernet Communications Card
+port: 0
+vendor: SCHNEIDER ELECTRIC

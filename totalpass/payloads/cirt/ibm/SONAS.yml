@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: PASSWORD
+    username: USERID
+category: serial over lan
+comment: 'Doc: http://pic.dhe.ibm.com/infocenter/sonasic/sonas1ic/index.jsp?topic=%2Fcom.ibm.sonas.doc%2Fcreate_sol.html; '
+name: IBM - SONAS
+port: 0
+vendor: IBM

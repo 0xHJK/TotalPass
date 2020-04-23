@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: SECRET123
+    username: Admin
+category: https
+comment: 'Level: Administrator; Notes: Case sensitive.; '
+name: Tumbleweed - IME
+port: 0
+vendor: TUMBLEWEED

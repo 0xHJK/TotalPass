@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: changeme
+    username: dpn
+category: ssh
+comment: 'Level: Administrator; Doc: https://community.emc.com/message/525389; '
+name: EMC - Avamar Deduplication Backup Server - ssh
+port: 0
+vendor: EMC

@@ -1,0 +1,13 @@
+auth:
+  credentials:
+  - password: '19750407'
+    username: Administrator
+  - password: '12345678'
+    username: Administrator
+  - password: '1234'
+    username: Administrator
+category: http
+comment: 'Version: IN1002; Level: Administrator; '
+name: Integrated Networks - IP Phone
+port: 0
+vendor: INTEGRATED NETWORKS

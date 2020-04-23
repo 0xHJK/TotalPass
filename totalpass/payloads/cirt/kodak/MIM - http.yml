@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: PASSWORD
+    username: SA
+category: http
+comment: 'Level: Administrator; Doc: http://yeec.com/uploadimages1/forum/yingxiang/kodak/mim_service_manual_v6_1.pdf; '
+name: Kodak - MIM - http
+port: 0
+vendor: KODAK

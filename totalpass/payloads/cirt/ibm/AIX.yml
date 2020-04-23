@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: ''
+    username: guest
+  - password: guest
+    username: guest
+category: multi
+comment: 'Level: User; '
+name: IBM - AIX
+port: 0
+vendor: IBM

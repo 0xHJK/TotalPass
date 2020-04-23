@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: (unknown)
+    username: bubba
+category: local
+comment: 'Version: 1.3.2; Notes: Part numbers imprinted on the installation disks
+  with a local user account bubba, default RAID Manager address, and DHCP server address:80-7111-01
+  for the UNITY-SVRX255-1A80-7112-01 for the UNITY-SVRX255-2A; '
+name: Cisco - Unity
+port: 0
+vendor: CISCO

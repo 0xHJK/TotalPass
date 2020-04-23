@@ -1,0 +1,13 @@
+auth:
+  credentials:
+  - password: ''
+    username: gonzo
+  - password: ''
+    username: satan
+  - password: ''
+    username: snake
+category: multi
+comment: 'Level: User; '
+name: Linux - Slackware
+port: 0
+vendor: LINUX

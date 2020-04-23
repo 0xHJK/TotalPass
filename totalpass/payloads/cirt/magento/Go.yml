@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '123123'
+    username: admin
+category: http
+comment: 'Level: Administrator; Doc: http://www.magentocommerce.com/wiki/recover/resetting-admin-password; '
+name: Magento - Go
+port: 0
+vendor: MAGENTO

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: http
+comment: 'Version: 180e; Level: Administrator; '
+name: Alteon - ACEswitch
+port: 0
+vendor: ALTEON

@@ -1,0 +1,19 @@
+auth:
+  credentials:
+  - password: poll
+    username: poll
+  - password: system
+    username: system
+  - password: field
+    username: system
+  - password: tech
+    username: poll
+  - password: sysadmin
+    username: sysadmin
+  - password: tech
+    username: tech
+category: unknown
+comment: ''
+name: Siemens Corp - PhoneMail
+port: 0
+vendor: SIEMENS CORP

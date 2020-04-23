@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+  - password: '123'
+    username: End User
+category: http
+comment: 'Version: 1.1.0.31; Level: Administrator; Doc: http://www.grandstream.com/user_manuals/HandyTone-486UserManual.pdf; '
+name: Grandstream Networks, Inc - HandyTone-486
+port: 0
+vendor: GRANDSTREAM NETWORKS, INC

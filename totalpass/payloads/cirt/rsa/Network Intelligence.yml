@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: themaster01
+    username: master
+category: ssh
+comment: 'Level: Administrator; '
+name: RSA - Network Intelligence
+port: 0
+vendor: RSA

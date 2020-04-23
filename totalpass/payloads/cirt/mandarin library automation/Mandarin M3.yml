@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: boca raton
+    username: admin
+category: unknown
+comment: 'Level: Administrator; Doc: http://www.nassauboces.org/cms/lib5/NY18000988/Centricity/Domain/31/Automation_handouts/M3_Users_Guide_1.6_SP1.pdf; '
+name: Mandarin Library Automation - Mandarin M3
+port: 0
+vendor: MANDARIN LIBRARY AUTOMATION

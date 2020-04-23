@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: http
+comment: 'Level: Administrator; Doc: http://www.kace.com/support/kb/index.php?action=artikel&cat=60&id=864&artlang=en; '
+name: Dell - Kace K2000
+port: 0
+vendor: DELL

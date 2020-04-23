@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: ''
+category: unknown
+comment: 'Level: Administrator; '
+name: Netgear - DG834G - unknown
+port: 0
+vendor: NETGEAR

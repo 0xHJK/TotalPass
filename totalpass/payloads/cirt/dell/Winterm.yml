@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: wyse
+    username: root
+category: console
+comment: 'Level: Administrator; Doc: http://www.vennercorp.com/blog/2014/09/08/what-are-the-default-wyse-admin-passwords/; '
+name: Dell - Winterm
+port: 0
+vendor: DELL

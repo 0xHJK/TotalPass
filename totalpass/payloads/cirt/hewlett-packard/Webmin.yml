@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: hp.com
+    username: admin
+category: http
+comment: 'Version: 0.84; Level: Administrator; Notes: Runs on port 1000.; '
+name: Hewlett-Packard - Webmin
+port: 0
+vendor: HEWLETT-PACKARD

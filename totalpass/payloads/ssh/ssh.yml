@@ -1,0 +1,17 @@
+auth:
+  credentials:
+  - username: root
+    password: password
+  - username: root
+    password: root
+  - username: admin
+    password: password
+  - username: admin
+    password: admin
+  - username: test
+    password: test
+category: ssh
+port: 22
+vendor: SSH
+name: SSH
+comment: ssh test

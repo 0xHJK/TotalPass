@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: ''
+    username: ESSEX
+  - password: ''
+    username: IPC
+category: console
+comment: ''
+name: IBM - POS CMOS
+port: 0
+vendor: IBM

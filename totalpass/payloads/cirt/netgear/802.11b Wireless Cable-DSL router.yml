@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: password
+    username: admin
+category: unknown
+comment: 'Version: MR814; Level: Administrator; '
+name: Netgear - 802.11b Wireless Cable/DSL router
+port: 0
+vendor: NETGEAR

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: pass
+    username: root
+category: multi
+comment: 'Version: 540/540+; Level: Administrator; '
+name: Axis Communications - Printserver
+port: 0
+vendor: AXIS COMMUNICATIONS

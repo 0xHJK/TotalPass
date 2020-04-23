@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: netopia
+    username: netopia
+category: telnet
+comment: 'Level: Administrator; '
+name: Netopia - Netopia 9500
+port: 0
+vendor: NETOPIA

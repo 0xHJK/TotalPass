@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: X#1833
+    username: XXSESS_MGRYY
+category: unknown
+comment: 'Level: Administrator; Notes: User''s RealName: Local Session Manager; '
+name: Ipswitch - WS_FTP Server
+port: 0
+vendor: IPSWITCH

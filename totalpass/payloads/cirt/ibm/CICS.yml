@@ -1,0 +1,27 @@
+auth:
+  credentials:
+  - password: SYSA
+    username: SYSA
+  - password: PROG
+    username: PROG
+  - password: OPER
+    username: OPER
+  - password: $SRV
+    username: $SRV
+  - password: VCSRV
+    username: VCSRV
+  - password: PRODCICS
+    username: PRODCICS
+  - password: BASE
+    username: POST
+  - password: CISSUS
+    username: CICSUSER
+  - password: DBDCCIC
+    username: DBDCCICS
+  - password: FORSE
+    username: FORSE
+category: unknown
+comment: ''
+name: IBM - CICS
+port: 0
+vendor: IBM

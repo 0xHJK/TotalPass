@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: changeonfirstlogin
+    username: root
+  - password: changeonfirstlogin
+    username: sa
+category: http
+comment: 'Level: Administrator; '
+name: Seclore - FileSecure
+port: 0
+vendor: SECLORE

@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: password
+    username: admin
+category: unknown
+comment: 'Level: Administrator; Doc: http://www22.verizon.com/Support/Residential/Internet/fiosinternet/networking/setup/vz9100em/124043.htm;
+  Notes: The router password may have been changed to the serial number of the router; '
+name: Verizon - 9100EM
+port: 0
+vendor: VERIZON

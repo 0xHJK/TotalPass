@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Craftr4
+    username: ''
+category: unknown
+comment: ''
+name: Avaya - Winspm
+port: 0
+vendor: AVAYA

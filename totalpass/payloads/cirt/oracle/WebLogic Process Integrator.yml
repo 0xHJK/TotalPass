@@ -1,0 +1,19 @@
+auth:
+  credentials:
+  - password: security
+    username: system
+  - password: security
+    username: admin
+  - password: password
+    username: mary
+  - password: password
+    username: joe
+  - password: wlpisystem
+    username: wlpisystem
+  - password: wlcsystem
+    username: wlcsystem
+category: unknown
+comment: 'Version: 2.0; '
+name: Oracle - WebLogic Process Integrator
+port: 0
+vendor: ORACLE

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: http
+comment: 'Version: 4.1r2; '
+name: Zeus - Zeus Admin Server
+port: 0
+vendor: ZEUS

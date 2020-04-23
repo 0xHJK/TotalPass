@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: hp.com
+    username: admin
+category: http
+comment: 'Level: Administrator; Notes: This is for the HP-UX default install of Webmin.; '
+name: Webmin - Webmin
+port: 0
+vendor: WEBMIN

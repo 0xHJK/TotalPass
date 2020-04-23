@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: root
+    username: root@localhost
+category: http
+comment: 'Level: Administrator; Doc: http://doc.otrs.org/2.4/en/html/c444.html; '
+name: OTRS Inc. - OTRS
+port: 0
+vendor: OTRS INC.

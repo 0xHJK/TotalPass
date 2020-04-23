@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: winterm
+    username: VNC
+category: vnc
+comment: 'Level: Administrator; Doc: http://www.vennercorp.com/blog/2014/09/08/what-are-the-default-wyse-admin-passwords/; '
+name: Dell - Winterm - vnc
+port: 0
+vendor: DELL

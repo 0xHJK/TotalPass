@@ -1,0 +1,16 @@
+auth:
+  credentials:
+  - password: Guest
+    username: ''
+  - password: Public
+    username: ''
+  - password: ABCD
+    username: ''
+  - password: NTCIP
+    username: ''
+category: unknown
+comment: 'Version: 2004; Level: Administrator; Doc: http://www.scribd.com/doc/68216572/Wanco-Users-Guide-Ntcip-Message-Sign-Software-Dec-2004;
+  Notes: "Restricted user"; '
+name: Wanco, Inc. - NTCIP Message Sign Software
+port: 0
+vendor: WANCO, INC.

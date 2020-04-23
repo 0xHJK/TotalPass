@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Sysop
+    username: Sysop
+category: multi
+comment: 'Level: Administrator; '
+name: Galacticomm - Major BBS
+port: 0
+vendor: GALACTICOMM

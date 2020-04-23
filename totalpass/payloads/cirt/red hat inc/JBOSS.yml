@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: http
+comment: 'Level: Administrator; Doc: http://docs.jboss.org/jbossas/guides/installguide/r1/en/html_single/; '
+name: Red Hat, Inc - JBOSS
+port: 0
+vendor: RED HAT, INC

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: manager
+    username: servlet
+category: multi
+comment: ''
+name: Novell - Groupwise 5.5 Enhancement Pack
+port: 0
+vendor: NOVELL

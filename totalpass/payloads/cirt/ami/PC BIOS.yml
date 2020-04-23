@@ -1,0 +1,37 @@
+auth:
+  credentials:
+  - password: AM
+    username: ''
+  - password: AMI
+    username: ''
+  - password: A.M.I
+    username: ''
+  - password: AMI_SW
+    username: ''
+  - password: AMI?SW
+    username: ''
+  - password: aammii
+    username: ''
+  - password: AMI!SW
+    username: ''
+  - password: AMI.KEY
+    username: ''
+  - password: AMI.KEZ
+    username: ''
+  - password: AMI~
+    username: ''
+  - password: AMIPSWD
+    username: ''
+  - password: AMISETUP
+    username: ''
+  - password: BIOSPASS
+    username: ''
+  - password: CMOSPWD
+    username: ''
+  - password: HEWITT RAND
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: AMI - PC BIOS
+port: 0
+vendor: AMI

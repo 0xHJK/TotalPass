@@ -1,0 +1,29 @@
+auth:
+  credentials:
+  - password: tomcat
+    username: admin
+  - password: admin
+    username: admin
+  - password: tomcat
+    username: tomcat
+  - password: tomcat
+    username: admin
+  - password: root
+    username: root
+  - password: role1
+    username: role1
+  - password: changethis
+    username: role
+  - password: changethis
+    username: root
+  - password: changethis
+    username: tomcat
+  - password: tomcat
+    username: both
+  - password: tomcat
+    username: role1
+category: http
+comment: ''
+name: Apache - Tomcat
+port: 0
+vendor: APACHE

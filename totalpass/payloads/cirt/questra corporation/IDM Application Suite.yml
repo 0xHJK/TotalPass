@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: questra
+    username: questra
+  - password: guest
+    username: guest
+category: http
+comment: 'Level: Administrator; '
+name: Questra Corporation - IDM Application Suite
+port: 0
+vendor: QUESTRA CORPORATION

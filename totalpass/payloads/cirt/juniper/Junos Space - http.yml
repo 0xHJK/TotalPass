@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: juniper123
+    username: super
+category: http
+comment: 'Level: Administrator; Doc: https://kb.juniper.net/InfoCenter/index?page=content&id=KB26220&actp=search; '
+name: Juniper - Junos Space - http
+port: 0
+vendor: JUNIPER

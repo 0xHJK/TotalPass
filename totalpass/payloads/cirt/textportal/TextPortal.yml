@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: '12345'
+    username: god1
+  - password: '12345'
+    username: god2
+category: unknown
+comment: ''
+name: TextPortal - TextPortal
+port: 0
+vendor: TEXTPORTAL

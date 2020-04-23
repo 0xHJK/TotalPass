@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: wichmann
+    username: rainer
+category: unknown
+comment: 'Level: Administrator; Doc: http://la-samhna.de/beltane/beltane_help/installing.html#POSTINSTALL; '
+name: Rainer Wichmann - Beltane
+port: 0
+vendor: RAINER WICHMANN

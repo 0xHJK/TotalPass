@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: trancell
+    username: wradmin
+category: unknown
+comment: ''
+name: Ramp Networks - WebRamp
+port: 0
+vendor: RAMP NETWORKS

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '0000'
+    username: ''
+category: unknown
+comment: 'Notes: Pairing Code; '
+name: Parrot - MKi9100
+port: 0
+vendor: PARROT

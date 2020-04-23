@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: serial number of the Call-UPS
+    username: ''
+category: console
+comment: 'Version: AP9608; Level: Administrator; Notes: (Access menu Control+P); '
+name: APC - Call-UPS
+port: 0
+vendor: APC

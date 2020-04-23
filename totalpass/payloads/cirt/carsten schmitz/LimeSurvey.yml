@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: password
+    username: admin
+category: unknown
+comment: 'Version: 1.91; Level: Administrator; Doc: http://docs.limesurvey.org/Installation&structure=English+Instructions+for+LimeSurvey#Connect_to_the_administration_script_for_the_first_time; '
+name: Carsten Schmitz - LimeSurvey
+port: 0
+vendor: CARSTEN SCHMITZ

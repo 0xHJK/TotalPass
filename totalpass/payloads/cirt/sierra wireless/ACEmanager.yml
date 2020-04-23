@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: '12345'
+    username: user
+category: http
+comment: 'Doc: http://mycusthelp.net/SIERRAWIRELESS/_cs/AnswerDetail.aspx?sSessionID=&aid=468;
+  Notes: Default interface: http://192.168.13.31:9191/; '
+name: Sierra Wireless - ACEmanager
+port: 0
+vendor: SIERRA WIRELESS

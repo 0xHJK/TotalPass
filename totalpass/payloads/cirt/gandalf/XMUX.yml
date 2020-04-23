@@ -1,0 +1,17 @@
+auth:
+  credentials:
+  - password: gandalf
+    username: ''
+  - password: console
+    username: ''
+  - password: system
+    username: ''
+  - password: xmux
+    username: ''
+category: unknown
+comment: 'Notes: Also found on XMUX''s are the Logger and Machine LCN''s. Use ports
+  2 and 3 respectively to reach these. Note: only seen these on Datapac, and other
+  X.2X networks.; '
+name: Gandalf - XMUX
+port: 0
+vendor: GANDALF

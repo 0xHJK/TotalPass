@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: ''
+category: http
+comment: 'Version: 2.9.60; Level: Administrator; '
+name: Jeebles Technology - Jeebles Directory
+port: 0
+vendor: JEEBLES TECHNOLOGY

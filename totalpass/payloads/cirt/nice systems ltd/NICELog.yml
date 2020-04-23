@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: nicecti
+    username: Nice-admin
+  - password: nicecti
+    username: Administrator
+category: unknown
+comment: 'Level: Administrator; Notes: This is the renamed Administrator account.; '
+name: NICE Systems Ltd. - NICELog
+port: 0
+vendor: NICE SYSTEMS LTD.

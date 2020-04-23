@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: unknown
+comment: 'Level: Administrator; Doc: http://forum.synology.com/wiki/index.php/Quick_Install_Guide:_Installing_the_Synology_Server; '
+name: Synology Inc - DSM Server
+port: 0
+vendor: SYNOLOGY INC

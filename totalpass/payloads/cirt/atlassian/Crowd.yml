@@ -1,0 +1,15 @@
+auth:
+  credentials:
+  - password: password
+    username: "crowd\xAD-openid-\xADserver"
+  - password: password
+    username: Crowd
+  - password: password
+    username: Demo
+  - password: password
+    username: Username
+category: unknown
+comment: 'Version: 2.6.2; Doc: http://www.commandfive.com/papers/C5_TA_2013_3925_AtlassianCrowd.pdf; '
+name: Atlassian - Crowd
+port: 0
+vendor: ATLASSIAN

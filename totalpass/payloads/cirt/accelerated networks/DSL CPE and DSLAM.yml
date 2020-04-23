@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: anicust
+    username: sysadm
+category: telnet
+comment: ''
+name: Accelerated Networks - DSL CPE and DSLAM
+port: 0
+vendor: ACCELERATED NETWORKS

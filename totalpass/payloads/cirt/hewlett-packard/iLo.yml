@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: Admin
+    username: Admin
+  - password: Oper
+    username: Oper
+category: http
+comment: 'Level: Administrator; '
+name: Hewlett-Packard - iLo
+port: 0
+vendor: HEWLETT-PACKARD

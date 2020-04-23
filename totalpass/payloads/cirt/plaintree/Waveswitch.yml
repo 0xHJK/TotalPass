@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: default.password
+    username: (blank)
+category: unknown
+comment: ''
+name: PlainTree - Waveswitch
+port: 0
+vendor: PLAINTREE

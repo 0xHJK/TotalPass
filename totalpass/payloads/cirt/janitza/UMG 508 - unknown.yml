@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: 0th
+    username: Homepage Password
+category: unknown
+comment: 'Doc: https://wiki.janitza.de/display/GRIDVIS40/UMG+604+-+Passwort; Notes:
+  UMG 508, 509, 511, 604, and 605; '
+name: Janitza - UMG 508 - unknown
+port: 0
+vendor: JANITZA

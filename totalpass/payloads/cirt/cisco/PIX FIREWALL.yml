@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: cisco
+    username: ''
+category: telnet
+comment: 'Level: Administrator; '
+name: Cisco - PIX FIREWALL
+port: 0
+vendor: CISCO

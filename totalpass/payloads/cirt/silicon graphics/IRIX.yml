@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: ''
+    username: 6.x
+  - password: ''
+    username: 6.x
+category: 5.x
+comment: 'Level: Multi; Notes: lp; '
+name: Silicon Graphics - IRIX
+port: 0
+vendor: SILICON GRAPHICS

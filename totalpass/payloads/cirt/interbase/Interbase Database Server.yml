@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: masterkey
+    username: SYSDBA
+category: multi
+comment: 'Version: All; Level: Administrator; '
+name: Interbase - Interbase Database Server
+port: 0
+vendor: INTERBASE

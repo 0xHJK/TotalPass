@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: rootme
+    username: root
+category: telnet
+comment: 'Level: Administrator; '
+name: Compaq - Familiar Linux
+port: 0
+vendor: COMPAQ

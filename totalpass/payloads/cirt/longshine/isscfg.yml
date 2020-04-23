@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '0'
+    username: admin
+category: http
+comment: 'Level: Administrator; Doc: http://www.tenable.com/4917.html; '
+name: Longshine - isscfg
+port: 0
+vendor: LONGSHINE

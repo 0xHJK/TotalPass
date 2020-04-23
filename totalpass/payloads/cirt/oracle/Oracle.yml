@@ -1,0 +1,417 @@
+auth:
+  credentials:
+  - password: LBACSYS
+    username: LBACSYS
+  - password: OAS_PUBLIC
+    username: OAS_PUBLIC
+  - password: MXAGENT
+    username: MXAGENT
+  - password: MTS_PASSWORD
+    username: MTS_USER
+  - password: PASSWORD
+    username: MASTER
+  - password: SHELVES
+    username: LIBRARIAN
+  - password: IMEDIA
+    username: IMEDIA
+  - password: SNOWMAN
+    username: FROSTY
+  - password: ESTORE
+    username: ESTOREUSER
+  - password: EJSADMIN
+    username: EJSADMIN
+  - password: DES
+    username: DES
+  - password: MUMBLEFRATZ
+    username: DBI
+  - password: PASSWORD
+    username: CQSCHEMAUSER
+  - password: COMPIERE
+    username: COMPIERE
+  - password: WELCOME
+    username: ADMIN
+  - password: CISINFO
+    username: CISINFO
+  - password: CIS
+    username: CIS
+  - password: CIDS
+    username: CIDS
+  - password: BC4J
+    username: BC4J
+  - password: AQ
+    username: AQ
+  - password: CENTRA
+    username: CENTRA
+  - password: JETSPEED
+    username: ADMIN
+  - password: WOOD
+    username: ADAMS
+  - password: ADLDEMO
+    username: ADLDEMO
+  - password: FND
+    username: APPLSYS
+  - password: FNDPUB
+    username: APPLSYSPUB
+  - password: APPS
+    username: APPS
+  - password: AQDEMO
+    username: AQDEMO
+  - password: AQJAVA
+    username: AQJAVA
+  - password: AQUSER
+    username: AQUSER
+  - password: AUDIOUSER
+    username: AUDIOUSER
+  - password: ''
+    username: AURORA$JIS$UTILITY$
+  - password: INVALID
+    username: AURORA$ORB$UNAUTHENTICATED
+  - password: PAPER
+    username: BLAKE
+  - password: CATALOG
+    username: CATALOG
+  - password: CDEMO82
+    username: CDEMO82
+  - password: CDEMORID
+    username: CDEMORID
+  - password: CDEMOUCB
+    username: CDEMOUCB
+  - password: CLOTH
+    username: CLARK
+  - password: COMPANY
+    username: COMPANY
+  - password: CSMIG
+    username: CSMIG
+  - password: CTXDEMO
+    username: CTXDEMO
+  - password: CTXSYS
+    username: CTXSYS
+  - password: DBSNMP
+    username: DBSNMP
+  - password: MDSYS
+    username: MDSYS
+  - password: DEMO9
+    username: DEMO9
+  - password: EMP
+    username: EMP
+  - password: EVENT
+    username: EVENT
+  - password: FINANCE
+    username: FINANCE
+  - password: FND
+    username: FND
+  - password: GPLD
+    username: GPLD
+  - password: GPFD
+    username: GPFD
+  - password: HLW
+    username: HLW
+  - password: HR
+    username: HR
+  - password: IMAGEUSER
+    username: IMAGEUSER
+  - password: JMUSER
+    username: JMUSER
+  - password: STEEL
+    username: JONES
+  - password: MFG
+    username: MFG
+  - password: MIGRATE
+    username: MIGRATE
+  - password: MILLER
+    username: MILLER
+  - password: MMO2
+    username: MMO2
+  - password: MOREAU
+    username: MOREAU
+  - password: 'YES'
+    username: MODTEST
+  - password: MTSSYS
+    username: MTSSYS
+  - password: NAMES
+    username: NAMES
+  - password: OCITEST
+    username: OCITEST
+  - password: ODS
+    username: ODS
+  - password: OE
+    username: OE
+  - password: OLAPDBA
+    username: OLAPDBA
+  - password: PM
+    username: PM
+  - password: INSTANCE
+    username: OLAPSVR
+  - password: MANAGER
+    username: OLAPSYS
+  - password: (random password)
+    username: ORACACHE
+  - password: ORDPLUGINS
+    username: ORDPLUGINS
+  - password: ORDSYS
+    username: ORDSYS
+  - password: (random password)
+    username: OSE$HTTP$ADMIN
+  - password: OUTLN
+    username: OUTLN
+  - password: PERFSTAT
+    username: PERFSTAT
+  - password: PO
+    username: PO
+  - password: PO7
+    username: PO7
+  - password: PORTAL31
+    username: PORTAL30
+  - password: PORTAL30_DEMO
+    username: PORTAL30_DEMO
+  - password: PORTAL30_PUBLIC
+    username: PORTAL30_PUBLIC
+  - password: PORTAL30_SSO
+    username: PORTAL30_SSO
+  - password: PORTAL30_SSO_PS
+    username: PORTAL30_SSO_PS
+  - password: PORTAL30_SSO_PUBLIC
+    username: PORTAL30_SSO_PUBLIC
+  - password: POWERCARTUSER
+    username: POWERCARTUSER
+  - password: PRIMARY
+    username: PRIMARY
+  - password: PUBSUB
+    username: PUBSUB
+  - password: QS
+    username: QS
+  - password: QS_ADM
+    username: QS_ADM
+  - password: QS_CB
+    username: QS_CB
+  - password: QS_CBADM
+    username: QS_CBADM
+  - password: QS_CS
+    username: QS_CS
+  - password: QS_ES
+    username: QS_ES
+  - password: QS_OS
+    username: QS_OS
+  - password: QS_WS
+    username: QS_WS
+  - password: RE
+    username: RE
+  - password: REPADMIN
+    username: REPADMIN
+  - password: RMAIL
+    username: RMAIL
+  - password: RMAN
+    username: RMAN
+  - password: SAMPLE
+    username: SAMPLE
+  - password: SECDEMO
+    username: SECDEMO
+  - password: SH
+    username: SH
+  - password: SYSADM
+    username: SYSADM
+  - password: TRACE
+    username: TRACESVR
+  - password: TSDEV
+    username: TSDEV
+  - password: TSUSER
+    username: TSUSER
+  - password: USER0
+    username: USER0
+  - password: USER1
+    username: USER1
+  - password: USER2
+    username: USER2
+  - password: USER3
+    username: USER3
+  - password: USER4
+    username: USER4
+  - password: USER5
+    username: USER5
+  - password: USER6
+    username: USER6
+  - password: USER7
+    username: USER7
+  - password: USER8
+    username: USER8
+  - password: USER9
+    username: USER9
+  - password: UTLESTAT
+    username: UTLBSTATU
+  - password: VIDEO USER
+    username: VIDEOUSER
+  - password: VIF_DEV_PWD
+    username: VIF_DEVELOPER
+  - password: VIRUSER
+    username: VIRUSER
+  - password: VRR1
+    username: VRR1
+  - password: WKSYS
+    username: WKSYS
+  - password: ''
+    username: CTXSYS
+  - password: DEMO8
+    username: DEMO8
+  - password: CDEMOCOR
+    username: CDEMOCOR
+  - password: ODSCOMMON
+    username: ODSCOMMON
+  - password: OEMADM
+    username: OEMADM
+  - password: ORACLE
+    username: OMWB_EMULATION
+  - password: OPENSPIRIT
+    username: OPENSPIRIT
+  - password: ORAREGSYS
+    username: ORAREGSYS
+  - password: OSP22
+    username: OSP22
+  - password: OWA
+    username: OWA
+  - password: OWA_PUBLIC
+    username: OWA_PUBLIC
+  - password: PANAMA
+    username: PANAMA
+  - password: PATROL
+    username: PATROL
+  - password: SUPERSECRET
+    username: PLSQL
+  - password: DEMO
+    username: REP_MANAGER
+  - password: DEMO
+    username: REP_OWNER
+  - password: REP_OWNER
+    username: REP_OWNER
+  - password: SAPR3
+    username: SAP
+  - password: SDOS_ICSAP
+    username: SDOS_ICSAP
+  - password: SITEMINDER
+    username: SITEMINDER
+  - password: SLIDEPW
+    username: SLIDE
+  - password: STARTER
+    username: STARTER
+  - password: STRAT_PASSWD
+    username: STRAT_USER
+  - password: SWPRO
+    username: SWPRO
+  - password: SWUSER
+    username: SWUSER
+  - password: SYMPA
+    username: SYMPA
+  - password: OEM_TEMP
+    username: SYSMAN
+  - password: TAHITI
+    username: TAHITI
+  - password: TDOS_ICSAP
+    username: TDOS_ICSAP
+  - password: TESTPILOT
+    username: TESTPILOT
+  - password: TRAVEL
+    username: TRAVEL
+  - password: TURBINE
+    username: TURBINE
+  - password: ULTIMATE
+    username: ULTIMATE
+  - password: USER
+    username: USER
+  - password: WEBCAL01
+    username: WEBCAL01
+  - password: WEBDB
+    username: WEBDB
+  - password: WEBREAD
+    username: WEBREAD
+  - password: WWW
+    username: WWW
+  - password: WWWUSER
+    username: WWWUSER
+  - password: XPRT
+    username: XPRT
+  - password: ADMINISTRATOR
+    username: ADMINISTRATOR
+  - password: admin
+    username: ADMINISTRATOR
+  - password: SWORDFISH
+    username: ANDY
+  - password: AP
+    username: AP
+  - password: APPUSER
+    username: APPUSER
+  - password: BRIO_ADMIN
+    username: BRIO_ADMIN
+  - password: DEV2000_DEMOS
+    username: DEV2000_DEMOS
+  - password: DISCOVERER_ADMIN
+    username: DISCOVERER_ADMIN
+  - password: DSGATEWAY
+    username: DSGATEWAY
+  - password: DSSYS
+    username: DSSYS
+  - password: GL
+    username: GL
+  - password: HCPARK
+    username: HCPARK
+  - password: AIROPLANE
+    username: JWARD
+  - password: L2LDEMO
+    username: L2LDEMO
+  - password: MDDEMO
+    username: MDDEMO
+  - password: CLERK
+    username: MDDEMO_CLERK
+  - password: MGR
+    username: MDDEMO_MGR
+  - password: MGWUSER
+    username: MGWUSER
+  - password: ODM
+    username: ODM
+  - password: MTRPW
+    username: ODM_MTR
+  - password: OEMREP
+    username: OEMREP
+  - password: OO
+    username: OO
+  - password: ORASSO
+    username: ORASSO
+  - password: OWNER
+    username: OWNER
+  - password: PLEX
+    username: PLEX
+  - password: PORTAL30
+    username: PORTAL30
+  - password: PUBSUB1
+    username: PUBSUB1
+  - password: QDBA
+    username: QDBA
+  - password: OEM_TEMP
+    username: REPORTS_USER
+  - password: SERVICECONSUMER1
+    username: SERVICECONSUMER1
+  - password: D_SYSPW
+    username: SYS
+  - password: D_SYSTPW
+    username: SYSTEM
+  - password: oracle
+    username: internal
+  - password: tiger or tigger
+    username: scott
+  - password: manager
+    username: system
+  - password: change_on_install
+    username: sys
+  - password: demo
+    username: demo
+  - password: oracle
+    username: oracle
+  - password: sys
+    username: sys
+  - password: DIP
+    username: DIP
+  - password: EXFSYS
+    username: EXFSYS
+category: unknown
+comment: ''
+name: Oracle - Oracle
+port: 0
+vendor: ORACLE

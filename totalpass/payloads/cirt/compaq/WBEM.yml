@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: administrator
+    username: administrator
+category: http
+comment: 'Level: Administrator; Notes: Port 2301 for HTTP, 2381 for HTTPS.; '
+name: Compaq - WBEM
+port: 0
+vendor: COMPAQ

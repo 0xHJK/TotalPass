@@ -1,0 +1,15 @@
+auth:
+  credentials:
+  - password: sysadm
+    username: sysadm
+  - password: sysadm
+    username: sysadm
+  - password: sysadm
+    username: sysadm
+  - password: sysadm
+    username: sysadm
+category: telnet
+comment: 'Version: 1000E/B; Level: Administrator; '
+name: Osicom - JETXPrint
+port: 0
+vendor: OSICOM

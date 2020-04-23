@@ -1,0 +1,15 @@
+auth:
+  credentials:
+  - password: laflaf
+    username: ''
+  - password: Master
+    username: ''
+  - password: Helpdesk
+    username: ''
+  - password: Super
+    username: ''
+category: unknown
+comment: 'Version: 2.x; Level: Administrator; '
+name: Breezecom - Breezecom Adapters
+port: 0
+vendor: BREEZECOM

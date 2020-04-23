@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: joh316
+    username: ''
+category: http
+comment: 'Version: 4.2.0; Level: Administrator; Notes: For InstallTool; '
+name: TYPO3 - TYPO3 - http
+port: 0
+vendor: TYPO3

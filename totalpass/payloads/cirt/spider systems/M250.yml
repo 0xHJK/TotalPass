@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: hello
+    username: (blank)
+category: unknown
+comment: ''
+name: Spider Systems - M250
+port: 0
+vendor: SPIDER SYSTEMS

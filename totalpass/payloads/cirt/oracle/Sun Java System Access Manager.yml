@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: adminadmin
+    username: admin
+category: http
+comment: 'Level: Administrator; Doc: http://www.oracle.com/technetwork/java/install-139173.html;
+  Notes: Application Server Administration Console; '
+name: Oracle - Sun Java System Access Manager
+port: 0
+vendor: ORACLE

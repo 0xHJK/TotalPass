@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: adm
+category: telnet
+comment: 'Version: v4.1.x; '
+name: 3COM - HiPerARC
+port: 0
+vendor: 3COM

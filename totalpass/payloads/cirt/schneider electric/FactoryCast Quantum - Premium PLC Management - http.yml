@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: USER
+    username: USER
+category: http
+comment: ''
+name: Schneider Electric - FactoryCast Quantum / Premium PLC Management - http
+port: 0
+vendor: SCHNEIDER ELECTRIC

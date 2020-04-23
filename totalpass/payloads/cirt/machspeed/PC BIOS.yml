@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: sp99dd
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: MachSpeed - PC BIOS
+port: 0
+vendor: MACHSPEED

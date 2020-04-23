@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: s!a@m#n$p%c
+    username: ''
+category: snmp
+comment: 'Level: Public; Doc: http://l8security.com/post/36715280176/uv-281284-samsung-printer-snmp-backdoor; '
+name: Samsung - Printers
+port: 0
+vendor: SAMSUNG

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Service
+    username: Service
+category: serial
+comment: 'Doc: http://yeec.com/uploadimages1/forum/yingxiang/kodak/mim_service_manual_v6_1.pdf; '
+name: Kodak - MIM - serial
+port: 0
+vendor: KODAK

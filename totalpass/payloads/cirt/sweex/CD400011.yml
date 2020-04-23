@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: epicrouter
+    username: admin
+category: unknown
+comment: 'Level: Administrator; Notes: Default IP: 10.0.0.2; '
+name: Sweex - CD400011
+port: 0
+vendor: SWEEX

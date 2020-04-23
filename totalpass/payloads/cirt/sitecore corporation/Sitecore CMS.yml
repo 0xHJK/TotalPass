@@ -1,0 +1,19 @@
+auth:
+  credentials:
+  - password: b
+    username: admin
+  - password: a
+    username: Audrey
+  - password: b
+    username: Bill
+  - password: d
+    username: Denny
+  - password: l
+    username: Lonnie
+  - password: m
+    username: Minnie
+category: http
+comment: 'Level: Administrator; Doc: http://sdn.sitecore.net/upload/sdn5/tools/v53_to_v6/sitecore_cms_53_to_cms_6_database_conversion_tool-a4.pdf; '
+name: Sitecore Corporation - Sitecore CMS
+port: 0
+vendor: SITECORE CORPORATION

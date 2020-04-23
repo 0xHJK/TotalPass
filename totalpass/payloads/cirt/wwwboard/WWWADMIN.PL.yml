@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: WebBoard
+    username: WebAdmin
+category: http
+comment: 'Level: Administrator; '
+name: WWWBoard - WWWADMIN.PL
+port: 0
+vendor: WWWBOARD

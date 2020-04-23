@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: NetServer
+    username: PACSLinkIP
+category: pc anywhere
+comment: 'Doc: http://yeec.com/uploadimages1/forum/yingxiang/kodak/mim_service_manual_v6_1.pdf; '
+name: Kodak - PACS
+port: 0
+vendor: KODAK

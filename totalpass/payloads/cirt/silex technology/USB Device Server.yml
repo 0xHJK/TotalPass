@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: (non)
+    username: root
+category: telnet
+comment: 'Level: Administrator; Doc: http://www.silexeurope.com/en/home/support/faq/usb-device-server.html#faq25; '
+name: Silex Technology - USB Device Server
+port: 0
+vendor: SILEX TECHNOLOGY

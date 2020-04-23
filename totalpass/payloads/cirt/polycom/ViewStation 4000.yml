@@ -1,0 +1,13 @@
+auth:
+  credentials:
+  - password: ''
+    username: (blank)
+  - password: ''
+    username: ''
+  - password: x6zynd56
+    username: ''
+category: http
+comment: 'Version: v.35; '
+name: Polycom - ViewStation 4000
+port: 0
+vendor: POLYCOM

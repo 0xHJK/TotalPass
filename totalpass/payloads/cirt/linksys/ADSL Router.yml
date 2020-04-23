@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: epicrouter
+    username: ''
+category: unknown
+comment: 'Version: 2700v; Level: Administrator; '
+name: Linksys - ADSL Router
+port: 0
+vendor: LINKSYS

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: http
+comment: 'Level: Administrator; '
+name: Trend Micro - Trend Micro
+port: 0
+vendor: TREND MICRO

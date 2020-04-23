@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: phplist
+    username: admin
+category: http
+comment: 'Version: 2.6.4; Level: Administrator; Doc: http://freshmeat.net/projects/phplist/; '
+name: Michiel - PHPlist
+port: 0
+vendor: MICHIEL

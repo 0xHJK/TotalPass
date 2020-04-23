@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: access
+    username: admin
+category: unknown
+comment: 'Version: fx3000; Level: Administrator; '
+name: Brother Industries Ltd. - Oce
+port: 0
+vendor: BROTHER INDUSTRIES LTD.

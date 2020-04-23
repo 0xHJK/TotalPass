@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: bsxpass
+    username: bsxuser
+category: sql
+comment: 'Version: 1.1.1; Level: Administrator; Doc: http://freshmeat.net/projects/basilix/; '
+name: Mike Peters - BasiliX
+port: 0
+vendor: MIKE PETERS

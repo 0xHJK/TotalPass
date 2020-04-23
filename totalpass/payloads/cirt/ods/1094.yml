@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ods
+    username: ods
+category: unknown
+comment: ''
+name: ODS - 1094
+port: 0
+vendor: ODS

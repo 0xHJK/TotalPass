@@ -1,0 +1,19 @@
+auth:
+  credentials:
+  - password: ''
+    username: EAdmin
+  - password: ''
+    username: UNITY_
+  - password: ''
+    username: UAMIS_
+  - password: ''
+    username: UOMNI_
+  - password: ''
+    username: UVPIM_
+  - password: ''
+    username: ESubscriber
+category: unknown
+comment: ''
+name: Cisco - Cisco Unity
+port: 0
+vendor: CISCO

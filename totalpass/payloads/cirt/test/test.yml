@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: test
+    username: test
+category: unknown
+comment: ''
+name: test - test
+port: 0
+vendor: TEST

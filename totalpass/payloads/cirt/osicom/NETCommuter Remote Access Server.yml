@@ -1,0 +1,17 @@
+auth:
+  credentials:
+  - password: sysadm
+    username: sysadm
+  - password: Manager
+    username: Manager
+  - password: guest
+    username: guest
+  - password: echo
+    username: echo
+  - password: d.e.b.u.g
+    username: debug
+category: telnet
+comment: 'Level: Administrator; '
+name: Osicom - NETCommuter Remote Access Server
+port: 0
+vendor: OSICOM

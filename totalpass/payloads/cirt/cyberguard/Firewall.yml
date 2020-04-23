@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: cgadmin
+    username: cgadmin
+category: console
+comment: 'Level: Administrator; '
+name: Cyberguard - Firewall
+port: 0
+vendor: CYBERGUARD

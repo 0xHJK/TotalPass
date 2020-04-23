@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: password
+    username: username
+category: http
+comment: 'Level: Administrator; Doc: https://github.com/comfy/comfortable-mexican-sofa/wiki/Installation-and-Quick-Start-Guide#quick-start-guide;
+  Notes: http://0.0.0.0:3000/admin ComfortableMexicanSofa; '
+name: Oleg Khabarov - Comfy CMS
+port: 0
+vendor: OLEG KHABAROV

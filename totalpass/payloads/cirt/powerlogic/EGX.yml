@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Gateway
+    username: Administrator
+category: unknown
+comment: 'Level: Administrator; Doc: http://www.merlingerin.com/C12570CB00504485/all/83A902802C60F942412570D9003ABDC1/$File/63230-319-204.pdf; '
+name: POWERLOGIC - EGX
+port: 0
+vendor: POWERLOGIC

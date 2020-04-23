@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: blablabla
+    username: root
+category: unknown
+comment: 'Version: 1.0rc2; Level: Administrator; '
+name: mklencke - Forumtalk
+port: 0
+vendor: MKLENCKE

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: mozart
+    username: root
+category: unknown
+comment: 'Level: Administrator; Doc: http://www.amx.com/techsupport/PDFs/981.pdf; '
+name: AMX - MAX Server
+port: 0
+vendor: AMX

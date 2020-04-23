@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '456'
+    username: Polycom
+category: unknown
+comment: 'Level: Administrator; Doc: http://support.polycom.com/global/documents/support/technical/products/voice/SoundPointIP_Resetting_Log_Files_QT18298.pdf; '
+name: Polycom - Soundstation/SoundPoint IP
+port: 0
+vendor: POLYCOM

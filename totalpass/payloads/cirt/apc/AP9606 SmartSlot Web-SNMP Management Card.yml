@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: TENmanUFactOryPOWER
+    username: (any)
+category: telnet
+comment: 'Version: AOS 3.2.1 and AOS 3.0.3; '
+name: APC - AP9606 SmartSlot Web/SNMP Management Card
+port: 0
+vendor: APC

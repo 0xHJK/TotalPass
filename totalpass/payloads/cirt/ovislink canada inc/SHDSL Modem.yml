@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: root
+    username: root
+  - password: user
+    username: user
+category: unknown
+comment: 'Version: B5.1 5-15-2002; Level: Administrator; '
+name: OvisLink Canada Inc. - SHDSL Modem
+port: 0
+vendor: OVISLINK CANADA INC.

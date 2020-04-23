@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: root
+category: all versions
+comment: 'Level: Administrator; '
+name: MySQL - MySQL
+port: 0
+vendor: MYSQL

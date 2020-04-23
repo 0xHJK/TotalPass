@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: password
+    username: admin
+category: unknown
+comment: 'Level: Administrator; Doc: ftp://ftp.gtlib.gatech.edu/pub/asterisknow/quickstart_asterisknow.pdf;
+  Notes: Only for Live CD or disk image.; '
+name: Digium, Inc. - AsteriskNOW
+port: 0
+vendor: DIGIUM, INC.

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: sys
+    username: system
+category: console
+comment: 'Level: Administrator; '
+name: Intersystems - Cache Post-RDMS
+port: 0
+vendor: INTERSYSTEMS

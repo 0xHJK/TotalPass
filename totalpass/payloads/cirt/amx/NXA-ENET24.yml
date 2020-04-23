@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: '1988'
+    username: Admin
+  - password: guest
+    username: guest
+category: unknown
+comment: 'Level: Administrator; Doc: http://www.amx.com/techsupport/PDFs/981.pdf; '
+name: AMX - NXA-ENET24
+port: 0
+vendor: AMX

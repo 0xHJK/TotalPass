@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: Administrator
+category: telnet
+comment: 'Level: Administrator; '
+name: Cisco - 3600
+port: 0
+vendor: CISCO

@@ -1,0 +1,13 @@
+auth:
+  credentials:
+  - password: test
+    username: test
+  - password: operator
+    username: operator
+  - password: overseer
+    username: overseer
+category: console
+comment: 'Level: User; '
+name: Unknown - System 88
+port: 0
+vendor: UNKNOWN

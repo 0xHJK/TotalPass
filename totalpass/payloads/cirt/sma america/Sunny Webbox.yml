@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: sma
+    username: ''
+category: unknown
+comment: 'Level: Installer; Doc: http://files.sma.de/dl/4253/SWebBox-BUS-eng-111033.pdf; '
+name: SMA America - Sunny Webbox
+port: 0
+vendor: SMA AMERICA

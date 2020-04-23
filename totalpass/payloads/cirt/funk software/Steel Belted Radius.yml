@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: radius
+    username: admin
+category: unknown
+comment: 'Version: 450; Level: Administrator; '
+name: Funk Software - Steel Belted Radius
+port: 0
+vendor: FUNK SOFTWARE

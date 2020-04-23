@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: netman
+category: unknown
+comment: 'Level: Administrator; '
+name: Cabletron - Netgear modem/router and SSR
+port: 0
+vendor: CABLETRON

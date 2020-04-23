@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: ''
+category: http
+comment: 'Version: V0.80.0010 (firmware); Level: Administrator; '
+name: AirLink Plus - RTW026
+port: 0
+vendor: AIRLINK PLUS

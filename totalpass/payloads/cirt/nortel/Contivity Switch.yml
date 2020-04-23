@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: setup
+    username: admin
+category: http
+comment: 'Level: Administrator; '
+name: Nortel - Contivity Switch
+port: 0
+vendor: NORTEL

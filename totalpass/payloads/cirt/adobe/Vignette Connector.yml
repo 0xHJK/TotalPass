@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: vgnadmin
+    username: vgnadmin
+category: http
+comment: 'Level: Administrator; Doc: http://dev.day.com/content/docs/en/crx/connectors/vignette/current.html; '
+name: Adobe - Vignette Connector
+port: 0
+vendor: ADOBE

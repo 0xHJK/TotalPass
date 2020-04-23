@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: hsadb
+    username: hsa
+  - password: blender
+    username: root
+category: multi
+comment: 'Level: Administrator; '
+name: Cisco - HSE
+port: 0
+vendor: CISCO

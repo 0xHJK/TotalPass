@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: '1234'
+    username: admin
+  - password: guest
+    username: guest
+category: http
+comment: 'Version: 0.5.6; Level: Administrator; '
+name: phpTest - phpTest
+port: 0
+vendor: PHPTEST

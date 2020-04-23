@@ -1,0 +1,27 @@
+auth:
+  credentials:
+  - password: syslib
+    username: '1'
+  - password: operator
+    username: '1'
+  - password: manager
+    username: '1'
+  - password: maintain
+    username: '2'
+  - password: syslib
+    username: '2'
+  - password: manager
+    username: '2'
+  - password: operator
+    username: '2'
+  - password: games
+    username: '30'
+  - password: games
+    username: '5'
+  - password: maintain
+    username: '7'
+category: multi
+comment: 'Level: Administrator; '
+name: Digital Equipment - DEC-10
+port: 0
+vendor: DIGITAL EQUIPMENT

@@ -1,0 +1,17 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+  - password: ''
+    username: billy-bob
+  - password: guest
+    username: guest
+  - password: ''
+    username: anonymous
+  - password: ''
+    username: ftp
+category: http
+comment: 'Level: Administrator; '
+name: Sambar Technologies - Sambar Server
+port: 0
+vendor: SAMBAR TECHNOLOGIES

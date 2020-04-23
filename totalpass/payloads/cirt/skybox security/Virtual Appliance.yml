@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: skyboxview
+    username: root
+category: http
+comment: 'Version: 8.0.300; Level: Administrator; Doc: http://downloads.skyboxsecurity.com/files/iso/Archive/8.0.306-7.1.28-2.5-1.0.0.3/Quick_Start_Guide/SkyboxVirtual_Appliance_QuickStartGuide.pdf;
+  Notes: HTTP port 444; '
+name: Skybox Security - Virtual Appliance
+port: 0
+vendor: SKYBOX SECURITY

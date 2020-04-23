@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: ''
+    username: root
+  - password: ''
+    username: guest
+category: unknown
+comment: 'Level: Administrator; '
+name: Shiva - LanRover
+port: 0
+vendor: SHIVA

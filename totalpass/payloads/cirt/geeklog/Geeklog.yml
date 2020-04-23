@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: password
+    username: username
+category: mysql
+comment: 'Version: 1.3.x; '
+name: Geeklog - Geeklog
+port: 0
+vendor: GEEKLOG

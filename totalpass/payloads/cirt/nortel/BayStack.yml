@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: secure
+    username: ''
+  - password: ''
+    username: ''
+category: unknown
+comment: 'Version: 310/303; Level: Administrator; '
+name: Nortel - BayStack
+port: 0
+vendor: NORTEL

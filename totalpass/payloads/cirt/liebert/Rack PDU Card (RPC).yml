@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Liebert
+    username: Liebert
+category: http
+comment: 'Level: Administrator; Doc: http://www.emersonnetworkpower.com/documentation/en-us/products/acpower/rackpdu/documents/sl-20826.pdf; '
+name: Liebert - Rack PDU Card (RPC)
+port: 0
+vendor: LIEBERT

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: sysadmin
+    username: (hostname/ipaddress)
+category: unknown
+comment: 'Level: Administrator; '
+name: Elron - Firewall
+port: 0
+vendor: ELRON

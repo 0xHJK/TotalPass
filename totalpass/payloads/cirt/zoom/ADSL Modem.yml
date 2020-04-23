@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: zoomadsl
+    username: admin
+category: unknown
+comment: 'Level: Administrator; '
+name: Zoom - ADSL Modem
+port: 0
+vendor: ZOOM

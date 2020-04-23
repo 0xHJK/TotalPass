@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Tasmannet
+    username: Tasman
+category: console
+comment: 'Version: 1000, 4000, 6000, and 7000 Series Systems; Level: Administrator; '
+name: Tasman - T1
+port: 0
+vendor: TASMAN

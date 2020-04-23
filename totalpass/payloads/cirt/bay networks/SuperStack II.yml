@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: security
+    username: security
+category: telnet
+comment: 'Level: Administrator; '
+name: Bay Networks - SuperStack II
+port: 0
+vendor: BAY NETWORKS

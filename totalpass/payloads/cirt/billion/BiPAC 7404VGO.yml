@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: unknown
+comment: 'Level: Administrator; '
+name: Billion - BiPAC 7404VGO
+port: 0
+vendor: BILLION

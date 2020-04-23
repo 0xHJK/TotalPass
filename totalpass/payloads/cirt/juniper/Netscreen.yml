@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: netscreen
+    username: netscreen
+category: unknown
+comment: 'Level: Administrator; '
+name: Juniper - Netscreen
+port: 0
+vendor: JUNIPER

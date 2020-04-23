@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: blackduck
+    username: sysadmin
+category: http
+comment: 'Level: Administrator; Notes: port 8080; '
+name: Black Duck Software, Inc. - Hub
+port: 0
+vendor: BLACK DUCK SOFTWARE, INC.

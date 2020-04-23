@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: tooridu
+    username: root
+category: multiple
+comment: 'Version: IP-10C; Doc: http://www.kb.cert.org/vuls/id/936356; Notes: https://twitter.com/hdmoore/status/557653328533135360; '
+name: Ceragon Networks - FibeAir
+port: 0
+vendor: CERAGON NETWORKS

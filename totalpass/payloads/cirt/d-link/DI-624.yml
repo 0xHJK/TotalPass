@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: unknown
+comment: ''
+name: D-Link - DI-624
+port: 0
+vendor: D-LINK

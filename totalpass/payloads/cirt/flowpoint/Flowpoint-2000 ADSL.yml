@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: ''
+category: telnet
+comment: 'Level: Administrator; '
+name: Flowpoint - Flowpoint/2000 ADSL
+port: 0
+vendor: FLOWPOINT

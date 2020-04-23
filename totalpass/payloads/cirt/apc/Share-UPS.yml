@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: serial number of the Share-UPS
+    username: ''
+category: console
+comment: 'Version: AP9207; Level: Administrator; '
+name: APC - Share-UPS
+port: 0
+vendor: APC

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: http
+comment: 'Version: C40/C60; Level: Administrator; Doc: http://www.cisco.com/en/US/docs/telepresence/endpoint/profile-series/tc4/administration_guide/profile-c60-c40_and_codec-c60-c40_administrator_guide_tc41.pdf; '
+name: Cisco - Codec
+port: 0
+vendor: CISCO

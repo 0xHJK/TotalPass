@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: bpel
+    username: bpel
+category: unknown
+comment: ''
+name: Oracle - Oracle BPEL Process Manager
+port: 0
+vendor: ORACLE

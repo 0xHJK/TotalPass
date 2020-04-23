@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: hpt
+    username: RAID
+category: http
+comment: 'Level: Administrator; Doc: http://www.hptmac.com/image/PDF/RAID_Managment_Software_Download.pdf;
+  Notes: http://127.0.0.1:7412; '
+name: HighPOint - RAID Management Utilities
+port: 0
+vendor: HIGHPOINT

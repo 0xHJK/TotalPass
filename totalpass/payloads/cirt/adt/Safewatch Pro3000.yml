@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: '2580'
+    username: ''
+category: unknown
+comment: 'Level: Duress; Doc: http://krebsonsecurity.com/2013/01/does-your-alarm-have-a-default-duress-code/;
+  Notes: This is a "duress" code and likely on multiple ADT models as set by technicians.; '
+name: ADT - Safewatch Pro3000
+port: 0
+vendor: ADT

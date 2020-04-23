@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: dnnhost
+    username: host
+  - password: dnnadmin
+    username: admin
+category: http
+comment: 'Level: Administrator; '
+name: DotNetNuke Corporation - DotNetNuke
+port: 0
+vendor: DOTNETNUKE CORPORATION

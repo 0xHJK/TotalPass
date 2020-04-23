@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - username:
+    password: public
+  - username:
+    password: private
+category: snmp
+port: 161
+vendor: SNMP
+name: SNMP
+comment: snmp test

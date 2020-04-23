@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: telnet
+comment: 'Version: 180e; '
+name: Alteon - ACEswitch - telnet
+port: 0
+vendor: ALTEON

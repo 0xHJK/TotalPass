@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: unknown
+comment: 'Level: Administrator; '
+name: VBrick Systems - Multiple
+port: 0
+vendor: VBRICK SYSTEMS

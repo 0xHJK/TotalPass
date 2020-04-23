@@ -1,0 +1,13 @@
+auth:
+  credentials:
+  - password: manage
+    username: Administrator
+  - password: isdev
+    username: Developer
+  - password: iscopy
+    username: Replicator
+category: unknown
+comment: 'Version: 4.7; Level: Administrator; '
+name: SAP - Business Connector
+port: 0
+vendor: SAP

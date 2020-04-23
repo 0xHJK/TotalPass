@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: password
+    username: administrator
+  - password: password
+    username: NetLinx
+category: unknown
+comment: 'Level: Administrator; Doc: http://www.amx.com/techsupport/PDFs/981.pdf; '
+name: AMX - NI Series
+port: 0
+vendor: AMX

@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+  - password: ''
+    username: guest
+category: http
+comment: 'Level: Administrator; Doc: http://www.ipswitch.com/support/whatsup/guide/v700/7browsera3.html; '
+name: Ipswitch - WhatsUp Gold
+port: 0
+vendor: IPSWITCH

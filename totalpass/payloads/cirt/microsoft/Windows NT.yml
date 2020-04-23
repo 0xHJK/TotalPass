@@ -1,0 +1,21 @@
+auth:
+  credentials:
+  - password: ''
+    username: (NULL)
+  - password: Administrator
+    username: Administrator
+  - password: ''
+    username: Administrator
+  - password: Guest
+    username: Guest
+  - password: ''
+    username: Guest
+  - password: IS_$hostname
+    username: IS_$hostname
+  - password: User
+    username: User
+category: multi
+comment: 'Level: User; '
+name: Microsoft - Windows NT
+port: 0
+vendor: MICROSOFT

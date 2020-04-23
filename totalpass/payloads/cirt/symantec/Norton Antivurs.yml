@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: symantec
+    username: ''
+category: multiple
+comment: 'Version: Corporate Edition; Level: Administrator; '
+name: Symantec - Norton Antivurs
+port: 0
+vendor: SYMANTEC

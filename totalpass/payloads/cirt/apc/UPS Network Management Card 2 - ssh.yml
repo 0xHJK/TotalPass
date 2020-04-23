@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: apc
+    username: device
+category: ssh
+comment: 'Level: Restricted User; Doc: https://www.jlab.org/Hall-D/Documents/manuals/APC%20stuff/AP9630%209631%20UPS%20Network%20Management%20Card%202%20User''s%20Guide%20firmware%20V5.1.1.pdf; '
+name: APC - UPS Network Management Card 2 - ssh
+port: 0
+vendor: APC

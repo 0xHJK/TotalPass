@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: changeit
+    username: admin
+category: http
+comment: 'Level: Administrator; Doc: https://docs.tibco.com/pub/slingshot/1.9.3/doc/pdf/TIB_slingshot_1.9.3_installation.pdf; '
+name: TIBCO - Slingshot
+port: 0
+vendor: TIBCO

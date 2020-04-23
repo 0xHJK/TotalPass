@@ -1,0 +1,12 @@
+auth:
+  credentials:
+  - password: '12345'
+    username: root
+  - password: '12345'
+    username: onlime_r
+category: unknown
+comment: 'Doc: https://pierrekim.github.io/advisories/2015-totolink-0x03.txt; Notes:
+  G150R-V1 G300R-V1 N150RH-V1 N301RT-V1; '
+name: TOTOLINK - Soho Routers
+port: 0
+vendor: TOTOLINK

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: ''
+category: http
+comment: 'Level: Administrator; '
+name: Cisco - ATA-186 (VONAGE)
+port: 0
+vendor: CISCO

@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: t00lk1t
+    username: root
+category: unknown
+comment: 'Level: Administrator; Notes: Default root password set by the Solaris Security
+  Toolkit (JASS) v0.3 toolkit upon execution of the default hardening scripts.; '
+name: Sun - SunOS
+port: 0
+vendor: SUN

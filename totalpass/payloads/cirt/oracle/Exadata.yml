@@ -1,0 +1,13 @@
+auth:
+  credentials:
+  - password: ilom-admin
+    username: ilom-admin
+  - password: ilom-operator
+    username: ilom-operator
+  - password: nm2user
+    username: nm2user
+category: unknown
+comment: 'Level: Administrator; Doc: http://seclists.org/fulldisclosure/2012/Nov/229; '
+name: Oracle - Exadata
+port: 0
+vendor: ORACLE

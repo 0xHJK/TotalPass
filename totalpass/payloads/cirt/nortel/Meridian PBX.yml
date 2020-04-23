@@ -1,0 +1,15 @@
+auth:
+  credentials:
+  - password: '0000'
+    username: login
+  - password: '0000'
+    username: spcl
+  - password: '0'
+    username: login
+  - password: '0'
+    username: spcl
+category: serial
+comment: 'Notes: AUTH codes in LD 8; '
+name: Nortel - Meridian PBX
+port: 0
+vendor: NORTEL

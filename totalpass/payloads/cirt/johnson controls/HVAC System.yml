@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: control
+    username: johnson
+category: modem
+comment: ''
+name: Johnson Controls - HVAC System
+port: 0
+vendor: JOHNSON CONTROLS

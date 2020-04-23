@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: tegile
+    username: admin
+category: unknown
+comment: 'Level: Administrator; Doc: https://40centcoffee.wordpress.com/2014/09/17/register-vcenter-server-on-tegile/; '
+name: Tegile - Zebi Array
+port: 0
+vendor: TEGILE

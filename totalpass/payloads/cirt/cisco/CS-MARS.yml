@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: pnadmin
+    username: pnadmin
+category: http
+comment: 'Level: Administrator; '
+name: Cisco - CS-MARS
+port: 0
+vendor: CISCO

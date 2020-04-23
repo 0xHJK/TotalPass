@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: password
+    username: admin
+category: unknown
+comment: 'Version: 2; Level: Administrator; '
+name: Netgear - WG602
+port: 0
+vendor: NETGEAR

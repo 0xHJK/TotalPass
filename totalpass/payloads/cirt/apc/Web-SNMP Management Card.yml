@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: apc
+    username: apc
+category: multi
+comment: 'Version: AP9606; Level: Administrator; '
+name: APC - Web/SNMP Management Card
+port: 0
+vendor: APC

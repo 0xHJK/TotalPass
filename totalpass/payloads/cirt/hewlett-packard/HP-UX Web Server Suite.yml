@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: hp.com
+    username: admin
+category: unknown
+comment: 'Level: Administrator; '
+name: Hewlett-Packard - HP-UX Web Server Suite
+port: 0
+vendor: HEWLETT-PACKARD

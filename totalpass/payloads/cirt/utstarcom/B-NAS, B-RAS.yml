@@ -1,0 +1,15 @@
+auth:
+  credentials:
+  - password: field
+    username: field
+  - password: '*3noguru'
+    username: guru
+  - password: snmp
+    username: snmp
+  - password: dbase
+    username: dbase
+category: unknown
+comment: 'Version: 1000; '
+name: UTStarcom - B-NAS, B-RAS
+port: 0
+vendor: UTSTARCOM

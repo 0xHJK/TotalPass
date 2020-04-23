@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: calvin
+    username: root
+category: multiple
+comment: 'Level: Administrator; Notes: Can be accessed through HTTP(S), telnet and
+  ssh.; '
+name: Dell - DRAC
+port: 0
+vendor: DELL

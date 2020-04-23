@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: jstwo
+    username: root
+category: unknown
+comment: 'Version: 2.4.38-32-D; Level: Administrator; Notes: Connecting on port 25072.; '
+name: eSeSIX Computer GmbH - Thintune
+port: 0
+vendor: ESESIX COMPUTER GMBH

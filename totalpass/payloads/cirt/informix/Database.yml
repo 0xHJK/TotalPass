@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: informix
+    username: informix
+category: unknown
+comment: ''
+name: Informix - Database
+port: 0
+vendor: INFORMIX

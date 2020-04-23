@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: http
+category: unknown
+comment: 'Level: Administrator; '
+name: 2Wire, Inc. - Wireless Routers
+port: 0
+vendor: 2WIRE, INC.

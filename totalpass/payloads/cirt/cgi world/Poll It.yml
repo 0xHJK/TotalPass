@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: protection
+    username: ''
+category: http
+comment: 'Version: v2.0; Level: User/Admin over package; Notes: http://example.com/ScriptName.cgi?load=login; '
+name: CGI World - Poll It
+port: 0
+vendor: CGI WORLD

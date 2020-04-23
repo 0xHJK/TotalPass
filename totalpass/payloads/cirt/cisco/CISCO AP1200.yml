@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Cisco
+    username: Cisco
+category: multi
+comment: 'Level: Administrator; '
+name: Cisco - CISCO AP1200
+port: 0
+vendor: CISCO

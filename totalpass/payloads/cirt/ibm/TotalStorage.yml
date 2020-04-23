@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: specialist
+    username: storwatch
+category: http
+comment: 'Level: Administrator; '
+name: IBM - TotalStorage
+port: 0
+vendor: IBM

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Cisco
+    username: ''
+category: http
+comment: 'Level: Administrator; '
+name: Cisco - CISO AIRONET 1100 SERIES
+port: 0
+vendor: CISCO

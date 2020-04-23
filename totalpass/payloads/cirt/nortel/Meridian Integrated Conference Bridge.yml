@@ -1,0 +1,13 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+  - password: admin
+    username: conferencing
+  - password: gubed
+    username: debug
+category: telnet
+comment: 'Level: Administrator; Doc: http://support.avaya.com/css/P8/documents/100097575; '
+name: Nortel - Meridian Integrated Conference Bridge
+port: 0
+vendor: NORTEL

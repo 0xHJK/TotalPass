@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: (see note)
+    username: factory
+category: telnet
+comment: 'Level: Administrator; Doc: http://packetstormsecurity.org/files/91948/Netopia-Routers-Factory-Password-Generator.html;
+  Notes: Factory password can be generated with linked password.; '
+name: Netopia - routers
+port: 0
+vendor: NETOPIA

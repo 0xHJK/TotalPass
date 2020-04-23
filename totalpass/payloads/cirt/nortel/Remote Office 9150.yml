@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: root
+    username: admin
+category: client
+comment: 'Level: Administrator; '
+name: Nortel - Remote Office 9150
+port: 0
+vendor: NORTEL

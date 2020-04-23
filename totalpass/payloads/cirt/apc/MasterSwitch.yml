@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: apc
+    username: apc
+category: unknown
+comment: 'Version: AP9210; Level: Administrator; '
+name: APC - MasterSwitch
+port: 0
+vendor: APC

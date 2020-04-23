@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: QNX
+    username: root
+category: telnet
+comment: 'Level: root; '
+name: Visa VAP - VAP
+port: 0
+vendor: VISA VAP

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: cisco
+    username: cisco
+category: http
+comment: 'Level: Administrator; Doc: https://www.cisco.com/en/US/docs/switches/lan/catalystexpress520/quick/start/gsgen.html; '
+name: Cisco - Catalyst Express 520
+port: 0
+vendor: CISCO

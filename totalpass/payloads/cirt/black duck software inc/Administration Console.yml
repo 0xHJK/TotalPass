@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: http
+comment: 'Level: Administrator; Notes: port 7081; '
+name: Black Duck Software, Inc. - Administration Console
+port: 0
+vendor: BLACK DUCK SOFTWARE, INC.

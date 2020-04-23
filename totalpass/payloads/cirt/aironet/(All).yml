@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: (blank)
+category: unknown
+comment: 'Level: Administrator; '
+name: Aironet - (All)
+port: 0
+vendor: AIRONET

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: ssh
+comment: ''
+name: Tandberg - Codec - ssh
+port: 0
+vendor: TANDBERG

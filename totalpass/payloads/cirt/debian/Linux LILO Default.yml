@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: tatercounter2000
+    username: ''
+category: console
+comment: 'Version: 2.2; Level: Administrator; '
+name: Debian - Linux LILO Default
+port: 0
+vendor: DEBIAN

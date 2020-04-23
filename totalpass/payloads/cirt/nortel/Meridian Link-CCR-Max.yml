@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: disttech
+    username: disttech
+category: unknown
+comment: ''
+name: Nortel - Meridian Link/CCR/Max
+port: 0
+vendor: NORTEL

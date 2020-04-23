@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: yZgO8Bvj
+    username: technician
+category: http
+comment: 'Version: SBG 6580; Level: Administrator; Doc: https://community.rapid7.com/Rapid7_BlogPostDetail?id=a111400000AanBsAAJ;
+  Notes: Arris; '
+name: Motorola - SURFboard
+port: 0
+vendor: MOTOROLA

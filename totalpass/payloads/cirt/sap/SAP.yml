@@ -1,0 +1,25 @@
+auth:
+  credentials:
+  - password: 06071992
+    username: SAP*
+  - password: admin
+    username: SAPCPIC
+  - password: '19920706'
+    username: DDIC
+  - password: SUPPORT
+    username: EARLYWATCH
+  - password: ''
+    username: TMSADM
+  - password: 06071992
+    username: SAP*
+  - password: '19920706'
+    username: DDIC
+  - password: admin
+    username: SAPCPIC
+  - password: SUPPORT
+    username: EARLYWATCH
+category: unknown
+comment: 'Version: R/3; '
+name: SAP - SAP
+port: 0
+vendor: SAP

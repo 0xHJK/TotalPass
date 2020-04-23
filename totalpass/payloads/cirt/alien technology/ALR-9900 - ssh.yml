@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: alien
+    username: alien
+category: ssh
+comment: 'Level: Administrator; Doc: http://seclists.org/fulldisclosure/2010/May/63;
+  Notes: Undocumented telnet ports: 23,2323.; '
+name: Alien Technology - ALR-9900 - ssh
+port: 0
+vendor: ALIEN TECHNOLOGY

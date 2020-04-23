@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: password
+    username: admn
+category: http
+comment: 'Level: Administrator; Doc: http://help.interfaceware.com/kb/767; '
+name: iNTERFACEWARE Inc. - Iguana
+port: 0
+vendor: INTERFACEWARE INC.

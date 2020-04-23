@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: MASTER
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: Leading Edge - PC BIOS
+port: 0
+vendor: LEADING EDGE

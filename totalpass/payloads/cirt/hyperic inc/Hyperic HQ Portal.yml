@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: hqadmin
+    username: hqadmin
+category: http
+comment: 'Level: Administrator; Doc: http://support.hyperic.com/display/DOC/QuickStart+Installation; '
+name: Hyperic, Inc. - Hyperic HQ Portal
+port: 0
+vendor: HYPERIC, INC.

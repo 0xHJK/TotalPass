@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: synnet
+    username: debug
+  - password: tech
+    username: tech
+category: telnet
+comment: 'Version: 2500; '
+name: 3COM - LANplex
+port: 0
+vendor: 3COM

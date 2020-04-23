@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: novell
+    username: admin
+category: unknown
+comment: 'Version: 2.0.1; Level: Administrator; '
+name: Novell - iManager
+port: 0
+vendor: NOVELL

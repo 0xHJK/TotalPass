@@ -1,0 +1,13 @@
+auth:
+  credentials:
+  - password: ''
+    username: me
+  - password: NeXT
+    username: root
+  - password: signa
+    username: signa
+category: multi
+comment: 'Level: User; '
+name: NeXT - NeXTStep
+port: 0
+vendor: NEXT

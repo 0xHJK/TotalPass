@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: naadmin
+    username: naadmin
+category: http
+comment: 'Level: Administrator; '
+name: NetGenesis - NetAnalysis Web Reporting
+port: 0
+vendor: NETGENESIS

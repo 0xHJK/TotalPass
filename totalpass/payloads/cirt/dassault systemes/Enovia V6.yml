@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: Test Everything
+category: unknown
+comment: 'Doc: http://public.dhe.ibm.com/partnerworld/pub/whitepaper/193d6.pdf; '
+name: Dassault Systemes - Enovia V6
+port: 0
+vendor: DASSAULT SYSTEMES

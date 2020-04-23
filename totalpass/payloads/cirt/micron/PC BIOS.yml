@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: sldkj754
+    username: ''
+  - password: xyzall
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: Micron - PC BIOS
+port: 0
+vendor: MICRON

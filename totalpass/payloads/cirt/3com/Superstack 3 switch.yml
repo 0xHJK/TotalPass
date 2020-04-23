@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: recover
+    username: recover
+category: console
+comment: 'Version: 4900; Level: Administrator; Doc: http://support.3com.com/infodeli/tools/switches/ss3/4900/dha1770-0aaa04/htm/support/problemsolving/cliproblems.htm; '
+name: 3COM - Superstack 3 switch
+port: 0
+vendor: 3COM

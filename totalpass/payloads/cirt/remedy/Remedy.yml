@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: AR#Admin#
+    username: ARAdmin
+  - password: ''
+    username: Demo
+category: multi
+comment: 'Level: Administrator; '
+name: Remedy - Remedy
+port: 0
+vendor: REMEDY

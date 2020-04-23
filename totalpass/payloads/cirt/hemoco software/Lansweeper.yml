@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: mysecretpassword0*
+    username: lansweeperuser
+category: unknown
+comment: 'Level: Administrator; Doc: http://www.lansweeper.com/documentation.pdf; '
+name: Hemoco Software - Lansweeper
+port: 0
+vendor: HEMOCO SOFTWARE

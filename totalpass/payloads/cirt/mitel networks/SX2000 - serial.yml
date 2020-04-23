@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: 5X2000
+    username: s1stem
+category: serial
+comment: 'Level: Administrator; Doc: http://www.tek-tips.com/viewthread.cfm?qid=1036643; '
+name: Mitel Networks - SX2000 - serial
+port: 0
+vendor: MITEL NETWORKS

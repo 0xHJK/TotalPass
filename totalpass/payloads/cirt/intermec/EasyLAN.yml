@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: intermec
+    username: ''
+category: http
+comment: 'Version: 10i2; Level: Administrator; '
+name: Intermec - EasyLAN
+port: 0
+vendor: INTERMEC

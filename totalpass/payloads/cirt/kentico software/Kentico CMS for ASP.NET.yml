@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: administrator
+category: unknown
+comment: 'Level: Administrator; Doc: http://www.kentico.com/downloads/kenticocms_quickguide.pdf; '
+name: Kentico Software - Kentico CMS for ASP.NET
+port: 0
+vendor: KENTICO SOFTWARE

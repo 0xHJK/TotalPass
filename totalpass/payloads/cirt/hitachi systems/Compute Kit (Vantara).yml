@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: cepasswd
+    username: ceconsl
+category: http
+comment: 'Level: Administrator; Doc: https://dukeyen.wordpress.com/tag/hitachi-vantara/; '
+name: Hitachi Systems - Compute Kit (Vantara)
+port: 0
+vendor: HITACHI SYSTEMS

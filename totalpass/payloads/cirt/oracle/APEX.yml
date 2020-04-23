@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: oracle
+    username: oracle
+category: http
+comment: 'Level: Administrator; Doc: https://community.oracle.com/message/9332377;
+  Notes: Application Express Administration Services; '
+name: Oracle - APEX
+port: 0
+vendor: ORACLE

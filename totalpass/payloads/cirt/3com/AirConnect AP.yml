@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: comcomcom
+    username: ''
+category: snmp
+comment: ''
+name: 3COM - AirConnect AP
+port: 0
+vendor: 3COM

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: asd123
+    username: Yak
+category: ftp
+comment: 'Version: 2.0.1; Notes: Default port is 3535.; '
+name: Digicraft Software - Yak!
+port: 0
+vendor: DIGICRAFT SOFTWARE

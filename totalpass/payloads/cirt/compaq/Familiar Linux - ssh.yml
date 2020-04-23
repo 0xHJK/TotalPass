@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: rootme
+    username: root
+category: ssh
+comment: 'Level: Administrator; '
+name: Compaq - Familiar Linux - ssh
+port: 0
+vendor: COMPAQ

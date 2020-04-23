@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: http
+comment: 'Level: Administrator; '
+name: Radvision - ECS Administrator
+port: 0
+vendor: RADVISION

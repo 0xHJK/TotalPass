@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: SKY_FOX
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: Siemens Corp - PC BIOS
+port: 0
+vendor: SIEMENS CORP

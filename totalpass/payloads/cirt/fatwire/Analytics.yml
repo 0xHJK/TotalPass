@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: xceladmin
+    username: fwadmin
+  - password: firstsite
+    username: firstsite
+category: http
+comment: 'Level: Administrator; Doc: http://www.vvgr.demon.co.uk/FatWire_Analytics.pdf; '
+name: FatWire - Analytics
+port: 0
+vendor: FATWIRE

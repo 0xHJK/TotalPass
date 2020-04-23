@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '1111'
+    username: admin
+category: http
+comment: 'Version: 45; Level: Administrator; '
+name: Xerox - WorkCentre Pro
+port: 0
+vendor: XEROX

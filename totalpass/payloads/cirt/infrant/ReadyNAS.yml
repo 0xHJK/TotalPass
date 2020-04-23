@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: infrant1
+    username: admin
+category: http
+comment: 'Level: Administrator; '
+name: Infrant - ReadyNAS
+port: 0
+vendor: INFRANT

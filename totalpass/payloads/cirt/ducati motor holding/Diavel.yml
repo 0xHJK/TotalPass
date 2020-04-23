@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Last 4 digits of VIN
+    username: ''
+category: console
+comment: 'Version: 2011; Level: Rider; Doc: http://www.laresblog.com/2011/04/why-cant-i-just-buy-motorcycle-without.html; '
+name: Ducati Motor Holding - Diavel
+port: 0
+vendor: DUCATI MOTOR HOLDING

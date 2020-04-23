@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: FOOBAR
+    username: ''
+category: irc
+comment: 'Level: Access; '
+name: IRC - IRC Daemon
+port: 0
+vendor: IRC

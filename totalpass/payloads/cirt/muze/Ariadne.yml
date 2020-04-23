@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: muze
+    username: admin
+category: http
+comment: 'Version: 2.2.1; Level: Administrator; '
+name: Muze - Ariadne
+port: 0
+vendor: MUZE

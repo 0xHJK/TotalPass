@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: setup
+    username: setup
+category: http
+comment: 'Doc: https://cdn.axway.com/u/documentation/secure_transport/5.3.0/SecureTransport_GettingStartedGuide_allOS_en.pdf; '
+name: Axway - SecureTransport
+port: 0
+vendor: AXWAY

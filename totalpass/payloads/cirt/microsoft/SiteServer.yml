@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: LdapPassword_1
+    username: LDAP_Anonymous
+category: http
+comment: 'Version: 3.x; '
+name: Microsoft - SiteServer
+port: 0
+vendor: MICROSOFT

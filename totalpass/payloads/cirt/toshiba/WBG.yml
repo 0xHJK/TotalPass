@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: superpass
+    username: super
+category: unknown
+comment: ''
+name: Toshiba - WBG
+port: 0
+vendor: TOSHIBA

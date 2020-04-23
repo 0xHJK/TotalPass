@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: ''
+category: unknown
+comment: 'Level: Administrator; Doc: http://www.amx.com/techsupport/PDFs/981.pdf; '
+name: AMX - TVM-1600
+port: 0
+vendor: AMX

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: password
+    username: anonymous
+category: ftp
+comment: 'Level: Anonymous; Notes: Default IP 192.168.1.254; '
+name: Conceptronic - CADSLR4 - ftp
+port: 0
+vendor: CONCEPTRONIC

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: factory
+    username: factory
+category: unknown
+comment: ''
+name: 360 Systems - Image Server 2000
+port: 0
+vendor: 360 SYSTEMS

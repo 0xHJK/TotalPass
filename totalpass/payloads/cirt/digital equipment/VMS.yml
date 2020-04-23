@@ -1,0 +1,121 @@
+auth:
+  credentials:
+  - password: ALLIN1
+    username: ALLIN1
+  - password: ALLIN1MAIL
+    username: ALLIN1MAIL
+  - password: ALLINONE
+    username: ALLINONE
+  - password: BACKUP
+    username: BACKUP
+  - password: DCL
+    username: DCL
+  - password: DECMAIL
+    username: DECMAIL
+  - password: DECNET
+    username: DECNET
+  - password: NONPRIV
+    username: DECNET
+  - password: USER
+    username: DEFAULT
+  - password: DEFAULT
+    username: DEFAULT
+  - password: DEMO
+    username: DEMO
+  - password: FIELD
+    username: FIELD
+  - password: SERVICE
+    username: FIELD
+  - password: TEST
+    username: FIELD
+  - password: DIGITAL
+    username: FIELD
+  - password: GUEST
+    username: GUEST
+  - password: HELP
+    username: HELP
+  - password: HELPDESK
+    username: HELPDESK
+  - password: HOST
+    username: HOST
+  - password: INFO
+    username: INFO
+  - password: INGRES
+    username: INGRES
+  - password: LINK
+    username: LINK
+  - password: MAILER
+    username: MAILER
+  - password: MBMANAGER
+    username: MBMANAGER
+  - password: MBWATCH
+    username: MBWATCH
+  - password: NETCON
+    username: NETCON
+  - password: NETMGR
+    username: NETMGR
+  - password: NETNONPRIV
+    username: NETNONPRIV
+  - password: NETPRIV
+    username: NETPRIV
+  - password: NETSERVER
+    username: NETSERVER
+  - password: NETWORK
+    username: NETWORK
+  - password: NEWINGRES
+    username: NEWINGRES
+  - password: NEWS
+    username: NEWS
+  - password: OPERVAX
+    username: OPERVAX
+  - password: POSTMASTER
+    username: POSTMASTER
+  - password: PRIV
+    username: PRIV
+  - password: REPORT
+    username: REPORT
+  - password: RJE
+    username: RJE
+  - password: STUDENT
+    username: STUDENT
+  - password: SYS
+    username: SYS
+  - password: SYSMAINT
+    username: SYSMAINT
+  - password: SERVICE
+    username: SYSMAINT
+  - password: DIGITAL
+    username: SYSMAINT
+  - password: SYSTEM
+    username: SYSTEM
+  - password: MANAGER
+    username: SYSTEM
+  - password: OPERATOR
+    username: SYSTEM
+  - password: SYSLIB
+    username: SYSTEM
+  - password: UETP
+    username: SYSTEST
+  - password: SYSTEST_CLIG
+    username: SYSTEST_CLIG
+  - password: SYSTEST
+    username: SYSTEST_CLIG
+  - password: TELEDEMO
+    username: TELEDEMO
+  - password: TEST
+    username: TEST
+  - password: UETP
+    username: UETP
+  - password: PASSWORD
+    username: USER
+  - password: USERP
+    username: USERP
+  - password: VAX
+    username: VAX
+  - password: VMS
+    username: VMS
+category: multi
+comment: ''
+name: Digital Equipment - VMS
+port: 0
+vendor: DIGITAL EQUIPMENT

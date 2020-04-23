@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: SYS1
+    username: IBMUSER
+category: unknown
+comment: ''
+name: IBM - RACF
+port: 0
+vendor: IBM

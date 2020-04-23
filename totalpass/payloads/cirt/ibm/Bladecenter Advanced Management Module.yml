@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: PASSW0RD
+    username: USERID
+category: unknown
+comment: ''
+name: IBM - Bladecenter Advanced Management Module
+port: 0
+vendor: IBM

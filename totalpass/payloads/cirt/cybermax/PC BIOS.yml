@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Congress
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: CyberMax - PC BIOS
+port: 0
+vendor: CYBERMAX

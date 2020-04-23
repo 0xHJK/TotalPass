@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Spacve
+    username: ''
+category: unknown
+comment: 'Level: Administrator; '
+name: Shuttle - PC BIOS
+port: 0
+vendor: SHUTTLE

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: calvin
+    username: root
+category: unknown
+comment: 'Level: Administrator; Notes: Embedded Remote Access; '
+name: Dell - ERA
+port: 0
+vendor: DELL

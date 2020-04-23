@@ -1,0 +1,17 @@
+auth:
+  credentials:
+  - password: '1'
+    username: ''
+  - password: BATCH
+    username: BATCH
+  - password: MANAGER
+    username: SYSTEM
+  - password: SYSTEM
+    username: SYSTEM
+  - password: USER
+    username: USER
+category: multi
+comment: 'Level: 1; '
+name: Digital Equipment - RSX
+port: 0
+vendor: DIGITAL EQUIPMENT

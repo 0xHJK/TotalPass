@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: tcp 3852
+comment: 'Version: 3.1 Lite; Level: Administrator; Notes: Use a Java enabled web browser
+  on port 3852; '
+name: Sun - SunScreen
+port: 0
+vendor: SUN

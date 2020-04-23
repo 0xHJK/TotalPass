@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: password
+    username: administrator
+category: unknown
+comment: 'Level: Administrator; Doc: http://www.promise.com/media_bank/Download%20Bank/Manual/1_WebPAM%20User%20Manual%20v1.4.pdf; '
+name: Promise Technology, Inc. - WebPAM
+port: 0
+vendor: PROMISE TECHNOLOGY, INC.

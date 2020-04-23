@@ -1,0 +1,17 @@
+auth:
+  credentials:
+  - password: ro
+    username: ''
+  - password: rw
+    username: ''
+  - password: rwa
+    username: ''
+  - password: l1
+    username: ''
+  - password: l2
+    username: ''
+category: command line
+comment: 'Level: Read Only; '
+name: Nortel - Passport 8000 Series Switch
+port: 0
+vendor: NORTEL

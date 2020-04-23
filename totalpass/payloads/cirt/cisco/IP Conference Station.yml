@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '7936'
+    username: End User
+category: http
+comment: 'Version: 7936; '
+name: Cisco - IP Conference Station
+port: 0
+vendor: CISCO

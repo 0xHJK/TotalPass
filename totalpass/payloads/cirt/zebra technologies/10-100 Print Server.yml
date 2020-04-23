@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '1234'
+    username: admin
+category: unknown
+comment: 'Level: Administrator; '
+name: Zebra Technologies - 10/100 Print Server
+port: 0
+vendor: ZEBRA TECHNOLOGIES

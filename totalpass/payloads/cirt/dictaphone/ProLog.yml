@@ -1,0 +1,13 @@
+auth:
+  credentials:
+  - password: ''
+    username: NETOP
+  - password: NETWORK
+    username: NETWORK
+  - password: PBX
+    username: PBX
+category: unknown
+comment: ''
+name: Dictaphone - ProLog
+port: 0
+vendor: DICTAPHONE

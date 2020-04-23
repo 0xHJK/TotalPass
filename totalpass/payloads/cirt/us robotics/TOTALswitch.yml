@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: amber
+    username: none
+category: unknown
+comment: ''
+name: U.S. Robotics - TOTALswitch
+port: 0
+vendor: U.S. ROBOTICS

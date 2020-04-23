@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: AMIAMI
+    username: ''
+  - password: AMIDECOD
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: Red Hat, Inc - PC BIOS
+port: 0
+vendor: RED HAT, INC

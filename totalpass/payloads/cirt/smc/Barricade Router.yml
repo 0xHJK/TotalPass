@@ -1,0 +1,13 @@
+auth:
+  credentials:
+  - password: Barricade
+    username: Admin
+  - password: '0000'
+    username: ''
+  - password: smcadmin
+    username: ''
+category: unknown
+comment: 'Level: Administrator; '
+name: SMC - Barricade Router
+port: 0
+vendor: SMC

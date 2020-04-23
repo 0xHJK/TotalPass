@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: publish
+    username: admin
+category: http
+comment: 'Level: Administrator; Doc: https://doc.ez.no/eZ-Publish/User-manual/4.x/The-administration-interface/The-login-page; '
+name: eZ Systems - eZ Publish
+port: 0
+vendor: EZ SYSTEMS

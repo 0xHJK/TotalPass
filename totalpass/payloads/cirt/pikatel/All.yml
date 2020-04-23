@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: DSL
+    username: DSL
+category: unknown
+comment: ''
+name: Pikatel - All
+port: 0
+vendor: PIKATEL

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: password
+    username: openfiler
+category: http
+comment: 'Level: Administrator; '
+name: Xinit Systems Ltd. - Openfiler
+port: 0
+vendor: XINIT SYSTEMS LTD.

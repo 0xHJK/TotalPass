@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: sadmin
+category: http
+comment: 'Level: Administrator; '
+name: Novell - NDS iMonitor
+port: 0
+vendor: NOVELL

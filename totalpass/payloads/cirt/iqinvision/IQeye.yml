@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: system
+    username: root
+category: java application
+comment: 'Version: 510, 511 and 700 Series; Level: Administrator; Doc: http://www.iqeye.com/iqeye/images/uploads/File/manuals/Quick-Install.pdf; '
+name: IQinVision - IQeye
+port: 0
+vendor: IQINVISION

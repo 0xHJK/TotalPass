@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: ''
+category: http
+comment: 'Level: Administrator; Doc: https://bitbucket.org/phpliteadmin/public/wiki/Configuration; '
+name: phpLiteAdmin - phpLiteAdmin
+port: 0
+vendor: PHPLITEADMIN

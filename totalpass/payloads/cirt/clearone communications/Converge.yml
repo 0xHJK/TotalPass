@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: RAV
+    username: ClearOne
+category: http
+comment: 'Version: 560/590; Level: Administrator; Doc: http://www.clearone.com/uploads/resource/800_153_560_Rev1_0_Converge560_590Man-0.pdf; '
+name: ClearOne Communications - Converge
+port: 0
+vendor: CLEARONE COMMUNICATIONS

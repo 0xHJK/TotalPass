@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: public
+    username: (blank)
+category: unknown
+comment: 'Level: User; '
+name: Apple Computer - Airport
+port: 0
+vendor: APPLE COMPUTER

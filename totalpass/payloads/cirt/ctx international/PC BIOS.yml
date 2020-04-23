@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: CTX_123
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: CTX International - PC BIOS
+port: 0
+vendor: CTX INTERNATIONAL

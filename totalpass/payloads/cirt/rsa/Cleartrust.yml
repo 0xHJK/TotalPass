@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin1234
+    username: admin
+category: http
+comment: ''
+name: RSA - Cleartrust
+port: 0
+vendor: RSA

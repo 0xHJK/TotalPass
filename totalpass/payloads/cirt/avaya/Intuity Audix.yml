@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: crftpw
+    username: Craft
+category: unknown
+comment: ''
+name: Avaya - Intuity Audix
+port: 0
+vendor: AVAYA

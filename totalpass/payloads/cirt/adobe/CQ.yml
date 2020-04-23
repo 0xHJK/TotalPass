@@ -1,0 +1,12 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+  - password: author
+    username: author
+category: unknown
+comment: 'Level: Administrator; Doc: https://docs.adobe.com/docs/v5_2/html-resources/cq5_guide_power_user/ch07s02.html#sect_default_users_and_groups;
+  Notes: This account is used for the connection between CQ WCM and CRX.; '
+name: Adobe - CQ
+port: 0
+vendor: ADOBE

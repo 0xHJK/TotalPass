@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: admin
+    username: (blank)
+category: unknown
+comment: 'Level: Administrator; Notes: - All users are admin - Any user name (or none)
+  can be used; '
+name: Netcomm - NB5580/NB5580W
+port: 0
+vendor: NETCOMM

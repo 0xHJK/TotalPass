@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: phpreactor
+    username: core
+category: http
+comment: 'Version: 1.2.7; Doc: http://freshmeat.net/projects/phpreactor/; '
+name: PHPReactor - PHPReactor
+port: 0
+vendor: PHPREACTOR

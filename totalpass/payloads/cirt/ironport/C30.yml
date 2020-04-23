@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ironport
+    username: admin
+category: http
+comment: 'Level: Administrator; '
+name: IronPort - C30
+port: 0
+vendor: IRONPORT

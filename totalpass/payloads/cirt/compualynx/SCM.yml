@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: asecret
+    username: administrator
+category: multi
+comment: 'Version: All Versions; Level: Administrator; '
+name: Compualynx - SCM
+port: 0
+vendor: COMPUALYNX

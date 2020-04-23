@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: http
+comment: 'Level: Administrator; Doc: http://www.google.com/url?sa=t&source=web&cd=77&ved=0CC4QFjAGOEY&url=http%3A%2F%2Fwww.thecus.com%2Fdownload%2Fother%2FN5200_FAQ_2006-11-22.pdf&ei=ayJcTKXXEMOC8gb1qImLAg&usg=AFQjCNE0RnP34sEcHyg382gRoxnnKcNRKw;
+  Notes: Default WAN IP: 192.168.1.100 Default LAN IP: 192.168.2.100 or 192.168.2.254; '
+name: Thecus Tech - N5200
+port: 0
+vendor: THECUS TECH

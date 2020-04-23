@@ -1,0 +1,13 @@
+auth:
+  credentials:
+  - password: operator
+    username: operator
+  - password: op
+    username: op
+  - password: operator
+    username: op
+category: multi
+comment: 'Level: Administrator; '
+name: Data General - AOS/VS
+port: 0
+vendor: DATA GENERAL

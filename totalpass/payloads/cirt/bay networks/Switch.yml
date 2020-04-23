@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: NetICs
+    username: ''
+category: telnet
+comment: 'Version: 350T; Level: Administrator; '
+name: Bay Networks - Switch
+port: 0
+vendor: BAY NETWORKS

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: ''
+category: unknown
+comment: 'Level: Administrator; Doc: http://www.amx.com/techsupport/PDFs/981.pdf; '
+name: AMX - IS-SPX-1000
+port: 0
+vendor: AMX

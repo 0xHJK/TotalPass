@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '166816'
+    username: ''
+category: unknown
+comment: 'Version: 2.05; '
+name: Verifone - Verifone Junior
+port: 0
+vendor: VERIFONE

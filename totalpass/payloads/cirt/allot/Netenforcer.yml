@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: bagabu
+    username: root
+  - password: allot
+    username: admin
+category: unknown
+comment: 'Level: Administrator; '
+name: Allot - Netenforcer
+port: 0
+vendor: ALLOT

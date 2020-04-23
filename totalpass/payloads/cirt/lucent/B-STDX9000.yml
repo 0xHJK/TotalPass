@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: cascade
+    username: (any 3 chars)
+category: unknown
+comment: ''
+name: Lucent - B-STDX9000
+port: 0
+vendor: LUCENT

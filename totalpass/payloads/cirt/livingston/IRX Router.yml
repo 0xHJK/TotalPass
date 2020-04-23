@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: '!root'
+category: telnet
+comment: ''
+name: Livingston - IRX Router
+port: 0
+vendor: LIVINGSTON

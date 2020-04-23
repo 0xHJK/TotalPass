@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: http
+comment: 'Version: 100/200; Level: Administrator; Notes: default IP is 192.168.0.1; '
+name: Symantec - VPN/Firewall Appliance
+port: 0
+vendor: SYMANTEC

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ip400
+    username: admin
+category: unknown
+comment: 'Level: Administrator; Doc: http://www.annexnet.cz/New_PDF/innovaphone/gwe_manual.pdf; '
+name: Innovaphone - IP 400
+port: 0
+vendor: INNOVAPHONE

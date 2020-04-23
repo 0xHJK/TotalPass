@@ -1,0 +1,30 @@
+auth:
+  credentials:
+  - password: tlah
+    username: halt
+  - password: llatsni
+    username: install
+  - password: dhs3pms
+    username: dhs3pms
+  - password: adfexc
+    username: adfexc
+  - password: client
+    username: client
+  - password: kermit
+    username: kermit
+  - password: dhs3mt
+    username: dhs3mt
+  - password: at4400
+    username: at4400
+  - password: mtch
+    username: mtch
+  - password: mtcl
+    username: mtcl
+  - password: letacla
+    username: root
+category: telnet
+comment: 'Version: 4400; Notes: This will immediately shutdown the 4400 upon login!
+  Account is UID 0.; '
+name: Alcatel - PBX
+port: 0
+vendor: ALCATEL

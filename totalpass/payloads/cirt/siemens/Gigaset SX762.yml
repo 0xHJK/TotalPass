@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: ''
+category: http
+comment: 'Level: Administrator; '
+name: Siemens - Gigaset SX762
+port: 0
+vendor: SIEMENS

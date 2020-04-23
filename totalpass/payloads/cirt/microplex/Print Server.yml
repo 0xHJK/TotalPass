@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: root
+    username: root
+category: telnet
+comment: 'Level: Administrator; '
+name: Microplex - Print Server
+port: 0
+vendor: MICROPLEX

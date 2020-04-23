@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: bintec
+    username: admin
+category: multi
+comment: 'Level: Administrator; '
+name: Bintec - Bianka Routers
+port: 0
+vendor: BINTEC

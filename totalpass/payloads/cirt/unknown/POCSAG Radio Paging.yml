@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: password
+    username: ''
+category: port 8000
+comment: 'Version: 2.05; Level: Administrator; '
+name: Unknown - POCSAG Radio Paging
+port: 0
+vendor: UNKNOWN

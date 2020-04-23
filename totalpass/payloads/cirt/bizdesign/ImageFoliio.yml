@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ImageFolio
+    username: Admin
+category: http
+comment: 'Version: 2.2; Level: Administrator; '
+name: BizDesign - ImageFoliio
+port: 0
+vendor: BIZDESIGN

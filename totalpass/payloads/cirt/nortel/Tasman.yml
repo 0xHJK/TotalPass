@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: tasmannet
+    username: tasman
+category: unknown
+comment: ''
+name: Nortel - Tasman
+port: 0
+vendor: NORTEL

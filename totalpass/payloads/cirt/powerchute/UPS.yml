@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: pwrchute
+    username: pwrchute
+category: unknown
+comment: ''
+name: Powerchute - UPS
+port: 0
+vendor: POWERCHUTE

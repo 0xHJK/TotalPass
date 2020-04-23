@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: unknown
+comment: 'Level: Administrator; '
+name: Level1 - WAP_002
+port: 0
+vendor: LEVEL1

@@ -1,0 +1,17 @@
+auth:
+  credentials:
+  - password: MCUser1
+    username: MCUser
+  - password: backuponly1
+    username: backuponly
+  - password: restoreonly1
+    username: restoreonly
+  - password: backuprestore1
+    username: backuprestore
+  - password: 8RttoTriz
+    username: root
+category: http
+comment: 'Level: Administrator; Doc: https://community.emc.com/message/525389; '
+name: EMC - Avamar Deduplication Backup Server
+port: 0
+vendor: EMC

@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: switch
+    username: admin
+  - password: switch
+    username: diag
+category: telnet
+comment: 'Level: Administrator; '
+name: Xylan - Omniswitch
+port: 0
+vendor: XYLAN

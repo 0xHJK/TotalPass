@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: vpasp
+    username: vpasp
+  - password: admin
+    username: admin
+category: http
+comment: 'Level: Administrator; '
+name: VPASP - VP-ASP Shopping Cart
+port: 0
+vendor: VPASP

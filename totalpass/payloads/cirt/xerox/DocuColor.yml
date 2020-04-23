@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: http
+comment: 'Version: 1632; Level: Administrator; '
+name: Xerox - DocuColor
+port: 0
+vendor: XEROX

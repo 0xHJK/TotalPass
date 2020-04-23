@@ -1,0 +1,17 @@
+auth:
+  credentials:
+  - password: pwp
+    username: admin
+  - password: engineer
+    username: eng
+  - password: op
+    username: op
+  - password: operator
+    username: op
+  - password: super
+    username: su
+category: unknown
+comment: ''
+name: Siemens Corp - ROLM PBX
+port: 0
+vendor: SIEMENS CORP

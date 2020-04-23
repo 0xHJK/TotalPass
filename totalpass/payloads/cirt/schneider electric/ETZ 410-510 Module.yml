@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: USER
+    username: USER
+category: http
+comment: 'Doc: http://www.global-download.schneider-electric.com/85257849002EB8CB/all/EA0E0F24F9F8C79585257876007D8F88/$File/35004734_k01_000_05.pdf; '
+name: Schneider Electric - ETZ 410/510 Module
+port: 0
+vendor: SCHNEIDER ELECTRIC

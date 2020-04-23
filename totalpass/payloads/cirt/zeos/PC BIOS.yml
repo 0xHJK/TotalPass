@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: zeosx
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: ZEOS - PC BIOS
+port: 0
+vendor: ZEOS

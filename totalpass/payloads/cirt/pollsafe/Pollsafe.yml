@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: SECONDARY
+    username: SMDR
+category: modem
+comment: ''
+name: Pollsafe - Pollsafe
+port: 0
+vendor: POLLSAFE

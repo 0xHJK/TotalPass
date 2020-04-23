@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: root
+    username: root
+category: multiple
+comment: 'Version: 3.0; Level: Administrator; Doc: http://www.flexwatch.com/pro_down/fw_all/M4028%20-%20FlexWATCH%20User%20Manual%20Part2.pdf; '
+name: Seyeon Technology Co., Ltd - FlexWATCH
+port: 0
+vendor: SEYEON TECHNOLOGY CO., LTD

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: raidzone
+    username: ''
+category: unknown
+comment: ''
+name: Raidzone - raid arrays
+port: 0
+vendor: RAIDZONE

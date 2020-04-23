@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: pass
+    username: root
+category: unknown
+comment: 'Version: 2100/2120/2420; Level: Administrator; '
+name: Axis - Camera Server
+port: 0
+vendor: AXIS

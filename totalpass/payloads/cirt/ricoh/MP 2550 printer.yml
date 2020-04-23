@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: no password
+    username: admin
+category: unknown
+comment: ''
+name: Ricoh - MP 2550 printer
+port: 0
+vendor: RICOH

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: console
+comment: 'Level: Administrator; Doc: http://secure.enterasys.com/support/manuals/hardware/A2_QuickStart.pdf; '
+name: Enterasys - SecureStack A2
+port: 0
+vendor: ENTERASYS

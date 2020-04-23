@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: netscreen
+    username: admin
+  - password: redline
+    username: redline
+category: unknown
+comment: 'Level: Administrator; '
+name: Juniper - DX
+port: 0
+vendor: JUNIPER

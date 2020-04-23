@@ -1,0 +1,12 @@
+auth:
+  credentials:
+  - password: leaves
+    username: ''
+  - password: snake
+    username: ''
+category: http
+comment: 'Level: Administrator; Doc: http://www.vsicam.com/files/documents/AmiNet/AmiNet_and_AVN_Configuration_Manual.pdf;
+  Notes: Management Password; '
+name: Amino - AmiNET Set Top Box
+port: 0
+vendor: AMINO

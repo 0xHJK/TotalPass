@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: shiva
+    username: ''
+  - password: isolation
+    username: ''
+category: multi
+comment: 'Version: 6.0 >; Level: Administrator; '
+name: Intel - LanRover VPN Gateway
+port: 0
+vendor: INTEL

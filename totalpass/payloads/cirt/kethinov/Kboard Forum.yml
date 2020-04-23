@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: password
+    username: root
+category: sql
+comment: 'Version: 0.3.x; Level: Administrator; Doc: http://freshmeat.net/projects/kboardforum/; '
+name: Kethinov - Kboard Forum
+port: 0
+vendor: KETHINOV

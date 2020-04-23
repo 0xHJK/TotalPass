@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: trendimsa1.0
+    username: root
+category: serial console
+comment: 'Version: 1.0; Level: Administrator; Notes: Webconsole URL: http://[IP address]:8081/IMSS.html
+  Webconsole URL: https://[IP Address]:8445/IMSS.html Default IP: 192.168.252.1/24; '
+name: Trend Micro - Trenmicro InterScan Messaging Security Appliance (IMSA) 5000 -
+  serial console
+port: 0
+vendor: TREND MICRO

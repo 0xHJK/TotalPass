@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: netbotz
+    username: netbotz
+category: unknown
+comment: ''
+name: NetBotz - Appliances
+port: 0
+vendor: NETBOTZ

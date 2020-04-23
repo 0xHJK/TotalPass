@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '0000'
+    username: ''
+category: physical access
+comment: 'Level: Administrator; '
+name: Konica Minolta - PageScope Web Connection
+port: 0
+vendor: KONICA MINOLTA

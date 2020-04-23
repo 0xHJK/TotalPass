@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin000
+    username: admin
+category: serial
+comment: 'Version: 3.XX; Level: Administrator; '
+name: Nortel - MIRAN
+port: 0
+vendor: NORTEL

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: uboot
+    username: ''
+category: unknown
+comment: 'Version: 8818; '
+name: Siemens Corp - PBX
+port: 0
+vendor: SIEMENS CORP

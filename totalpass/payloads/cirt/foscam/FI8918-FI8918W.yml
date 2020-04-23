@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: http
+comment: 'Level: Administrator; Doc: http://foscam.com/Private/ProductFiles/FI8918W%20user%20manual-v36.00.pdf; '
+name: Foscam - FI8918/FI8918W
+port: 0
+vendor: FOSCAM

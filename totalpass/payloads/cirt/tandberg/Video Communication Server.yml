@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: TANDBERG
+    username: root
+category: ssh
+comment: 'Version: 5.0; Level: administrator; '
+name: Tandberg - Video Communication Server
+port: 0
+vendor: TANDBERG

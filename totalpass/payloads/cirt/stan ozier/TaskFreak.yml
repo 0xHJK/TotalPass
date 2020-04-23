@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: http
+comment: 'Version: 0.6.4; Level: Administrator; Doc: http://taskfreak.com/; '
+name: Stan Ozier - TaskFreak
+port: 0
+vendor: STAN OZIER

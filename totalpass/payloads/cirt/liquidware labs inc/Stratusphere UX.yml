@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: sspassword
+    username: ssadmin
+category: http
+comment: 'Level: Administrator; Doc: http://www.liquidwarelabs.com/content/pdf/documents/support/Liquidware-Labs-Stratusphere-UX-Quick-Start-Guide.pdf; '
+name: Liquidware Labs, Inc. - Stratusphere UX
+port: 0
+vendor: LIQUIDWARE LABS, INC.

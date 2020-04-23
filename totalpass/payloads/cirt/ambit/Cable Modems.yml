@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: user
+    username: user
+  - password: root
+    username: root
+category: unknown
+comment: ''
+name: Ambit - Cable Modems
+port: 0
+vendor: AMBIT

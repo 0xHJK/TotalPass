@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: guardone
+    username: ''
+category: multi
+comment: 'Level: Administrator; '
+name: GuardOne - Restrictor
+port: 0
+vendor: GUARDONE

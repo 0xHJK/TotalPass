@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: setup
+    username: admin
+category: multi
+comment: 'Level: Administrator; '
+name: Nortel - Extranet Switches
+port: 0
+vendor: NORTEL

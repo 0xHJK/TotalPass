@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: http
+comment: 'Level: Administrator; Doc: https://www.manageengine.com/products/desktop-central/readme.html;
+  Notes: Port 8020; '
+name: ManageEngine - Desktop Central
+port: 0
+vendor: MANAGEENGINE

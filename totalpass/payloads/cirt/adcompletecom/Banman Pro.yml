@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Admin1
+    username: Admin1
+category: http
+comment: 'Version: 12; Level: Administrator; Doc: http://www.banmanpro.com/installnet40.asp; '
+name: AdComplete.com - Banman Pro
+port: 0
+vendor: ADCOMPLETE.COM

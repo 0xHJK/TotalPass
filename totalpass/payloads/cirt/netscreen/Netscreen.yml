@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: netscreen
+    username: netscreen
+category: telnet
+comment: 'Level: Administrator; '
+name: Netscreen - Netscreen
+port: 0
+vendor: NETSCREEN

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: superuser
+    username: admin
+category: unknown
+comment: 'Level: Administrator; '
+name: Symbol Technologies, Inc - WS5100
+port: 0
+vendor: SYMBOL TECHNOLOGIES, INC

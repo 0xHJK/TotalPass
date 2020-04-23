@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: (blank)
+category: http
+comment: 'Version: 4 Port, 2.4GHz; Level: Administrator; '
+name: Linksys - WAP Router
+port: 0
+vendor: LINKSYS

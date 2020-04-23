@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: weblogic
+    username: weblogic
+category: http
+comment: 'Level: Administrator; Notes: Login located at /console; '
+name: Oracle - WebLogic - http
+port: 0
+vendor: ORACLE

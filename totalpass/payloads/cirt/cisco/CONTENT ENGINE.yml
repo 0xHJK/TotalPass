@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: default
+    username: admin
+category: telnet
+comment: 'Level: Administrator; '
+name: Cisco - CONTENT ENGINE
+port: 0
+vendor: CISCO

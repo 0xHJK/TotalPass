@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: telus00
+    username: (created)
+  - password: telus99
+    username: (created)
+category: multi
+comment: 'Level: User; Notes: year 2000 passwords; '
+name: Telus - Telephony Services
+port: 0
+vendor: TELUS

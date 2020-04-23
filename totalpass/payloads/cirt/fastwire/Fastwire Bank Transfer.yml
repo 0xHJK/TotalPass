@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: fw
+    username: fastwire
+category: unknown
+comment: ''
+name: Fastwire - Fastwire Bank Transfer
+port: 0
+vendor: FASTWIRE

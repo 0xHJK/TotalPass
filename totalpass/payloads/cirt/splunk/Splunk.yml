@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: changeme
+    username: admin
+category: http
+comment: 'Level: administrator; '
+name: Splunk - Splunk
+port: 0
+vendor: SPLUNK

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Admin
+    username: Admin
+category: http
+comment: 'Doc: http://inedo.com/support/tutorials/getting-started-with-proget-private-npm-registries; '
+name: Inedo - Proget
+port: 0
+vendor: INEDO

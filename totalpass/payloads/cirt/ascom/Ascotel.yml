@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: 3ascotel
+    username: ''
+category: unknown
+comment: 'Level: Administrator; Doc: https://pbxweb.aastra.com/extra/support/attachments/KnowledgeBase/00887/Ascotel_2050_with_AIP6400_.pdf; '
+name: Ascom - Ascotel
+port: 0
+vendor: ASCOM

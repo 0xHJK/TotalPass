@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: system
+    username: setpriv
+category: unknown
+comment: ''
+name: Xyplex - MX-1600
+port: 0
+vendor: XYPLEX

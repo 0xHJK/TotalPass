@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: jamfsw03
+    username: jamfsoftware
+category: mysql
+comment: 'Level: Administrator; Doc: http://resources.jamfsoftware.com/archive/Casper_Suite_Administrators_Guide.pdf; '
+name: JAMF Software - Casper Suite
+port: 0
+vendor: JAMF SOFTWARE

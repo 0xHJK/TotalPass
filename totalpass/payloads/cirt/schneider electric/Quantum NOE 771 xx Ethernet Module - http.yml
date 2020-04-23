@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: USER
+    username: USER
+category: http
+comment: 'Doc: http://www.alamedaelectric.com/Modicon%20Documents/PLC%20Quantum%20PLC%20NOE771xx%20User%20Manual%20v5.0.pdf; '
+name: Schneider Electric - Quantum NOE 771 xx Ethernet Module - http
+port: 0
+vendor: SCHNEIDER ELECTRIC

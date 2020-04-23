@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: kronites
+    username: SuperUser
+category: http
+comment: 'Version: v6; Level: Administrator; Doc: http://www.scribd.com/doc/56930986/System-Administrators-Guide#outer_page_29; '
+name: Kronos - Workforce Central
+port: 0
+vendor: KRONOS

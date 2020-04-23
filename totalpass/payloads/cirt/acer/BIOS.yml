@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: ''
+category: unknown
+comment: 'Level: Administrator; '
+name: Acer - BIOS
+port: 0
+vendor: ACER

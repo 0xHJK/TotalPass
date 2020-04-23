@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: secret
+    username: private ReadWrite access
+category: snmp
+comment: 'Level: Read-Write; '
+name: Cisco - IOS - snmp
+port: 0
+vendor: CISCO

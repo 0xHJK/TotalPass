@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '11111'
+    username: ''
+category: integrated keyboard
+comment: 'Version: 1632; Level: Administrator; '
+name: Xerox - DocuColor - integrated keyboard
+port: 0
+vendor: XEROX

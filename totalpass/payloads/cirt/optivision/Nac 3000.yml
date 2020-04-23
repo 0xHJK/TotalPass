@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: mpegvideo
+    username: root
+category: unknown
+comment: 'Level: Administrator; '
+name: Optivision - Nac 3000
+port: 0
+vendor: OPTIVISION

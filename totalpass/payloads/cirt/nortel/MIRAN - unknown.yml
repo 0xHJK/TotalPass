@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: distrib0
+    username: distrib
+category: unknown
+comment: ''
+name: Nortel - MIRAN - unknown
+port: 0
+vendor: NORTEL

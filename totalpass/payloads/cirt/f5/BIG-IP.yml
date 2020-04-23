@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: default
+    username: root
+  - password: ''
+    username: support
+category: unknown
+comment: 'Version: 450; Level: Administrator; '
+name: F5 - BIG-IP
+port: 0
+vendor: F5

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: root
+    username: root
+category: telnet
+comment: 'Level: Administrator; '
+name: Avaya - P330 Stackable Switch
+port: 0
+vendor: AVAYA

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: JDE
+    username: JDE
+category: console
+comment: 'Version: All(?); Level: Admin/SECOFR; '
+name: JD Edwards - WorldVision/OneWorld
+port: 0
+vendor: JD EDWARDS

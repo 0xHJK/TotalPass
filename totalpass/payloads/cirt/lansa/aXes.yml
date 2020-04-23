@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+  - password: dev
+    username: dev
+category: http
+comment: 'Level: Administrator; Doc: http://support.lansa.com/download/temp18/aXes_Rapid_Install_Instructions.pdf; '
+name: LANSA - aXes
+port: 0
+vendor: LANSA

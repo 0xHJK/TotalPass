@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: rootme
+    username: root
+category: console
+comment: 'Level: Administrator; '
+name: Compaq - Familiar Linux - console
+port: 0
+vendor: COMPAQ

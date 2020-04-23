@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: isee
+    username: admin
+category: http
+comment: 'Notes: Port 5060; '
+name: Hewlett-Packard - Motive Chrous
+port: 0
+vendor: HEWLETT-PACKARD

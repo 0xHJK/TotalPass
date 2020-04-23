@@ -1,0 +1,115 @@
+auth:
+  credentials:
+  - password: Award
+    username: ''
+  - password: AWARD_SW
+    username: ''
+  - password: SW_AWARD
+    username: ''
+  - password: AWARD?SW
+    username: ''
+  - password: lkwpeter
+    username: ''
+  - password: j262
+    username: ''
+  - password: j256
+    username: ''
+  - password: ?award
+    username: ''
+  - password: '1322222'
+    username: ''
+  - password: '256256'
+    username: ''
+  - password: '589589'
+    username: ''
+  - password: '589721'
+    username: ''
+  - password: admin
+    username: ''
+  - password: alfarome
+    username: ''
+  - password: aLLy
+    username: ''
+  - password: aPAf
+    username: ''
+  - password: AWARD SW
+    username: ''
+  - password: award.sw
+    username: ''
+  - password: award_?
+    username: ''
+  - password: award_ps
+    username: ''
+  - password: AWARD_PW
+    username: ''
+  - password: awkward
+    username: ''
+  - password: BIOS
+    username: ''
+  - password: biosstar
+    username: ''
+  - password: biostar
+    username: ''
+  - password: CONCAT
+    username: ''
+  - password: condo
+    username: ''
+  - password: ''
+    username: ''
+  - password: djonet
+    username: ''
+  - password: efmukl
+    username: ''
+  - password: g6PJ
+    username: ''
+  - password: h6BB
+    username: ''
+  - password: HELGA-S
+    username: ''
+  - password: HEWITT RAND
+    username: ''
+  - password: HLT
+    username: ''
+  - password: j09F
+    username: ''
+  - password: j322
+    username: ''
+  - password: j64
+    username: ''
+  - password: lkw peter
+    username: ''
+  - password: PASSWORD
+    username: ''
+  - password: SER
+    username: ''
+  - password: setup
+    username: ''
+  - password: SKY_FOX
+    username: ''
+  - password: SWITCHES_SW
+    username: ''
+  - password: Sxyz
+    username: ''
+  - password: SZYX
+    username: ''
+  - password: t0ch20x
+    username: ''
+  - password: t0ch88
+    username: ''
+  - password: TTPTHA
+    username: ''
+  - password: TzqF
+    username: ''
+  - password: wodj
+    username: ''
+  - password: ZAAADA
+    username: ''
+  - password: zbaaaca
+    username: ''
+  - password: zjaaadc
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: AWARD - PC BIOS
+port: 0
+vendor: AWARD

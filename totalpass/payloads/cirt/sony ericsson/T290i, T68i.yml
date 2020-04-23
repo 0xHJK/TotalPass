@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: '0000'
+    username: ''
+category: unknown
+comment: 'Notes: This is the default password for resetting the phone and some other
+  password-protected operations.; '
+name: Sony Ericsson - T290i, T68i
+port: 0
+vendor: SONY ERICSSON

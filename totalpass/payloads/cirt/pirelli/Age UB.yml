@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: microbusiness
+    username: admin
+category: unknown
+comment: 'Level: Administrator; '
+name: Pirelli - Age UB
+port: 0
+vendor: PIRELLI

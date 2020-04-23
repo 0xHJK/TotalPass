@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: netman
+    username: netman
+category: unknown
+comment: ''
+name: Ericsson - Ericsson Acc
+port: 0
+vendor: ERICSSON

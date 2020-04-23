@@ -1,0 +1,21 @@
+auth:
+  credentials:
+  - password: c
+    username: ''
+  - password: ''
+    username: ripeop
+  - password: cisco
+    username: cisco
+  - password: cisco
+    username: enable
+  - password: cc
+    username: ''
+  - password: cisco
+    username: ''
+  - password: Cisco router
+    username: ''
+category: multi
+comment: 'Version: 2600 series; Notes: but these are common misconfigurations; '
+name: Cisco - IOS
+port: 0
+vendor: CISCO

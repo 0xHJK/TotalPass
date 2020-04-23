@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '#l@$ak#.lk;0@P'
+    username: LocalAdministrator
+category: multiple
+comment: 'Version: <6.0.0.1; Level: Administrator; Doc: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2532; '
+name: SolarWinds - Serv-U
+port: 0
+vendor: SOLARWINDS

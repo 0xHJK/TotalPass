@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: ssh
+comment: 'Level: Administrator; Notes: SSH to the management IP (default 10.0.0.254),
+  or web interface http://10.0.0.254:81; '
+name: Netasq - Mfilter M100, M300, M1000 and M3000
+port: 0
+vendor: NETASQ

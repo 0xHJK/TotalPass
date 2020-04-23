@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: BRIDGE
+    username: ''
+  - password: password
+    username: ''
+category: unknown
+comment: 'Level: Administrator; '
+name: Develcon - Orbitor Default Console
+port: 0
+vendor: DEVELCON

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: password
+    username: admin
+category: http
+comment: 'Level: Administrator; Doc: https://downloads.avaya.com/css/P8/documents/100181785; '
+name: Avaya - Scopia Gateway
+port: 0
+vendor: AVAYA

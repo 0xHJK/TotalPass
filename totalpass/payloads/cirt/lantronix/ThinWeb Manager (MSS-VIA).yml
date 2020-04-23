@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: access
+    username: ''
+category: unknown
+comment: 'Version: 1.0; Level: Administrator; '
+name: Lantronix - ThinWeb Manager (MSS-VIA)
+port: 0
+vendor: LANTRONIX

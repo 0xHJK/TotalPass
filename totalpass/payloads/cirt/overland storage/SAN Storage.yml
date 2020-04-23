@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Password
+    username: root
+category: http
+comment: 'Level: Administrator; '
+name: Overland Storage - SAN Storage
+port: 0
+vendor: OVERLAND STORAGE

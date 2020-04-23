@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: diamond
+    username: admin
+category: console
+comment: 'Level: Administrator; '
+name: Cisco - CACHE ENGINE
+port: 0
+vendor: CISCO

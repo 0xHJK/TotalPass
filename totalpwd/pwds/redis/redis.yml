@@ -1,8 +1,0 @@
-auth:
-  credentials:
-  - username: 
-    password: 
-category: redis
-port: 6379
-vendor: REDIS
-comment: redis test

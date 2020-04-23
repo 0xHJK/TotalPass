@@ -1,0 +1,125 @@
+auth:
+  credentials:
+  - password: ''
+    username: ADVMAIL
+  - password: HP
+    username: ADVMAIL
+  - password: SUPPORT
+    username: FIELD
+  - password: MGR
+    username: FIELD
+  - password: SERVICE
+    username: FIELD
+  - password: MANAGER
+    username: FIELD
+  - password: ''
+    username: FIELD
+  - password: LOTUS
+    username: FIELD
+  - password: ''
+    username: FIELD
+  - password: HPONLY
+    username: FIELD
+  - password: MANAGER.SYS
+    username: HELLO
+  - password: MGR.SYS
+    username: HELLO
+  - password: FIELD.SUPPORT
+    username: HELLO
+  - password: OP.OPERATOR
+    username: HELLO
+  - password: MAIL
+    username: MAIL
+  - password: REMOTE
+    username: MAIL
+  - password: TELESUP
+    username: MAIL
+  - password: HPOFFICE
+    username: MAIL
+  - password: MPE
+    username: MAIL
+  - password: TCH
+    username: MANAGER
+  - password: SYS
+    username: MANAGER
+  - password: SECURITY
+    username: MANAGER
+  - password: ITF3000
+    username: MANAGER
+  - password: HPOFFICE
+    username: MANAGER
+  - password: COGNOS
+    username: MANAGER
+  - password: TELESUP
+    username: MANAGER
+  - password: VESOFT
+    username: MGE
+  - password: SYS
+    username: MGR
+  - password: CAROLIAN
+    username: MGR
+  - password: VESOFT
+    username: MGR
+  - password: XLSERVER
+    username: MGR
+  - password: SECURITY
+    username: MGR
+  - password: TELESUP
+    username: MGR
+  - password: HPDESK
+    username: MGR
+  - password: CCC
+    username: MGR
+  - password: CNAS
+    username: MGR
+  - password: WORD
+    username: MGR
+  - password: COGNOS
+    username: MGR
+  - password: ROBELLE
+    username: MGR
+  - password: HPOFFICE
+    username: MGR
+  - password: HPONLY
+    username: MGR
+  - password: HPP187
+    username: MGR
+  - password: HPP189
+    username: MGR
+  - password: HPP196
+    username: MGR
+  - password: INTX3
+    username: MGR
+  - password: ITF3000
+    username: MGR
+  - password: NETBASE
+    username: MGR
+  - password: REGO
+    username: MGR
+  - password: RJE
+    username: MGR
+  - password: CONV
+    username: MGR
+  - password: SYS
+    username: OPERATOR
+  - password: DISC
+    username: OPERATOR
+  - password: SYSTEM
+    username: OPERATOR
+  - password: SUPPORT
+    username: OPERATOR
+  - password: COGNOS
+    username: OPERATOR
+  - password: SYS
+    username: PCUSER
+  - password: SYS
+    username: RSBCMON
+  - password: HPOFFICE
+    username: SPOOLMAN
+  - password: HPOFFICE
+    username: WP
+category: multi
+comment: 'Level: HPOFFICE; Notes: DATA; '
+name: Hewlett-Packard - HP 2000/3000 MPE/xx
+port: 0
+vendor: HEWLETT-PACKARD

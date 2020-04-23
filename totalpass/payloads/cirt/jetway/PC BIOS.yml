@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: spooml
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: JetWay - PC BIOS
+port: 0
+vendor: JETWAY

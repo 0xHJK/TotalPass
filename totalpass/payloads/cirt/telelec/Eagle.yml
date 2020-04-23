@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: eagle
+    username: eagle
+category: unknown
+comment: ''
+name: Telelec - Eagle
+port: 0
+vendor: TELELEC

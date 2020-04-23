@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: telnet
+comment: ''
+name: Tandberg - Codec - telnet
+port: 0
+vendor: TANDBERG

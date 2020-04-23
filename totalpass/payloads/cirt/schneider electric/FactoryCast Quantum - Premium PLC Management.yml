@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: USER
+    username: USER
+  - password: ntpupdate
+    username: ntpupdate
+category: ftp
+comment: ''
+name: Schneider Electric - FactoryCast Quantum / Premium PLC Management
+port: 0
+vendor: SCHNEIDER ELECTRIC

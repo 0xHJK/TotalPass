@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: demo
+    username: admin
+category: http
+comment: 'Version: 1.2; Level: Administrator; Notes: Stored in plaintext in the gbpass.pl
+  file.; '
+name: RNN - RNN's Guestbook
+port: 0
+vendor: RNN

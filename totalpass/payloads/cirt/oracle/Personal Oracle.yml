@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: PO8
+    username: PO8
+category: multi
+comment: 'Version: 8; '
+name: Oracle - Personal Oracle
+port: 0
+vendor: ORACLE

@@ -1,0 +1,39 @@
+auth:
+  credentials:
+  - password: rmnetlm
+    username: admin
+  - password: changeme
+    username: admin2
+  - password: changeme
+    username: adminstrator
+  - password: password
+    username: deskalt
+  - password: changeme
+    username: deskman
+  - password: password
+    username: desknorm
+  - password: password
+    username: deskres
+  - password: ''
+    username: guest
+  - password: replicator
+    username: replicator
+  - password: password
+    username: RMUser1
+  - password: changeme
+    username: setup
+  - password: password
+    username: teacher
+  - password: password
+    username: temp1
+  - password: password
+    username: topicalt
+  - password: password
+    username: topicnorm
+  - password: password
+    username: topicres
+category: multi
+comment: ''
+name: RM - RM Connect
+port: 0
+vendor: RM

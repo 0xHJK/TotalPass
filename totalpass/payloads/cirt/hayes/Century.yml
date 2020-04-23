@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: isp
+    username: system
+category: unknown
+comment: 'Version: MR200; Level: Administrator; '
+name: Hayes - Century
+port: 0
+vendor: HAYES

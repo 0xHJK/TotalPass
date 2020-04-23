@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: exinda
+    username: admin
+category: unknown
+comment: 'Level: Administrator; Notes: Default Login: http://172.14.1.57/; '
+name: Exinda Networks - 1700
+port: 0
+vendor: EXINDA NETWORKS

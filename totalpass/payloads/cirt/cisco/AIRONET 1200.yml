@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Cisco
+    username: root
+category: http
+comment: 'Level: Administrator; '
+name: Cisco - AIRONET 1200
+port: 0
+vendor: CISCO

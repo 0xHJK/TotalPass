@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: changeme
+    username: admin
+category: unknown
+comment: ''
+name: Cisco - Network Registrar (CNR)
+port: 0
+vendor: CISCO

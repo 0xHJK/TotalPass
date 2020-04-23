@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: ''
+    username: sa
+  - password: ''
+    username: sa
+category: unknown
+comment: 'Version: SP3; '
+name: Microsoft - SQL Server 2000
+port: 0
+vendor: MICROSOFT

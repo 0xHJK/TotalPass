@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: http
+comment: 'Level: Administrator; Doc: http://www.usr.com/support/doc-popup-template.asp?url=faqs/networking/wireless-security-07/wireless-security-07.htm&loc=unst;
+  Notes: Default IP: 192.168.1.1; '
+name: USRobotics - Wireless ADSL Router
+port: 0
+vendor: USROBOTICS

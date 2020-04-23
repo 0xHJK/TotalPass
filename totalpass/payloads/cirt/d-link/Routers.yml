@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: http
+comment: 'Version: DI-764; Level: Administrator; '
+name: D-Link - Routers
+port: 0
+vendor: D-LINK

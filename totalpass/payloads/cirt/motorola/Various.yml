@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: smile
+    username: service
+  - password: ''
+    username: setup
+category: unknown
+comment: ''
+name: Motorola - Various
+port: 0
+vendor: MOTOROLA

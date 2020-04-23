@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: superdba
+category: unknown
+comment: ''
+name: MySQL - MaxDB
+port: 0
+vendor: MYSQL

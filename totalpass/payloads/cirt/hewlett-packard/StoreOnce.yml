@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: badg3r5
+    username: HPSupport
+category: ssh
+comment: 'Level: Administrator; Doc: http://www.lolware.net/hpstorage.html; Notes:
+  Also known as HP D2D. More info: http://www.securityweek.com/hp-confirms-backdoor-storeonce-backup-product-line; '
+name: Hewlett-Packard - StoreOnce
+port: 0
+vendor: HEWLETT-PACKARD

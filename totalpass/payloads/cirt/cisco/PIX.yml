@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: cisco
+    username: ''
+category: telnet
+comment: 'Level: UID = pix; '
+name: Cisco - PIX
+port: 0
+vendor: CISCO

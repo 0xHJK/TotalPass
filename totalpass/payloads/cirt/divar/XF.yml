@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+  - password: ''
+    username: viewer
+category: http
+comment: 'Level: Administrator; Doc: http://www.google.com/url?sa=t&source=web&cd=3&ved=0CBsQFjAC&url=http%3A%2F%2Fresource.boschsecurity.com%2Fdocuments%2FEX85MegapixelIP_TechnicalServiceNote_enUS_T6355740427.doc&ei=h55lTLeXCcT_lgfgkqyTDg&usg=AFQjCNGPOLSf4n0L9PAyJ8Jv7FFN0IDIVw; '
+name: Divar - XF
+port: 0
+vendor: DIVAR

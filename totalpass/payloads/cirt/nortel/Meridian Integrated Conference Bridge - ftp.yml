@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: conferencing
+category: ftp
+comment: 'Level: Administrator; Doc: http://support.avaya.com/css/P8/documents/100097575; '
+name: Nortel - Meridian Integrated Conference Bridge - ftp
+port: 0
+vendor: NORTEL

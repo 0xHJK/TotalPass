@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: PASS
+    username: sysadmin
+category: http
+comment: 'Level: Administrator; '
+name: Lantronix - SecureLinux Console Manager (SLC)
+port: 0
+vendor: LANTRONIX

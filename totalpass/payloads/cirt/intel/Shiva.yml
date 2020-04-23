@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: ''
+    username: Guest
+  - password: ''
+    username: root
+category: multi
+comment: 'Level: User; '
+name: Intel - Shiva
+port: 0
+vendor: INTEL

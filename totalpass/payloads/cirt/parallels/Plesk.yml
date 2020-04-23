@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: setup
+    username: admin
+category: http
+comment: 'Version: 6, 7; Level: Administrator; '
+name: Parallels - Plesk
+port: 0
+vendor: PARALLELS

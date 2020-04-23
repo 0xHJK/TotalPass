@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: netscreen
+    username: admin
+category: unknown
+comment: 'Version: 2.0p1; Level: Administrator; '
+name: Netscreen - IDP
+port: 0
+vendor: NETSCREEN

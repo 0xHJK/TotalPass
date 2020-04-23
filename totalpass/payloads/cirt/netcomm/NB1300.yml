@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: password
+    username: admin
+  - password: password
+    username: user
+category: unknown
+comment: 'Level: Administrator; '
+name: Netcomm - NB1300
+port: 0
+vendor: NETCOMM

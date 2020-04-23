@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: prtgadmin
+    username: prtgadmin
+category: unknown
+comment: ''
+name: PRTG - PRTG Network Monitor
+port: 0
+vendor: PRTG

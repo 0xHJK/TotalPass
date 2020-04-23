@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+  - password: (serial number)
+    username: admin
+category: unknown
+comment: 'Level: Administrator; '
+name: Cayman - DSL Router
+port: 0
+vendor: CAYMAN

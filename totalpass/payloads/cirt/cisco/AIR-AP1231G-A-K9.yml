@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: Cisco
+    username: Cisco
+category: unknown
+comment: 'Level: Administrator; Notes: Default SSID is tsunami. User/pass are case
+  sensitive.; '
+name: Cisco - AIR-AP1231G-A-K9
+port: 0
+vendor: CISCO

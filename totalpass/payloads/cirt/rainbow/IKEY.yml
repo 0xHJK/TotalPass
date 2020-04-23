@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: rainbow
+    username: ''
+  - password: PASSWORD
+    username: ''
+category: unknown
+comment: 'Version: 1000; Level: Administrator; Notes: password = pin; '
+name: Rainbow - IKEY
+port: 0
+vendor: RAINBOW

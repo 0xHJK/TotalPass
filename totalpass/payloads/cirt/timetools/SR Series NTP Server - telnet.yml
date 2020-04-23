@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: telnet
+comment: 'Level: Administrator; Notes: For HTTP, only a password is required.; '
+name: TimeTools - SR Series NTP Server - telnet
+port: 0
+vendor: TIMETOOLS

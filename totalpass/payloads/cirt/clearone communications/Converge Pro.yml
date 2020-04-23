@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: converge
+    username: clearone
+category: http
+comment: 'Version: 880/840T/TH20/8i; Level: Administrator; Doc: http://pdf.textfiles.com/manuals/STARINMANUALS/ClearOne/Manuals/Archive/ConvergePro%208i,%20840T,%20880,%20TH20%20v0.91.pdf; '
+name: ClearOne Communications - Converge Pro
+port: 0
+vendor: CLEARONE COMMUNICATIONS

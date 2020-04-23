@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: attack
+    username: netrangr
+  - password: attack
+    username: root
+category: multi
+comment: 'Level: Administrator; '
+name: Cisco - NETRANGER/SECURE IDS
+port: 0
+vendor: CISCO

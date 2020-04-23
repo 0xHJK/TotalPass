@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: root
+category: ssh
+comment: 'Version: TS800; Level: Administrator; '
+name: Cyclades - Cyclades-TS800 - ssh
+port: 0
+vendor: CYCLADES

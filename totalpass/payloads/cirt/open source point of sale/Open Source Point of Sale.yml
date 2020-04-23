@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: pointofsale
+    username: admin
+category: http
+comment: 'Level: Administrator; Doc: https://github.com/opensourcepos/opensourcepos/blob/master/INSTALL.md; '
+name: Open Source Point of Sale - Open Source Point of Sale
+port: 0
+vendor: OPEN SOURCE POINT OF SALE

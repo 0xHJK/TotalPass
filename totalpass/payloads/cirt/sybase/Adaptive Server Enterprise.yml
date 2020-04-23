@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: 12.x
+category: 11.x
+comment: 'Level: Multi; Notes: sa; '
+name: Sybase - Adaptive Server Enterprise
+port: 0
+vendor: SYBASE

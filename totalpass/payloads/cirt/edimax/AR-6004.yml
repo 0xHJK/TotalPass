@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '1234'
+    username: admin
+category: unknown
+comment: ''
+name: Edimax - AR-6004
+port: 0
+vendor: EDIMAX

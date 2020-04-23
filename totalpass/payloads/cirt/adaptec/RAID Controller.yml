@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: adaptec
+    username: Administrator
+category: unknown
+comment: 'Level: Administrator; '
+name: Adaptec - RAID Controller
+port: 0
+vendor: ADAPTEC

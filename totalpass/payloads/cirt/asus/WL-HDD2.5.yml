@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: unknown
+comment: 'Level: Administrator; Notes: Default IP: 192.168.1.220; '
+name: Asus - WL-HDD2.5
+port: 0
+vendor: ASUS

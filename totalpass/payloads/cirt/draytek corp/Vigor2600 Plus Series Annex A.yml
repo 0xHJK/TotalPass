@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: unknown
+comment: 'Level: Administrator; '
+name: Draytek Corp - Vigor2600 Plus Series Annex A
+port: 0
+vendor: DRAYTEK CORP

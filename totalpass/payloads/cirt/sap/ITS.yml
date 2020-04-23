@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: init
+    username: itsadmin
+category: unknown
+comment: ''
+name: SAP - ITS
+port: 0
+vendor: SAP

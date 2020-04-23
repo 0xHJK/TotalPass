@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: j5Brn9
+    username: admin
+category: unknown
+comment: 'Level: Administrator; Notes: As installed in Sun Solaris.; '
+name: Apache - Tomcat - unknown
+port: 0
+vendor: APACHE

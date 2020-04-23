@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: APC
+    username: POWERCHUTE
+category: console
+comment: 'Version: 4.x for Netware 3.x/4.x; Level: Administrator; '
+name: APC - Powerchute Plus
+port: 0
+vendor: APC

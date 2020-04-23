@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '1234'
+    username: guest
+category: unknown
+comment: 'Notes: Allows backup of config.bin which contains all system passwords.; '
+name: Edimax - 7205APL
+port: 0
+vendor: EDIMAX

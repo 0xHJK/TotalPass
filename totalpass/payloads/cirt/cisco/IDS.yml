@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: attack
+    username: root
+  - password: cisco
+    username: cisco
+category: multi
+comment: 'Level: Administrator; '
+name: Cisco - IDS
+port: 0
+vendor: CISCO

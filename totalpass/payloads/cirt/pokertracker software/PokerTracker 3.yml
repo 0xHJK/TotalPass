@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: svcPASS83
+    username: postgres
+  - password: dbpass
+    username: postgres
+category: postgresql
+comment: 'Version: 3.00 Build 5; Level: Administrator; Doc: http://www.pokertracker.com/products/PT3/docs/PokerTracker3_Quick_Start_Guide.pdf; '
+name: PokerTracker Software - PokerTracker 3
+port: 0
+vendor: POKERTRACKER SOFTWARE

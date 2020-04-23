@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: http
+comment: 'Level: Administrator; Doc: https://docs.cyberoam.com/; Notes: UTM, NGFW,
+  Virtual Appliance, Central Console; '
+name: Cyberoam - Multiple
+port: 0
+vendor: CYBEROAM

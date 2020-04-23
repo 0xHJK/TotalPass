@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: advcomm500349
+    username: AdvWebadmin
+category: http
+comment: 'Level: Administrator; '
+name: Hosting Controller - Hosting Controller
+port: 0
+vendor: HOSTING CONTROLLER

@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: Administrative
+    username: ''
+category: http
+comment: 'Notes: default string: admin:aaLR8vE.jjhss:root@127.0.0.1pass file is located
+  at ans_data/ans.passwd (relative to ans.pl location); '
+name: Avenger News System (ANS) - ANS
+port: 0
+vendor: AVENGER NEWS SYSTEM (ANS)

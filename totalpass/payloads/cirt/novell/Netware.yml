@@ -1,0 +1,119 @@
+auth:
+  credentials:
+  - password: admin
+    username: ADMIN
+  - password: ''
+    username: ADMIN
+  - password: ''
+    username: ARCHIVIST
+  - password: ARCHIVIST
+    username: ARCHIVIST
+  - password: ''
+    username: BACKUP
+  - password: BACKUP
+    username: BACKUP
+  - password: CHEY_ARCHSVR
+    username: CHEY_ARCHSVR
+  - password: ''
+    username: CHEY_ARCHSVR
+  - password: FAX
+    username: FAX
+  - password: ''
+    username: FAX
+  - password: FAXUSER
+    username: FAXUSER
+  - password: ''
+    username: FAXUSER
+  - password: ''
+    username: FAXWORKS
+  - password: FAXWORKS
+    username: FAXWORKS
+  - password: GATEWAY
+    username: GATEWAY
+  - password: ''
+    username: GATEWAY
+  - password: TSEUG
+    username: GUEST
+  - password: GUESTGUEST
+    username: GUEST
+  - password: GUESTGUE
+    username: GUEST
+  - password: GUEST
+    username: GUEST
+  - password: ''
+    username: GUEST
+  - password: ''
+    username: HPLASER
+  - password: HPLASER
+    username: HPLASER
+  - password: ''
+    username: LASER
+  - password: LASER
+    username: LASER
+  - password: LASERWRITER
+    username: LASERWRITER
+  - password: ''
+    username: LASERWRITER
+  - password: ''
+    username: MAIL
+  - password: MAIL
+    username: MAIL
+  - password: ''
+    username: POST
+  - password: POST
+    username: POST
+  - password: ''
+    username: PRINT
+  - password: PRINT
+    username: PRINT
+  - password: ''
+    username: PRINTER
+  - password: PRINTER
+    username: PRINTER
+  - password: ''
+    username: ROOT
+  - password: ROOT
+    username: ROOT
+  - password: ''
+    username: ROUTER
+  - password: ''
+    username: SABRE
+  - password: NETFRAME
+    username: SUPERVISOR
+  - password: NFI
+    username: SUPERVISOR
+  - password: NF
+    username: SUPERVISOR
+  - password: HARRIS
+    username: SUPERVISOR
+  - password: SUPERVISOR
+    username: SUPERVISOR
+  - password: ''
+    username: SUPERVISOR
+  - password: SYSTEM
+    username: SUPERVISOR
+  - password: TEST
+    username: TEST
+  - password: ''
+    username: TEST
+  - password: ''
+    username: USER_TEMPLATE
+  - password: USER_TEMPLATE
+    username: USER_TEMPLATE
+  - password: ''
+    username: WANGTEK
+  - password: WANGTEK
+    username: WANGTEK
+  - password: WINDOWS_PASSTHRU
+    username: WINDOWS_PASSTHRU
+  - password: ''
+    username: WINDOWS_PASSTHRU
+  - password: SABRE
+    username: WINSABRE
+  - password: WINSABRE
+    username: WINSABRE
+category: multi
+comment: ''
+name: Novell - Netware
+port: 0
+vendor: NOVELL

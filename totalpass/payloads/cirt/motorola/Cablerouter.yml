@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: router
+    username: cablecom
+category: telnet
+comment: 'Level: Administrator; '
+name: Motorola - Cablerouter
+port: 0
+vendor: MOTOROLA

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: access
+    username: admin
+category: unknown
+comment: 'Level: Administrator; Doc: http://welcome.solutions.brother.com/BSC/public/us/us_ot/en/faq/faqp/000000/001300/000093/faqp001393_000.html?reg=us&c=us_ot&lang=en&prod=lpql580eus&Cat=41; '
+name: Brother - ql580N
+port: 0
+vendor: BROTHER

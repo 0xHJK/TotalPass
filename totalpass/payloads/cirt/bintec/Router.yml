@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: funkwerk
+    username: admin
+category: unknown
+comment: 'Version: R230a, R230aw, R232b, R232aw, R232bw, R1200, R1200w, R1200wu, R3000,
+  R3000w, R3400, R3800, R4100, R4300; Level: Administrator; '
+name: Bintec - Router
+port: 0
+vendor: BINTEC

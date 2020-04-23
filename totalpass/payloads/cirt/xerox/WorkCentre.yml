@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: '1111'
+    username: admin
+  - password: x-admin
+    username: admin
+category: http
+comment: 'Version: M20i; Level: Administrator; '
+name: Xerox - WorkCentre
+port: 0
+vendor: XEROX

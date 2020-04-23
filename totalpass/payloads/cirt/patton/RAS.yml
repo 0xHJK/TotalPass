@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: superuser
+    username: superuser
+  - password: monitor
+    username: monitor
+category: unknown
+comment: 'Version: 2; '
+name: Patton - RAS
+port: 0
+vendor: PATTON

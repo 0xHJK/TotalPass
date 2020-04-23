@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: pbcpbn(add-serial-number)
+    username: maintainer
+  - password: bcpb(serial number of the firewall)
+    username: ''
+category: serial console
+comment: 'Level: Administrator; Notes: You must have physical access to the system.; '
+name: Fortinet - FortiGate
+port: 0
+vendor: FORTINET

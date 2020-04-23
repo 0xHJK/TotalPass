@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: secret
+    username: mailadmin
+category: unknown
+comment: 'Version: 5; Level: Administrator; '
+name: Open-Xchange Inc. - Open-Xchange Server
+port: 0
+vendor: OPEN-XCHANGE INC.

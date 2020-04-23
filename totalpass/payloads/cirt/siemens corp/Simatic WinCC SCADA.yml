@@ -1,0 +1,12 @@
+auth:
+  credentials:
+  - password: 2WSXcder
+    username: WinCCConnect
+  - password: 2WSXcde
+    username: WinCCAdmin
+category: unknown
+comment: 'Doc: http://iadt.siemens.ru/forum/viewtopic.php?p=2974&sid=58cedcf3a0fc7a0b6c61c7bc46530928;
+  Notes: http://www.wired.com/threatlevel/2010/07/siemens-scada/; '
+name: Siemens Corp - Simatic WinCC SCADA
+port: 0
+vendor: SIEMENS CORP

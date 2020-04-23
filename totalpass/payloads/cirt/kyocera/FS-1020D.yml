@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+  - password: ''
+    username: admin
+category: http
+comment: 'Level: Administrator; '
+name: Kyocera - FS-1020D
+port: 0
+vendor: KYOCERA

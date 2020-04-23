@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: Airaya
+    username: Airaya
+category: unknown
+comment: 'Level: Administrator; Doc: http://www.airaya.com/support/guides/WirelessGRID-Manual_O.pdf;
+  Notes: The default IP address is 192.168.1.70.; '
+name: AIRAYA Corp - AIRAYA WirelessGRID
+port: 0
+vendor: AIRAYA CORP

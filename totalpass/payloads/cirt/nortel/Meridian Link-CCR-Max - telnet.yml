@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: etas
+    username: disttech
+category: telnet
+comment: ''
+name: Nortel - Meridian Link/CCR/Max - telnet
+port: 0
+vendor: NORTEL

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: user
+    username: user
+category: unknown
+comment: 'Level: Administrator; '
+name: Vonage - VTA
+port: 0
+vendor: VONAGE

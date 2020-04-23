@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+  - password: test
+    username: test
+category: unknown
+comment: 'Version: 1.3.2; Level: Administrator; Doc: http://autoindex.sourceforge.net/; '
+name: Justin Hagstrom - AutoIndex
+port: 0
+vendor: JUSTIN HAGSTROM

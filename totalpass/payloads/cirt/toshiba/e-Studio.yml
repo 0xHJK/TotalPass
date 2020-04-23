@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '123456'
+    username: admin
+category: http
+comment: 'Level: Administrator; '
+name: Toshiba - e-Studio
+port: 0
+vendor: TOSHIBA

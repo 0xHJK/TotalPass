@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: readwrite
+    username: admin
+  - password: readonly
+    username: status
+category: http
+comment: 'Level: Administrator; Doc: http://www.watchguard.com/help/docs/wsm/xtm_11/en-us/content/en-us/basicadmin/factory_default_about_c.html; '
+name: WatchGuard - XTM
+port: 0
+vendor: WATCHGUARD

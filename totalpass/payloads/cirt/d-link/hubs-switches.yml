@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: D-Link
+    username: D-Link
+category: telnet
+comment: ''
+name: D-Link - hubs/switches
+port: 0
+vendor: D-LINK

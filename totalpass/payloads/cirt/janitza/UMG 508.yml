@@ -1,0 +1,14 @@
+auth:
+  credentials:
+  - password: Janitza
+    username: admin
+  - password: Janitza
+    username: user
+  - password: Janitza
+    username: guest
+category: ftp
+comment: 'Level: Administrator; Doc: https://wiki.janitza.de/display/GRIDVIS40/UMG+604+-+Passwort;
+  Notes: UMG 508, 509, 511, 604, and 605; '
+name: Janitza - UMG 508
+port: 0
+vendor: JANITZA

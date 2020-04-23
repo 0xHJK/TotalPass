@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: niagara
+    username: (system passphrase)
+category: unknown
+comment: 'Version: 4; Level: Administrator; Doc: https://www.tridium.com/~/media/tridium/library/documents/niagara%204%20hardening%20guide.ashx?la=en; '
+name: Tridium - Niagara
+port: 0
+vendor: TRIDIUM

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Tiny
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: Tiny - PC BIOS
+port: 0
+vendor: TINY

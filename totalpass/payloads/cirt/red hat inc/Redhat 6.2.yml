@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: q
+    username: piranha
+  - password: piranha
+    username: piranha
+category: http
+comment: 'Level: User; '
+name: Red Hat, Inc - Redhat 6.2
+port: 0
+vendor: RED HAT, INC

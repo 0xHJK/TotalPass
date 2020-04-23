@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: tini
+    username: root
+category: telnet
+comment: 'Version: <= 1.0; Level: Administrator; '
+name: Dallas Semiconductors - TINI embedded JAVA Module
+port: 0
+vendor: DALLAS SEMICONDUCTORS

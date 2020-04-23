@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: imsa7.0
+    username: admin
+category: unknown
+comment: 'Version: 7; Level: Administrator; Doc: http://www.trendmicro.com/ftp/documentation/guides/IMSA-QSG.pdf; '
+name: Trend Micro - Interscan Messaging Security Appliance
+port: 0
+vendor: TREND MICRO

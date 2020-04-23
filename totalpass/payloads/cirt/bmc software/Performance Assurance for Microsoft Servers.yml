@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: BackupU$r
+    username: Best1_User
+category: unknown
+comment: 'Level: Administrator; Doc: http://krebsonsecurity.com/2014/01/new-clues-in-the-target-breach/;
+  Notes: ftp://ftp.bmc.com/pub/perform/resolutions/15063490.pdf; '
+name: BMC Software - Performance Assurance for Microsoft Servers
+port: 0
+vendor: BMC SOFTWARE

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: sap123
+    username: ctb_admin
+category: unknown
+comment: 'Level: Administrator; '
+name: SAP - Visual Composer
+port: 0
+vendor: SAP

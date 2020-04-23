@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: uClinux
+    username: root
+category: multi
+comment: 'Level: Administrator; '
+name: Linux - UCLinux for UCSIMM
+port: 0
+vendor: LINUX

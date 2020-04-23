@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: sysadm
+    username: sysadm
+category: multi
+comment: 'Level: Administrator; '
+name: Datacom - NSBrowse
+port: 0
+vendor: DATACOM

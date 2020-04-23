@@ -1,0 +1,12 @@
+auth:
+  credentials:
+  - password: test
+    username: test
+  - password: ''
+    username: anonymous
+category: ftp
+comment: 'Notes: The ''test'' user has READ and WRITE permissions on the C: drive
+  by default.; '
+name: DataWizard Technologies Inc. - FtpQX
+port: 0
+vendor: DATAWIZARD TECHNOLOGIES INC.

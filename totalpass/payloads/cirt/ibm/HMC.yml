@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: abc123
+    username: hscroot
+  - password: passw0rd
+    username: root
+category: unknown
+comment: 'Level: Administrator; Doc: http://pic.dhe.ibm.com/infocenter/powersys/v3r1m5/index.jsp?topic=/iphai_p5/whychgprepwds.htm; '
+name: IBM - HMC
+port: 0
+vendor: IBM

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: rsadmin
+category: multi
+comment: 'Level: Administrator; '
+name: RapidStream - RapidStream Appliances
+port: 0
+vendor: RAPIDSTREAM

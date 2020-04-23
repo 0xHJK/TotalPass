@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: toplayer
+    username: siteadmin
+category: unknown
+comment: 'Level: Administrator; '
+name: TopLayer - AppSwitch
+port: 0
+vendor: TOPLAYER

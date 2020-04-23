@@ -1,0 +1,13 @@
+auth:
+  credentials:
+  - password: IBM
+    username: ''
+  - password: MBIU0
+    username: ''
+  - password: sertafu
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: IBM - PC BIOS
+port: 0
+vendor: IBM

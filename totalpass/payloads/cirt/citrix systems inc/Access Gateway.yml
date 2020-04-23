@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: rootadmin
+    username: root
+category: http
+comment: 'Version: 4.6; Level: Administrator; '
+name: Citrix Systems, Inc. - Access Gateway
+port: 0
+vendor: CITRIX SYSTEMS, INC.

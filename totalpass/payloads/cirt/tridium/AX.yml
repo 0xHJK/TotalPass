@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: niagara
+    username: tridium
+category: unknown
+comment: 'Level: Administrator; Doc: https://www.tridium.com/~/media/tridium/library/documents/niagara%20ax%20hardening%20guide.ashx?la=en; '
+name: Tridium - AX
+port: 0
+vendor: TRIDIUM

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: glftpd
+    username: glftpd
+category: console
+comment: 'Version: all; Level: Administrator; '
+name: glFtpD - glFtpD
+port: 0
+vendor: GLFTPD

@@ -1,0 +1,15 @@
+auth:
+  credentials:
+  - password: epicrouter
+    username: admin
+  - password: amigosw1
+    username: admin
+  - password: password
+    username: admin
+  - password: conexant
+    username: admin
+category: unknown
+comment: 'Level: Administrator; '
+name: Conexant - Router
+port: 0
+vendor: CONEXANT

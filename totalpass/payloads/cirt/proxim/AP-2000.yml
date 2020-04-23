@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: public
+    username: (blank)
+category: unknown
+comment: 'Level: Administrator; Notes: Default SSID is tsunami; '
+name: Proxim - AP-2000
+port: 0
+vendor: PROXIM

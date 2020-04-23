@@ -1,0 +1,15 @@
+auth:
+  credentials:
+  - password: newstest
+    username: testweb
+  - password: imaptest
+    username: alwn3845
+  - password: wtest3452
+    username: alwi3845
+  - password: wtest4879
+    username: testweb2
+category: http
+comment: 'Level: Administrator; Doc: https://www.securityfocus.com/bid/4156/discuss; '
+name: NetWin - WebNews
+port: 0
+vendor: NETWIN

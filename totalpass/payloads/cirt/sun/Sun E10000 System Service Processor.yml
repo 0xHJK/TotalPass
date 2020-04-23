@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ssp
+    username: ssp
+category: multi
+comment: 'Level: Administrator; '
+name: Sun - Sun E10000 System Service Processor
+port: 0
+vendor: SUN

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: dn_04rjc
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: Micronics - PC BIOS
+port: 0
+vendor: MICRONICS

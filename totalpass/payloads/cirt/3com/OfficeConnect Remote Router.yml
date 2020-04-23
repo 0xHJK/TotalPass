@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '!root'
+    username: root
+category: telnet
+comment: 'Version: 812 ADSL, 840 SDSL; Level: Administrator; Doc: http://support.3com.com/infodeli/tools/remote/ocradsl/20/812_cli20.pdfhttp://support.3com.com/infodeli/tools/remote/ocremote/brouters/840/2sysadmin.htm; '
+name: 3COM - OfficeConnect Remote Router
+port: 0
+vendor: 3COM

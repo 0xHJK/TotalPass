@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: admin256
+    username: admin
+  - password: user5710
+    username: user
+category: http
+comment: 'Level: Administrator; Doc: http://d1ni7hpbick8ut.cloudfront.net/ev-desktop-IP-quickstart-0309.pdf; '
+name: Exacq Technologies - NVR Server
+port: 0
+vendor: EXACQ TECHNOLOGIES

@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: ADMIN
+    username: ADMIN
+category: http
+comment: 'Level: Administrator; Doc: http://www.supermicro.com/manuals/other/Onboard_BMC_IPMI.pdf;
+  Notes: Also known as Supermicro.; '
+name: Super Micro Computer, Inc. - IPMI
+port: 0
+vendor: SUPER MICRO COMPUTER, INC.

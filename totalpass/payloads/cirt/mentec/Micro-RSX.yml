@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: RSX
+    username: MICRO
+category: multi
+comment: 'Level: Administrator; '
+name: Mentec - Micro/RSX
+port: 0
+vendor: MENTEC

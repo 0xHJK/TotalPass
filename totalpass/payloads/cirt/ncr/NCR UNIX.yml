@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ncrm
+    username: ncrm
+category: multi
+comment: 'Level: Administrator; '
+name: NCR - NCR UNIX
+port: 0
+vendor: NCR

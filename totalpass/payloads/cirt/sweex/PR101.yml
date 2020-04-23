@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '1234'
+    username: admin
+category: unknown
+comment: 'Level: Administrator; Notes: Default IP: 192.168.2.2; '
+name: Sweex - PR101
+port: 0
+vendor: SWEEX

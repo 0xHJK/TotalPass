@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: touchpwd=
+    username: ''
+category: console
+comment: 'Level: touch; Notes: Resets ''touch'' password.; '
+name: Packeteer - Packetshaper
+port: 0
+vendor: PACKETEER

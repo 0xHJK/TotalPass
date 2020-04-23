@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: The last eight digits of the serial number
+    username: Administrator
+category: http
+comment: 'Level: Administrator; Doc: http://bizsupport1.austin.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c01141537&lang=en&cc=us&taskId=101&prodSeriesId=428936&prodTypeId=15351;
+  Notes: RILOE II; '
+name: Hewlett-Packard - Remote Insight Board
+port: 0
+vendor: HEWLETT-PACKARD

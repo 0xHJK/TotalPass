@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: tech
+    username: tech
+category: telnet
+comment: 'Version: 2000/2700; '
+name: 3COM - LinkSwitch
+port: 0
+vendor: 3COM

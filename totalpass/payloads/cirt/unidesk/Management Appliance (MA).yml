@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Unidesk1
+    username: Administrator
+category: http
+comment: 'Level: Administrator; Doc: http://www.unidesk.com/support/learn/2.7.0/administer/manage_appliances/admin_ma_config; '
+name: Unidesk - Management Appliance (MA)
+port: 0
+vendor: UNIDESK

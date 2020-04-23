@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: siteadmin
+    username: siteadmin
+category: http
+comment: 'Level: Administrator; Doc: http://docs.oracle.com/cd/E24152_01/Platform.10-1/ATGMultisiteAdminGuide/html/s1505accesscontrol01.html; '
+name: Oracle - ATG Web Commerce
+port: 0
+vendor: ORACLE

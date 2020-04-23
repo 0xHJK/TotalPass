@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: par0t
+    username: root
+category: unknown
+comment: 'Level: Administrator; '
+name: DuPont - Digital Water Proofer
+port: 0
+vendor: DUPONT

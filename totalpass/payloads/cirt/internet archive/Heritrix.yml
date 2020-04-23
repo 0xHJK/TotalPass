@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: letmein
+    username: admin
+category: unknown
+comment: 'Version: 1.6.0; Level: Administrator; '
+name: Internet Archive - Heritrix
+port: 0
+vendor: INTERNET ARCHIVE

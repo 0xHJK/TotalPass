@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: hewlpack
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: Hewlett-Packard - Vectra
+port: 0
+vendor: HEWLETT-PACKARD

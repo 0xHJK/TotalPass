@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: mysweex
+    username: sweex
+category: unknown
+comment: 'Level: Administrator; Notes: Default IP: 192.169.200.1; '
+name: Sweex - MO200
+port: 0
+vendor: SWEEX

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: setup
+category: telnet
+comment: 'Notes: Motorola Default; '
+name: UNIX - UNIX
+port: 0
+vendor: UNIX

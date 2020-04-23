@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: http
+comment: 'Version: WUA-800; Notes: Default IP: 192.168.1.50; '
+name: Macsense - AeroPad Mini
+port: 0
+vendor: MACSENSE

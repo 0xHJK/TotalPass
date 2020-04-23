@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '1234'
+    username: admin
+category: http
+comment: 'Level: Administrator; Doc: http://www.interlogix.com/_/assets/library/1072627A%20TruVision%20IP%20Camera%20Configuration%20Manual.pdf; '
+name: United Technologies Corporation - Interlogix truVision IP Camera
+port: 0
+vendor: UNITED TECHNOLOGIES CORPORATION

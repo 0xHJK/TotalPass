@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: star
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: Megastar - PC BIOS
+port: 0
+vendor: MEGASTAR

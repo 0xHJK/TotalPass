@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ksdjfg934t
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: SuperMicro - PC BIOS
+port: 0
+vendor: SUPERMICRO

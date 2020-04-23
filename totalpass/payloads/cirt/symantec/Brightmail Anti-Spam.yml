@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: brightmail
+    username: root
+category: unknown
+comment: 'Notes: This is the MySQL account''s password.; '
+name: Symantec - Brightmail Anti-Spam
+port: 0
+vendor: SYMANTEC

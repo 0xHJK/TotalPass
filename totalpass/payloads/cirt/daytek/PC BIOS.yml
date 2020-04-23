@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Daytec
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: Daytek - PC BIOS
+port: 0
+vendor: DAYTEK

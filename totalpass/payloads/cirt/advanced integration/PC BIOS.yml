@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Advance
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: Advanced Integration - PC BIOS
+port: 0
+vendor: ADVANCED INTEGRATION

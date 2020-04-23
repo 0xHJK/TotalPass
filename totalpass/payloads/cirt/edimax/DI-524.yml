@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: unknown
+comment: 'Level: Administrator; Notes: Default IP: 192.168.0.1; '
+name: Edimax - DI-524
+port: 0
+vendor: EDIMAX

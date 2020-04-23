@@ -1,0 +1,19 @@
+auth:
+  credentials:
+  - password: MAINT
+    username: MAINT
+  - password: OPERATIONS
+    username: OPERATIONS
+  - password: OPERATNS
+    username: OPERATNS
+  - password: CMSBATCH
+    username: CMSBATCH
+  - password: VTAM
+    username: VTAM
+  - password: Operator
+    username: Operator
+category: unknown
+comment: ''
+name: IBM - VM/CMS
+port: 0
+vendor: IBM

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: pass
+    username: admin
+category: http
+comment: 'Level: Administrator; '
+name: AmpJuke - AmpJuke
+port: 0
+vendor: AMPJUKE

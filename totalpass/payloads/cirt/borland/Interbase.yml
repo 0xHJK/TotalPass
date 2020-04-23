@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: ''
+    username: (blank)
+  - password: correct
+    username: politically
+category: unknown
+comment: ''
+name: Borland - Interbase
+port: 0
+vendor: BORLAND

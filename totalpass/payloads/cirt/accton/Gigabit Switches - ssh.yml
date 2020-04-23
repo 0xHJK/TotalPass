@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: (caclulated)
+    username: __super
+category: ssh
+comment: 'Level: Administrator; Doc: http://www.vettebak.nl/hak/; Notes: The password
+  is based on the MAC address--see link for info. Devices sold by 3Com, Dell, SMC,
+  Foundry and EdgeCore.; '
+name: ACCTON - Gigabit Switches - ssh
+port: 0
+vendor: ACCTON

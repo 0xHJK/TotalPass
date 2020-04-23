@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: ''
+    username: guest
+  - password: cisco
+    username: admin
+category: unknown
+comment: 'Level: User; '
+name: Cisco - CiscoWorks 2000
+port: 0
+vendor: CISCO

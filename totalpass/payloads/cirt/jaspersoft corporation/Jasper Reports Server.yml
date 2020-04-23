@@ -1,0 +1,15 @@
+auth:
+  credentials:
+  - password: superuser
+    username: superuser
+  - password: jasperadmin
+    username: jasperadmin
+  - password: joeuser
+    username: joeuser
+  - password: demo
+    username: demo
+category: http
+comment: 'Level: Administrator; Doc: http://community.jaspersoft.com/documentation/jasperreports-server-install-guide-community-edition; '
+name: Jaspersoft Corporation - Jasper Reports Server
+port: 0
+vendor: JASPERSOFT CORPORATION

@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: '1234'
+    username: User
+  - password: '19750407'
+    username: User
+category: http
+comment: 'Version: YWH10/YWH100/YWH200/YWH300; Level: Administrator; '
+name: Yuxin - IP Phone
+port: 0
+vendor: YUXIN

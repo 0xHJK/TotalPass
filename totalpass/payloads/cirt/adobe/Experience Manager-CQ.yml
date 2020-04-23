@@ -1,0 +1,15 @@
+auth:
+  credentials:
+  - password: anonymous
+    username: anonymous
+  - password: replication-receiver
+    username: replication-receiver
+  - password: jdoe
+    username: jdoe@geometrixx.info
+  - password: aparker
+    username: aparker@geometrixx.info
+category: unknown
+comment: 'Doc: http://resources.infosecinstitute.com/adobe-cq-pentesting-guide-part-1/; '
+name: Adobe - Experience Manager/CQ
+port: 0
+vendor: ADOBE

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ACCORD
+    username: ''
+category: unknown
+comment: 'Version: 7.0.1; Level: Administrator; Doc: http://www.polycom.com/common/pw_cmp_updateDocKeywords/0,1687,6312,00.pdf; '
+name: Polycom - WebOffice
+port: 0
+vendor: POLYCOM

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: MSHOME
+    username: MSHOME
+category: unknown
+comment: 'Version: MN700; '
+name: Microsoft - Wireless Access Point/Router
+port: 0
+vendor: MICROSOFT

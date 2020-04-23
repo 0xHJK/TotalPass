@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ANYCOM
+    username: ''
+category: snmp
+comment: 'Notes: SNMP disabled by default; '
+name: 3COM - NetBuilder
+port: 0
+vendor: 3COM

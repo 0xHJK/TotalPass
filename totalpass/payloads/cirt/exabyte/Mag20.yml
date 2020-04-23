@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Exabyte
+    username: anonymous
+category: ftp
+comment: 'Doc: http://www.exabyte.com/support/products/tad-getmanual.cfm?id=723; '
+name: Exabyte - Mag20
+port: 0
+vendor: EXABYTE

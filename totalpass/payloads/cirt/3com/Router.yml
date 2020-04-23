@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: ''
+    username: ''
+category: boot prompt
+comment: 'Version: 3000/5000 Series; Level: Administrator; Notes: 3COM Solution ID
+  3KB6942; '
+name: 3COM - Router
+port: 0
+vendor: 3COM

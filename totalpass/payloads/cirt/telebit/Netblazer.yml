@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: nopasswd
+    username: snmp
+  - password: setup
+    username: setup
+category: unknown
+comment: ''
+name: Telebit - Netblazer
+port: 0
+vendor: TELEBIT

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: letmein
+    username: Administrator
+category: http
+comment: 'Version: 7.x; Level: Administrator; Doc: http://www.webwizguide.info/web_wiz_forums/default.asp; '
+name: Web Wiz - Forums
+port: 0
+vendor: WEB WIZ

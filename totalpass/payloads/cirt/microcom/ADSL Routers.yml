@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: epicrouter
+    username: admin
+  - password: password
+    username: user
+category: unknown
+comment: 'Level: Administrator; '
+name: Microcom - ADSL Routers
+port: 0
+vendor: MICROCOM

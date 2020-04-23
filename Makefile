@@ -11,14 +11,14 @@ test:
 	pytest
 
 coverage:
-	py.test --cov-config .coveragerc --verbose --cov-report term --cov-report xml --cov=totalpwd --junitxml=report.xml tests
+	py.test --cov-config .coveragerc --verbose --cov-report term --cov-report xml --cov=totalpass --junitxml=report.xml tests
 
 flake8:
 	black .
-	flake8 --ignore=E501,F401,W503 totalpwd
+	flake8 --ignore=E501,F401,W503 totalpass
 
 clean:
-	rm -fr build dist .egg totalpwd.egg-info
+	rm -fr build dist .egg totalpass.egg-info
 	rm -fr *.mp3 .pytest_cache coverage.xml report.xml htmlcov
 	find . | grep __pycache__ | xargs rm -fr
 	find . | grep .pyc | xargs rm -f

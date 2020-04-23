@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: '12345678'
+    username: ''
+  - password: '00000000'
+    username: ''
+category: physical access
+comment: 'Version: cm2520, cm4520, im6020, im7520; Level: Administrator; '
+name: Brother Industries Ltd. - OCE Imagistics
+port: 0
+vendor: BROTHER INDUSTRIES LTD.

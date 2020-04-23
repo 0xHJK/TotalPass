@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: mp3mystic
+    username: admin
+category: http
+comment: 'Level: Administrator; '
+name: MP3Mystic - MP3Mystic
+port: 0
+vendor: MP3MYSTIC

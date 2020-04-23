@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: cisco
+    username: ''
+  - password: ''
+    username: ''
+category: telnet
+comment: 'Version: 800/1000/1100; Level: Administrator; '
+name: Elsa - LANCom Office ISDN Router
+port: 0
+vendor: ELSA

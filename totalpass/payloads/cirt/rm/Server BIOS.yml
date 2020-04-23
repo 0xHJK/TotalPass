@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: RM
+    username: ''
+category: console
+comment: ''
+name: RM - Server BIOS
+port: 0
+vendor: RM

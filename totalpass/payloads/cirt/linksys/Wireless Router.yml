@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: ''
+category: unknown
+comment: 'Version: WRT54G; Level: Administrator; '
+name: Linksys - Wireless Router
+port: 0
+vendor: LINKSYS

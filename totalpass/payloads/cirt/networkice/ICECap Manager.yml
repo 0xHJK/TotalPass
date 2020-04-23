@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: iceman
+category: '8081'
+comment: 'Version: 2.0.22 <; Level: Administrator; '
+name: NetworkICE - ICECap Manager
+port: 0
+vendor: NETWORKICE

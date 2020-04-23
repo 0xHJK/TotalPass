@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: changeit
+    username: ''
+category: unknown
+comment: 'Level: JVM Key Store; Doc: http://160.78.48.20/vpn/software/How_to_use_Webvpn_with_Citrix_Metaframe.pdf;
+  Notes: The JVM certificate store is a file called "cacerts" and is located in ...libsecuritycacerts.; '
+name: Cisco - VPN3000
+port: 0
+vendor: CISCO

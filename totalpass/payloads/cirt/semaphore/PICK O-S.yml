@@ -1,0 +1,15 @@
+auth:
+  credentials:
+  - password: ''
+    username: DESQUETOP
+  - password: ''
+    username: DS
+  - password: ''
+    username: DSA
+  - password: ''
+    username: PHANTOM
+category: unknown
+comment: ''
+name: Semaphore - PICK O/S
+port: 0
+vendor: SEMAPHORE

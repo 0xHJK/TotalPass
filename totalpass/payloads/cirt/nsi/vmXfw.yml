@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: nsi
+    username: root
+category: unknown
+comment: 'Level: Administrator; Doc: http://www.nsi.com.au/vmpfw-install.htm; '
+name: NSI - vmXfw
+port: 0
+vendor: NSI

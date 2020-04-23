@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: db2fenc1
+    username: db2fenc1
+  - password: db2inst1
+    username: db2inst1
+category: unknown
+comment: ''
+name: IBM - DB2
+port: 0
+vendor: IBM

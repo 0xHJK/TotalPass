@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin1234
+    username: admin
+category: unknown
+comment: 'Level: Administrator; Notes: https://twitter.com/#!/hdmoore/statuses/79034896244408320; '
+name: RSA - Access Manager
+port: 0
+vendor: RSA

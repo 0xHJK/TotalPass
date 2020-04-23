@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: postgres
+category: cli
+comment: 'Level: Administrator; '
+name: PostgreSQL - PostgreSQL
+port: 0
+vendor: POSTGRESQL

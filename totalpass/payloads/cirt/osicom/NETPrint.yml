@@ -1,0 +1,81 @@
+auth:
+  credentials:
+  - password: sysadm
+    username: sysadm
+  - password: sysadm
+    username: sysadm
+  - password: sysadm
+    username: sysadm
+  - password: sysadm
+    username: sysadm
+  - password: Manager
+    username: Manager
+  - password: guest
+    username: guest
+  - password: echo
+    username: echo
+  - password: d.e.b.u.g
+    username: debug
+  - password: sysadm
+    username: sysadm
+  - password: sysadm
+    username: sysadm
+  - password: Manager
+    username: Manager
+  - password: guest
+    username: guest
+  - password: echo
+    username: echo
+  - password: d.e.b.u.g
+    username: debug
+  - password: sysadm
+    username: sysadm
+  - password: Manager
+    username: Manager
+  - password: guest
+    username: guest
+  - password: echo
+    username: echo
+  - password: d.e.b.u.g
+    username: debug
+  - password: sysadm
+    username: sysadm
+  - password: Manager
+    username: Manager
+  - password: guest
+    username: guest
+  - password: echo
+    username: echo
+  - password: d.e.b.u.g
+    username: debug
+  - password: sysadm
+    username: sysadm
+  - password: sysadm
+    username: sysadm
+  - password: sysadm
+    username: sysadm
+  - password: sysadm
+    username: sysadm
+  - password: sysadm
+    username: sysadm
+  - password: Manager
+    username: Manager
+  - password: guest
+    username: guest
+  - password: echo
+    username: echo
+  - password: d.e.b.u.g
+    username: debug
+  - password: sysadm
+    username: sysadm
+  - password: sysadm
+    username: sysadm
+  - password: sysadm
+    username: sysadm
+  - password: sysadm
+    username: sysadm
+category: telnet
+comment: 'Version: 1000 T/B; Level: Administrator; '
+name: Osicom - NETPrint
+port: 0
+vendor: OSICOM

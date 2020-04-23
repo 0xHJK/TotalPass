@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: shs
+    username: Admin
+category: unknown
+comment: 'Level: Administrator; '
+name: Sovereign Hill - InQuery
+port: 0
+vendor: SOVEREIGN HILL

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: weblogic
+    username: weblogic
+category: unknown
+comment: 'Version: 9.0 Beta (Diablo); '
+name: Oracle - WebLogic
+port: 0
+vendor: ORACLE

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Ektron
+    username: sa
+category: sql
+comment: 'Level: Administrator; Doc: http://downloads2.ektron.com/software/released/CMS400/v48/SetupManual.pdf; '
+name: Ektron, Inc. - CMS400.NET - sql
+port: 0
+vendor: EKTRON, INC.

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: store
+    username: admin
+category: http
+comment: 'Version: 1.0; Level: Administrator; Doc: http://world.episerver.com/Documentation/Items/Installation-Instructions/EPiServer-Commerce/Installation-Instructions---EPiServer-Commerce/#First%20Time%20Login; '
+name: EPiServer AB - EPiServer Commerce
+port: 0
+vendor: EPISERVER AB

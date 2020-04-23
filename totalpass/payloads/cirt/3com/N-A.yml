@@ -1,0 +1,21 @@
+auth:
+  credentials:
+  - password: ''
+    username: adm
+  - password: synnet
+    username: admin
+  - password: manager
+    username: manager
+  - password: monitor
+    username: monitor
+  - password: synnet
+    username: read
+  - password: security
+    username: security
+  - password: synnet
+    username: write
+category: telnet
+comment: ''
+name: 3COM - N/A
+port: 0
+vendor: 3COM

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: basisk
+    username: basisk
+category: unknown
+comment: 'Doc: http://m.itworld.com/data-centerservers/190269/power-plant-hack-anybody-could-use; '
+name: Siemens - S7
+port: 0
+vendor: SIEMENS

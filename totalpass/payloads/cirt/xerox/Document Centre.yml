@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: nsa
+    username: NSA
+category: ftp
+comment: 'Level: Guest; Doc: http://download.support.xerox.com/pub/docs/FlowPort2/userdocs/any-os/en/fp_dc_setup_guide.pdf; '
+name: Xerox - Document Centre
+port: 0
+vendor: XEROX

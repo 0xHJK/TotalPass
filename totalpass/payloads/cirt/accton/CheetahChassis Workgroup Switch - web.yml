@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: web
+comment: 'Version: 3714; '
+name: ACCTON - CheetahChassis Workgroup Switch - web
+port: 0
+vendor: ACCTON

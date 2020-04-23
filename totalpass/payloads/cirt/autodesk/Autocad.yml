@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: autocad
+    username: autocad
+category: multi
+comment: 'Level: User; '
+name: Autodesk - Autocad
+port: 0
+vendor: AUTODESK

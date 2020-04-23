@@ -1,0 +1,49 @@
+auth:
+  credentials:
+  - password: dos
+    username: dos
+  - password: fam
+    username: fam
+  - password: maint
+    username: maint
+  - password: primeos
+    username: prime
+  - password: prime
+    username: primeos
+  - password: primeos
+    username: primeos
+  - password: guest
+    username: guest
+  - password: guest
+    username: guest1
+  - password: guest1
+    username: guest1
+  - password: mail
+    username: mail
+  - password: mfd
+    username: mfd
+  - password: netlink
+    username: netlink
+  - password: prime
+    username: prime
+  - password: primenet
+    username: primenet
+  - password: primeos
+    username: primenet
+  - password: primos
+    username: primos_cs
+  - password: prime
+    username: primos_cs
+  - password: prime
+    username: system
+  - password: system
+    username: system
+  - password: tele
+    username: tele
+  - password: test
+    username: test
+category: multi
+comment: 'Level: User; '
+name: Prime - PrimeOS
+port: 0
+vendor: PRIME

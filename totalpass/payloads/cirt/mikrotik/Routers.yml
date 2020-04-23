@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: http
+comment: 'Level: Administrator; Notes: May also work for telnet; '
+name: MikroTik - Routers
+port: 0
+vendor: MIKROTIK

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: rootme
+    username: root
+category: unknown
+comment: 'Level: Administrator; '
+name: Nokia - 770
+port: 0
+vendor: NOKIA

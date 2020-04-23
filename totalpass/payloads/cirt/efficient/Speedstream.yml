@@ -1,0 +1,15 @@
+auth:
+  credentials:
+  - password: ''
+    username: ''
+  - password: ''
+    username: ''
+  - password: admin
+    username: login
+  - password: admin
+    username: superuser
+category: http
+comment: 'Version: 5200; Notes: Default IP 10.0.0.1/8; '
+name: Efficient - Speedstream
+port: 0
+vendor: EFFICIENT

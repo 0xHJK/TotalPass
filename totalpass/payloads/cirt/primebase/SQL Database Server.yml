@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: Administrator
+category: unknown
+comment: 'Version: 4.2; '
+name: PrimeBase - SQL Database Server
+port: 0
+vendor: PRIMEBASE

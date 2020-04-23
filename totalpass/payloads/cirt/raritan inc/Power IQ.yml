@@ -1,0 +1,13 @@
+auth:
+  credentials:
+  - password: sl33p30F00dumass!
+    username: web_api
+  - password: raritan
+    username: epiq_api
+  - password: raritan
+    username: admin
+category: http
+comment: 'Doc: http://seclists.org/fulldisclosure/2015/Sep/33; '
+name: Raritan Inc. - Power IQ
+port: 0
+vendor: RARITAN INC.

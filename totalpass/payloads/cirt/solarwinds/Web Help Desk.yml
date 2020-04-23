@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: whd
+    username: whd
+category: unknown
+comment: 'Level: PostgreSQL; Doc: http://www.solarwinds.com/documentation/WebHelpDesk/docs/WHDAdminGuide.pdf; '
+name: SolarWinds - Web Help Desk
+port: 0
+vendor: SOLARWINDS

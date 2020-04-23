@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: resumix
+    username: root
+category: unknown
+comment: ''
+name: Resumix - Resumix
+port: 0
+vendor: RESUMIX

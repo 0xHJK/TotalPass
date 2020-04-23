@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: $system
+category: console
+comment: 'Level: Administrator; '
+name: Nurit - PC BIOS
+port: 0
+vendor: NURIT

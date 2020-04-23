@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: http
+comment: 'Version: SP916BM; Level: Administrator; Doc: http://archives.neohapsis.com/archives/bugtraq/2004-10/0078.html; '
+name: Micronet - Wireless Broadband Router
+port: 0
+vendor: MICRONET

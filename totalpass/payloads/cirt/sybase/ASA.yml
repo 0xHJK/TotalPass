@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: SQL
+    username: DBA
+category: sql
+comment: 'Level: Administrator; '
+name: Sybase - ASA
+port: 0
+vendor: SYBASE

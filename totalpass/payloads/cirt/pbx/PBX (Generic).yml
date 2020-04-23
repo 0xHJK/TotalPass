@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: nician
+    username: tech
+category: unknown
+comment: ''
+name: PBX - PBX (Generic)
+port: 0
+vendor: PBX

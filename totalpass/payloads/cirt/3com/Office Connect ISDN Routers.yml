@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: PASSWORD
+    username: ''
+category: telnet
+comment: 'Version: 5x0; Level: Administrator; '
+name: 3COM - Office Connect ISDN Routers
+port: 0
+vendor: 3COM

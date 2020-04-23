@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Any
+    username: Any
+category: http
+comment: 'Notes: Log in with any valid system user account/password.; '
+name: Samba - SWAT
+port: 0
+vendor: SAMBA

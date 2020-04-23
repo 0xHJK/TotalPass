@@ -1,0 +1,13 @@
+auth:
+  credentials:
+  - password: ''
+    username: circ
+  - password: ''
+    username: LIBRARY
+  - password: ''
+    username: SETUP
+category: multi
+comment: 'Level: User; '
+name: Dynix Library Systems - Dynix
+port: 0
+vendor: DYNIX LIBRARY SYSTEMS

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: merlin
+    username: ''
+category: console
+comment: ''
+name: Vobis - PC BIOS
+port: 0
+vendor: VOBIS

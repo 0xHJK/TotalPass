@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '19750407'
+    username: administrator
+category: http
+comment: 'Level: Administrator; '
+name: Luxon Communications - IP Phone
+port: 0
+vendor: LUXON COMMUNICATIONS

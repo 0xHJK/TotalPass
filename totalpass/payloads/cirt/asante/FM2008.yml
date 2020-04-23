@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: asante
+    username: superuser
+category: telnet
+comment: 'Version: 01.06; Level: Administrator; '
+name: Asante - FM2008
+port: 0
+vendor: ASANTE

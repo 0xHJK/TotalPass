@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: ''
+    username: Manager
+  - password: ''
+    username: User
+category: telnet
+comment: 'Level: Administrator; '
+name: Bay Networks - Router
+port: 0
+vendor: BAY NETWORKS

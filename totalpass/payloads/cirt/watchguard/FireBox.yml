@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: wg
+    username: (blank)
+category: unknown
+comment: ''
+name: WatchGuard - FireBox
+port: 0
+vendor: WATCHGUARD

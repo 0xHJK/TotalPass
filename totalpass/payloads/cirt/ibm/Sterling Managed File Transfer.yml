@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: password
+    username: fg_sysadmin
+category: http
+comment: 'Level: Administrator; Doc: http://webcache.googleusercontent.com/search?q=cache:tjiEP5dFc6IJ:help.sterlingcommerce.com/SFG20/topic/T94571/SFGCreateUserAccts_5101_127332_22331.html+sterling+fg_sysadmin+password&cd=1&hl=en&ct=clnk&gl=us&client=ubuntu&source=www.google.com;
+  Notes: Formerly AT&T Sterling Commerce; '
+name: IBM - Sterling Managed File Transfer
+port: 0
+vendor: IBM

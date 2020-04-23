@@ -1,0 +1,15 @@
+auth:
+  credentials:
+  - password: ''
+    username: user
+  - password: ''
+    username: ''
+  - password: user
+    username: user
+  - password: ''
+    username: user
+category: unknown
+comment: 'Version: 1.5; Level: Administrator; '
+name: Nortel - MIPCD
+port: 0
+vendor: NORTEL

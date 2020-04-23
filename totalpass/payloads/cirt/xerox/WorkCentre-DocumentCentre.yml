@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: crash
+    username: savelogs
+category: unknown
+comment: ''
+name: Xerox - WorkCentre/DocumentCentre
+port: 0
+vendor: XEROX

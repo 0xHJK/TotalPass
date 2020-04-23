@@ -1,0 +1,199 @@
+auth:
+  credentials:
+  - password: adm
+    username: adm
+  - password: ''
+    username: adm
+  - password: admin
+    username: admin
+  - password: administrator
+    username: administrator
+  - password: ''
+    username: administrator
+  - password: anon
+    username: anon
+  - password: bbs
+    username: bbs
+  - password: ''
+    username: bbs
+  - password: sys
+    username: bin
+  - password: checkfs
+    username: checkfs
+  - password: checkfsys
+    username: checkfsys
+  - password: checksys
+    username: checksys
+  - password: daemon
+    username: daemon
+  - password: ''
+    username: daemon
+  - password: demo
+    username: demo
+  - password: ''
+    username: demo
+  - password: demos
+    username: demos
+  - password: ''
+    username: demos
+  - password: ''
+    username: dni
+  - password: dni
+    username: dni
+  - password: ''
+    username: fal
+  - password: fal
+    username: fal
+  - password: ''
+    username: fax
+  - password: fax
+    username: fax
+  - password: ''
+    username: ftp
+  - password: ftp
+    username: ftp
+  - password: games
+    username: games
+  - password: ''
+    username: games
+  - password: gopher
+    username: gopher
+  - password: ''
+    username: gropher
+  - password: guest
+    username: guest
+  - password: guestgue
+    username: guest
+  - password: ''
+    username: guest
+  - password: halt
+    username: halt
+  - password: ''
+    username: halt
+  - password: informix
+    username: informix
+  - password: install
+    username: install
+  - password: lp
+    username: lp
+  - password: bin
+    username: lp
+  - password: lineprin
+    username: lp
+  - password: ''
+    username: lp
+  - password: lpadm
+    username: lpadm
+  - password: lpadmin
+    username: lpadmin
+  - password: lynx
+    username: lynx
+  - password: ''
+    username: lynx
+  - password: ''
+    username: mail
+  - password: mail
+    username: mail
+  - password: man
+    username: man
+  - password: ''
+    username: man
+  - password: ''
+    username: me
+  - password: me
+    username: me
+  - password: mountfs
+    username: mountfs
+  - password: mountfsys
+    username: mountfsys
+  - password: mountsys
+    username: mountsys
+  - password: news
+    username: news
+  - password: ''
+    username: news
+  - password: ''
+    username: nobody
+  - password: nobody
+    username: nobody
+  - password: ''
+    username: nuucp
+  - password: operator
+    username: operator
+  - password: ''
+    username: operator
+  - password: ''
+    username: oracle
+  - password: postmast
+    username: postmaster
+  - password: ''
+    username: postmaster
+  - password: powerdown
+    username: powerdown
+  - password: rje
+    username: rje
+  - password: root
+    username: root
+  - password: ''
+    username: root
+  - password: setup
+    username: setup
+  - password: shutdown
+    username: shutdown
+  - password: ''
+    username: shutdown
+  - password: sync
+    username: sync
+  - password: ''
+    username: sync
+  - password: sys
+    username: sys
+  - password: system
+    username: sys
+  - password: bin
+    username: sys
+  - password: sysadm
+    username: sysadm
+  - password: admin
+    username: sysadm
+  - password: sysadmin
+    username: sysadmin
+  - password: sysbin
+    username: sysbin
+  - password: ''
+    username: system_admin
+  - password: system_admin
+    username: system_admin
+  - password: trouble
+    username: trouble
+  - password: umountfs
+    username: umountfs
+  - password: umountfsys
+    username: umountfsys
+  - password: umountsys
+    username: umountsys
+  - password: unix
+    username: unix
+  - password: user
+    username: user
+  - password: uucp
+    username: uucp
+  - password: uucpadm
+    username: uucpadm
+  - password: ''
+    username: web
+  - password: web
+    username: web
+  - password: webmaster
+    username: webmaster
+  - password: ''
+    username: webmaster
+  - password: ''
+    username: www
+  - password: www
+    username: www
+category: multi
+comment: 'Level: Administrator; '
+name: UNIX - Generic
+port: 0
+vendor: UNIX

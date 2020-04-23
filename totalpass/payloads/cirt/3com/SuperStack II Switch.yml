@@ -1,0 +1,19 @@
+auth:
+  credentials:
+  - password: monitor
+    username: monitor
+  - password: manager
+    username: manager
+  - password: ''
+    username: admin
+  - password: security
+    username: security
+  - password: synnet
+    username: debug
+  - password: tech
+    username: tech
+category: telnet
+comment: 'Version: 1100/3300; Level: Monitor; '
+name: 3COM - SuperStack II Switch
+port: 0
+vendor: 3COM

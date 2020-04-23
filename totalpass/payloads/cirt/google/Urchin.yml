@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: urchin
+    username: admin
+category: https
+comment: 'Level: Administrator; '
+name: Google - Urchin
+port: 0
+vendor: GOOGLE

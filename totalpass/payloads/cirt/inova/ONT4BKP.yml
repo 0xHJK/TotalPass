@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: timely
+    username: iclock
+category: unknown
+comment: ''
+name: Inova - ONT4BKP
+port: 0
+vendor: INOVA

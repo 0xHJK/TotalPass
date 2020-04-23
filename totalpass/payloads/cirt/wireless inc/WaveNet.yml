@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: rootpass
+    username: root
+category: unknown
+comment: 'Level: Administrator; '
+name: Wireless, Inc. - WaveNet
+port: 0
+vendor: WIRELESS, INC.

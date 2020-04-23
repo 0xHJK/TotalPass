@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: http
+comment: 'Level: Administrator; Doc: http://www.watchguard.com/help/docs/v70FireboxXEdge_QS.pdf;
+  Notes: https://192.168.111.1/; '
+name: WatchGuard - Firebox X Edge
+port: 0
+vendor: WATCHGUARD

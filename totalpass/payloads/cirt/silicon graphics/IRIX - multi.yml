@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: tutor
+    username: tutor
+category: multi
+comment: 'Level: Administrator; '
+name: Silicon Graphics - IRIX - multi
+port: 0
+vendor: SILICON GRAPHICS

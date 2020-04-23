@@ -8,9 +8,9 @@ from os import path
 
 
 proj_dir = path.dirname(path.realpath(__file__))
-about_file = path.join(proj_dir, "totalpwd", "__version__.py")
+about_file = path.join(proj_dir, "totalpass", "__version__.py")
 data_files = []
-for root, dirs, files in os.walk("totalpwd", "pwds"):
+for root, dirs, files in os.walk("totalpass", "payloads"):
     for fname in files:
         if fname.endswith(".yml") or fname.endswith(".csv"):
             data_files.append((root, [path.join(proj_dir, root, fname)]))
@@ -36,7 +36,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     data_files=data_files,
     test_suite="tests",
-    entry_points={"console_scripts": ["totalpwd = totalpwd.__main__:main"]},
+    entry_points={"console_scripts": ["totalpass = totalpass.__main__:main"]},
     install_requires=requirements,
     classifiers=[
         "Development Status :: 4 - Beta",

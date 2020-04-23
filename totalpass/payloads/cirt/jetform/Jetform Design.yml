@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: Jetform
+category: http
+comment: 'Level: Administrator; '
+name: Jetform - Jetform Design
+port: 0
+vendor: JETFORM

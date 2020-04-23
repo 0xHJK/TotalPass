@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: password
+    username: admin
+category: unknown
+comment: 'Level: Administrator; '
+name: Ciphertrust - Ironmail
+port: 0
+vendor: CIPHERTRUST

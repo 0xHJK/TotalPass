@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: install
+    username: install
+category: http
+comment: 'Level: Administrator; Doc: http://www.qdigital.us/soporte/CasiRusco/Casirusco-documentation/controllers/460972001B.pdf; '
+name: GE Security, Inc. - Integrated Configuration Tool
+port: 0
+vendor: GE SECURITY, INC.

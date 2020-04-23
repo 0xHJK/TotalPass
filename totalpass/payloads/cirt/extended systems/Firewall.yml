@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: unknown
+comment: 'Level: Administrator; '
+name: Extended Systems - Firewall
+port: 0
+vendor: EXTENDED SYSTEMS

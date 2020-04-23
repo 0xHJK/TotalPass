@@ -1,0 +1,12 @@
+auth:
+  credentials:
+  - password: ducati900ss
+    username: ''
+  - password: t0talc0ntr0l4!
+    username: root
+category: telnet
+comment: 'Level: Administrator; Doc: http://www.digitalmunition.com/_/Blog/Entries/2010/10/13_Control4_gear_is_umm..._backdoored,_I_guess.html;
+  Notes: Port 5800. Password may also be ducati996.; '
+name: Control4 - Home Theater Controller AVMHTC1B
+port: 0
+vendor: CONTROL4

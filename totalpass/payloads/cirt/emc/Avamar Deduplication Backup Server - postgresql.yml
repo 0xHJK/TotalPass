@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: viewuser1
+    username: viewuser
+category: postgresql
+comment: 'Level: View; Doc: https://community.emc.com/message/525389; '
+name: EMC - Avamar Deduplication Backup Server - postgresql
+port: 0
+vendor: EMC

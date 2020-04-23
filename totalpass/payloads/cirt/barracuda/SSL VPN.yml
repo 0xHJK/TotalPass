@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: console
+comment: 'Level: Administrator; Doc: http://www.barracudanetworks.com/ns/downloads/Quick_Start_Guides/QSG_Barracuda_SSLVPN_US.pdf; '
+name: Barracuda - SSL VPN
+port: 0
+vendor: BARRACUDA

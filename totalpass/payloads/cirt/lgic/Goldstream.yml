@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: LR-ISDN
+    username: LR-ISDN
+category: unknown
+comment: ''
+name: LGIC - Goldstream
+port: 0
+vendor: LGIC

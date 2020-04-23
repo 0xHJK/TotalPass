@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: _Cisco
+    username: ''
+  - password: Cisco
+    username: Cisco
+category: multi
+comment: 'Level: Administrator; '
+name: Cisco - AIRONET
+port: 0
+vendor: CISCO

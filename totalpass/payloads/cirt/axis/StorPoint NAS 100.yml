@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: pass
+    username: root
+category: unknown
+comment: 'Level: Administrator; '
+name: Axis - StorPoint NAS 100
+port: 0
+vendor: AXIS

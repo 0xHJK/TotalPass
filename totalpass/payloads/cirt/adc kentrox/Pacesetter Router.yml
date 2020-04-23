@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: secret
+    username: ''
+category: telnet
+comment: ''
+name: ADC Kentrox - Pacesetter Router
+port: 0
+vendor: ADC KENTROX

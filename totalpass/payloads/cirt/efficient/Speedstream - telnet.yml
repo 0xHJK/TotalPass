@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: superuser
+category: telnet
+comment: 'Level: Administrator; '
+name: Efficient - Speedstream - telnet
+port: 0
+vendor: EFFICIENT

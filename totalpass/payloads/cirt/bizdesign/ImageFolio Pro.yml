@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ImageFolio
+    username: Admin
+category: http
+comment: 'Version: 2.2; Level: Administrator; Notes: default admin page is:/cgi-bin/admin/admin.cgi; '
+name: BizDesign - ImageFolio Pro
+port: 0
+vendor: BIZDESIGN

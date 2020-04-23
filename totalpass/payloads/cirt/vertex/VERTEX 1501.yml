@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: vertex25
+    username: root
+category: unknown
+comment: 'Version: 5.05; Level: Administrator; '
+name: vertex - VERTEX 1501
+port: 0
+vendor: VERTEX

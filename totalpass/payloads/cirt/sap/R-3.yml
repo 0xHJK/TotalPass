@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: PASS
+    username: SAP*
+category: unknown
+comment: 'Level: Administrator; '
+name: SAP - R/3
+port: 0
+vendor: SAP

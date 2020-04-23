@@ -1,0 +1,19 @@
+auth:
+  credentials:
+  - password: sx2000
+    username: system
+  - password: sx2000
+    username: installer
+  - password: sx2000
+    username: maint1
+  - password: sx2000
+    username: maint2
+  - password: 5X2000
+    username: 1nstaller
+  - password: 5X2000
+    username: s1stem
+category: telnet
+comment: 'Level: Administrator; Doc: http://www.tek-tips.com/viewthread.cfm?qid=1036643; '
+name: Mitel Networks - SX2000
+port: 0
+vendor: MITEL NETWORKS

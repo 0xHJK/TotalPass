@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: userNotU
+    username: userNotUsed
+category: unknown
+comment: 'Level: Administrator; '
+name: Dynalink - RTA230
+port: 0
+vendor: DYNALINK

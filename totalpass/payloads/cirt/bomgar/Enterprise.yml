@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: password
+    username: admin
+category: http
+comment: 'Version: 10.4; Level: Administrator; '
+name: Bomgar - Enterprise
+port: 0
+vendor: BOMGAR

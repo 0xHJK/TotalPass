@@ -1,0 +1,15 @@
+auth:
+  credentials:
+  - password: ''
+    username: anonymous
+  - password: public
+    username: user
+  - password: operator
+    username: operator
+  - password: administrator
+    username: administrator
+category: unknown
+comment: 'Level: User; '
+name: Compaq - Insight Manager
+port: 0
+vendor: COMPAQ

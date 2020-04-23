@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: hello
+    username: hello
+category: unknown
+comment: ''
+name: Shiva - AccessPort
+port: 0
+vendor: SHIVA

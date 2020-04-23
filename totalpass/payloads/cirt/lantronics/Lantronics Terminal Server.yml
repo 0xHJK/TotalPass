@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: access
+    username: ''
+  - password: system
+    username: ''
+category: tcp 7000
+comment: 'Level: Administrator; '
+name: Lantronics - Lantronics Terminal Server
+port: 0
+vendor: LANTRONICS

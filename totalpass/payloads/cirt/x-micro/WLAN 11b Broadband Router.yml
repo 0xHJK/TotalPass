@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: super
+    username: super
+  - password: '1502'
+    username: '1502'
+category: http
+comment: 'Level: Administrator; '
+name: X-Micro - WLAN 11b Broadband Router
+port: 0
+vendor: X-MICRO

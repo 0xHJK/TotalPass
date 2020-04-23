@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: unknown
+comment: 'Level: Administrator; Notes: then ''enable'' and default password ''admin''; '
+name: Aruba - Mobility Controller
+port: 0
+vendor: ARUBA

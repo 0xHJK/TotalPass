@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: admin
+category: multiple
+comment: ''
+name: Ricoh - Aficio MP printers
+port: 0
+vendor: RICOH

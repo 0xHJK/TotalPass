@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: logapp
+    username: toor
+  - password: logapp
+    username: root
+category: ssh
+comment: 'Level: Administrator; '
+name: Loglogic - Loglogic Appliance
+port: 0
+vendor: LOGLOGIC

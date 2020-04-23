@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: riverhead
+    username: ''
+category: snmp
+comment: 'Doc: http://www.cisco.com/en/US/products/ps5888/prod_release_note09186a0080237333.html; '
+name: Cisco - Traffic Anomaly Detector
+port: 0
+vendor: CISCO

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: barney
+    username: admin
+category: http
+comment: 'Version: 1.1; '
+name: Avaya - 4602 SIP Telephone
+port: 0
+vendor: AVAYA

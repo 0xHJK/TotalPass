@@ -1,8 +1,8 @@
-# TotalPwd
+# TotalPass
 
-TotalPwd 是一款快速扫描目标设备是否存在默认密码（弱口令）的工具
+TotalPass 是一款快速扫描目标设备是否存在默认密码（弱口令）的工具
 
-<https://github.com/0xHJK/TotalPwd>
+<https://github.com/0xHJK/TotalPass>
 
 主要功能有：
 1. 扫描目标设备是否存在默认密码
@@ -15,53 +15,53 @@ TotalPwd 是一款快速扫描目标设备是否存在默认密码（弱口令�
 - snmp
 - redis
 
-![github.com/0xHJK/TotalPwd](https://github.com/0xHJK/TotalPwd/blob/master/docs/totalpwd.png)
+![github.com/0xHJK/TotalPass](https://github.com/0xHJK/TotalPass/blob/master/docs/totalpass.png)
 
 ## 快速开始
 
-安装（也可以不安装直接使用python3 totalpwd.py）
+安装（也可以不安装直接使用python3 totalpass.py）
 ```bash
 $ python3 setup.py install
 ```
 
 对单一IP进行所有扫描
 ```bash
-$ totalpwd scan 192.168.1.1
+$ totalpass scan 192.168.1.1
 ```
 
 使用详细模式
 ```bash
-$ totalpwd scan -v 192.168.1.1
+$ totalpass scan -v 192.168.1.1
 ```
 
 指定扫描类型进行扫描
 ```bash
-$ totalpwd scan -c ssh 192.168.1.1
+$ totalpass scan -c ssh 192.168.1.1
 ```
 
 对多个IP的指定端口进行所有扫描
 ```bash
-$ totalpwd scan -p 22 192.168.1.1 192.168.1.2
+$ totalpass scan -p 22 192.168.1.1 192.168.1.2
 ```
 
 查看支持的扫描类型
 ```bash
-$ totalpwd list
+$ totalpass list
 ```
 
 在密码库中搜索密码
 ```bash
-$ totalpwd search weblogic
+$ totalpass search weblogic
 ```
 
 多个条件搜索
 ```bash
-$ totalpwd search oracle unix
+$ totalpass search oracle unix
 ```
 
 更新密码库
 ```bash
-$ totalpwd update
+$ totalpass update
 ```
 
 ## 使用说明
@@ -69,8 +69,8 @@ $ totalpwd update
 查看帮助
 
 ```bash
-$ totalpwd --help
-Usage: totalpwd.py [OPTIONS] COMMAND [ARGS]...
+$ totalpass --help
+Usage: totalpass.py [OPTIONS] COMMAND [ARGS]...
 
 Options:
   --version  Show the version and exit.
@@ -85,8 +85,8 @@ Commands:
 
 查看扫描命令帮助
 ```bash
-$ totalpwd scan --help
-Usage: totalpwd.py scan [OPTIONS] TARGET...
+$ totalpass scan --help
+Usage: totalpass.py scan [OPTIONS] TARGET...
 
   指定目标进行密码扫描
 
@@ -105,26 +105,26 @@ Options:
 
 扫描目标支持单个IP、多个IP、子网、指定类型和端口等形式
 ```bash
-$ totalpwd scan 192.168.1.1
+$ totalpass scan 192.168.1.1
 
-$ totalpwd scan 192.168.1.1 192.168.1.2
+$ totalpass scan 192.168.1.1 192.168.1.2
 
-$ totalpwd scan 192.168.1.1/24
+$ totalpass scan 192.168.1.1/24
 
-$ totalpwd scan redis://192.168.1.1:6379
+$ totalpass scan redis://192.168.1.1:6379
 ```
 
 ### 设备类型
 
 参数：`-x`或`--name=`
 
-对应pwds目录中的yml文件的name属性
+对应payloads目录中的yml文件的name属性
 
 ### 扫描类型
 
 参数：`-c`或`--category=`
 
-对应pwds目录中的yml文件的category属性，也和`addons`目录中的插件名称对应，如果不指定则默认使用所有插件
+对应payloads目录中的yml文件的category属性，也和`addons`目录中的插件名称对应，如果不指定则默认使用所有插件
 
 ### 扫描端口
 
@@ -153,11 +153,11 @@ $ totalpwd scan redis://192.168.1.1:6379
 
 ## 开发说明
 
-项目支持插件化开发，只需要在`addons`目录中添加插件，在`pwds`目录中添加密码信息即可使用
+项目支持插件化开发，只需要在`addons`目录中添加插件，在`passwds`目录中添加密码信息即可使用
 
 ### 添加yml密码（推荐）
 
-例如新增一个思科的snmp默认密码文件，可以在`pwds/snmp`目录下创建`cisco.yml`文件
+例如新增一个思科的snmp默认密码文件，可以在`passwds/snmp`目录下创建`cisco.yml`文件
 
 参考格式：
 
@@ -189,7 +189,7 @@ csv格式：username, password [, name, category, port, comment]
 
 开发插件需要在`addons`目录中创建py文件，文件名为扫描类型，如`mongo.py`。
 
-同时需要在`pwds`目录中添加对应的密码信息。
+同时需要在`payloads`目录中添加对应的密码信息。
 
 格式参考：
 ```python
@@ -201,8 +201,8 @@ from ..scanner import Scanner
 
 # 继承Scanner类，类名和扫描类别保持一致
 class MongoScanner(Scanner):
-    def __init__(self, pwd, target, username, password):
-        super(RedisScanner, self).__init__(pwd, target, username, password)
+    def __init__(self, passwd, target, username, password):
+        super(RedisScanner, self).__init__(passwd, target, username, password)
         # 指定默认端口
         self.port = self.port or 27017
 
@@ -212,7 +212,7 @@ class MongoScanner(Scanner):
         return evidence
 
 # 被调用的生成扫描器的方法，注意类名一致
-def mkscanner(pwd, target, username, password):
-    return MongoScanner(pwd, target, username, password)
+def mkscanner(passwd, target, username, password):
+    return MongoScanner(passwd, target, username, password)
 
 ```

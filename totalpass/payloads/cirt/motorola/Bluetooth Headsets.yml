@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '0000'
+    username: ''
+category: pairing
+comment: 'Doc: http://rarara77.googlepages.com/; '
+name: Motorola - Bluetooth Headsets
+port: 0
+vendor: MOTOROLA

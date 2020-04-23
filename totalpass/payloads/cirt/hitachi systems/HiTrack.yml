@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: hds
+    username: admin
+category: http
+comment: 'Level: Administrator; '
+name: Hitachi Systems - HiTrack
+port: 0
+vendor: HITACHI SYSTEMS

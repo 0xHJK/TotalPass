@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: password
+    username: admin
+category: telnet
+comment: 'Level: Administrator; Notes: Default IP 192.168.1.254; '
+name: Conceptronic - CADSLR4 - telnet
+port: 0
+vendor: CONCEPTRONIC

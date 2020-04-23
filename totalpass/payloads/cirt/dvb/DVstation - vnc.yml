@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: dvst10n
+    username: dvstation
+category: vnc
+comment: 'Level: Administrator; '
+name: DVB - DVstation - vnc
+port: 0
+vendor: DVB

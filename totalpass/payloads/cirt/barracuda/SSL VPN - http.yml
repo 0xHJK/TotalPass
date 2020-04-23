@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: ssladmin
+    username: ssladmin
+category: http
+comment: 'Level: Administrator; Doc: http://www.barracudanetworks.com/ns/downloads/Quick_Start_Guides/QSG_Barracuda_SSLVPN_US.pdf;
+  Notes: Via WAN interface.; '
+name: Barracuda - SSL VPN - http
+port: 0
+vendor: BARRACUDA

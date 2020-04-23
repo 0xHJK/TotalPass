@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Polrty
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: Amptron - PC BIOS
+port: 0
+vendor: AMPTRON

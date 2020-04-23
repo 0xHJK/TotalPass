@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: password
+    username: admin
+category: http
+comment: 'Level: Administrator; '
+name: Arris - Touchstone Gateway
+port: 0
+vendor: ARRIS

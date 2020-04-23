@@ -4,3 +4,4 @@ netaddr
 click
 pyyaml
 paramiko
+requests

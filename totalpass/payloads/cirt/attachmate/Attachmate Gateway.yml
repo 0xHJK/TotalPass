@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: PASSWORD
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: Attachmate - Attachmate Gateway
+port: 0
+vendor: ATTACHMATE

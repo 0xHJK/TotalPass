@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: '1234'
+    username: ''
+category: ftp
+comment: 'Version: 660HW; Notes: Default IP 192.168.1.1; '
+name: Zyxel - Prestige - ftp
+port: 0
+vendor: ZYXEL

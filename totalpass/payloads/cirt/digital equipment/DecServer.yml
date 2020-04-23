@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: ACCESS
+    username: ''
+  - password: SYSTEM
+    username: ''
+category: multi
+comment: 'Level: Administrator; '
+name: Digital Equipment - DecServer
+port: 0
+vendor: DIGITAL EQUIPMENT

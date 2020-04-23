@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: Admin
+    username: Admin
+category: http
+comment: 'Level: Administrator; '
+name: 3COM - e960
+port: 0
+vendor: 3COM

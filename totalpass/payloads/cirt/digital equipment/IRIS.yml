@@ -1,0 +1,21 @@
+auth:
+  credentials:
+  - password: accounting
+    username: accounting
+  - password: boss
+    username: boss
+  - password: demo
+    username: demo
+  - password: manager
+    username: manager
+  - password: PDP11
+    username: PDP11
+  - password: PDP8
+    username: PDP8
+  - password: software
+    username: software
+category: multi
+comment: 'Level: Administrator; '
+name: Digital Equipment - IRIS
+port: 0
+vendor: DIGITAL EQUIPMENT

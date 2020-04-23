@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: nsroot
+    username: nsroot
+category: unknown
+comment: 'Level: Administrator; Doc: http://support.citrix.com/proddocs/topic/access-gateway-hig-appliances/ag-using-setup-wizard-tsk.html; '
+name: Citrix Systems, Inc. - Access Gateway - unknown
+port: 0
+vendor: CITRIX SYSTEMS, INC.

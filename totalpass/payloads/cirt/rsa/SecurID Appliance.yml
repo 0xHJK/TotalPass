@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: RSAAppliance
+    username: administrator
+category: http
+comment: 'Level: Administrator; Notes: Default IP: 192.168.100.100 Default port: 8098; '
+name: RSA - SecurID Appliance
+port: 0
+vendor: RSA

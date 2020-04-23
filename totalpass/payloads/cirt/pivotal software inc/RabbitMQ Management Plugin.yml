@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: guest
+    username: guest
+category: http
+comment: 'Level: Administrator; Doc: https://www.rabbitmq.com/management.html; Notes:
+  Port 15672; '
+name: Pivotal Software, Inc. - RabbitMQ Management Plugin
+port: 0
+vendor: PIVOTAL SOFTWARE, INC.

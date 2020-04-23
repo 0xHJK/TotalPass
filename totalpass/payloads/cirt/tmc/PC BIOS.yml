@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: BIGO
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: TMC - PC BIOS
+port: 0
+vendor: TMC

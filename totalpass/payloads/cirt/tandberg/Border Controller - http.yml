@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: TANDBERG
+    username: admin
+category: http
+comment: 'Level: Administrator; '
+name: Tandberg - Border Controller - http
+port: 0
+vendor: TANDBERG

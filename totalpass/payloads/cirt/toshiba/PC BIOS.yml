@@ -1,0 +1,13 @@
+auth:
+  credentials:
+  - password: 24Banc81
+    username: ''
+  - password: Toshiba
+    username: ''
+  - password: toshy99
+    username: ''
+category: console
+comment: 'Level: Administrator; '
+name: Toshiba - PC BIOS
+port: 0
+vendor: TOSHIBA

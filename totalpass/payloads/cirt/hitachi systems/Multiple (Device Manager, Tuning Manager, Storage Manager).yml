@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: manager
+    username: system
+category: http
+comment: 'Level: Administrator; Doc: https://community.hitachivantara.com/thread/1829; '
+name: Hitachi Systems - Multiple (Device Manager, Tuning Manager, Storage Manager)
+port: 0
+vendor: HITACHI SYSTEMS

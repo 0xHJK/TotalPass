@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: dvst10n
+    username: dvstation
+category: http
+comment: 'Level: Administrator; '
+name: DVB - DVstation
+port: 0
+vendor: DVB

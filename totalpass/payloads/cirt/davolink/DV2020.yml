@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: user
+    username: user
+category: unknown
+comment: 'Level: Administrator; Doc: http://www.zultrax.com/forward-port/davolink-dv-2020.htm;
+  Notes: Default LAN IP: 192.168.1.1; '
+name: Davolink - DV2020
+port: 0
+vendor: DAVOLINK

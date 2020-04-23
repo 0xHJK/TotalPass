@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: adminpass
+    username: administrator
+category: http
+comment: 'Level: Administrator; Notes: Located at /NessusWeb; '
+name: Chuming Chen - NessusWeb
+port: 0
+vendor: CHUMING CHEN

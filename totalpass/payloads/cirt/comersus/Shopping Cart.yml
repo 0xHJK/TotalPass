@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: dmr99
+    username: admin
+category: unknown
+comment: 'Level: Administrator; '
+name: Comersus - Shopping Cart
+port: 0
+vendor: COMERSUS

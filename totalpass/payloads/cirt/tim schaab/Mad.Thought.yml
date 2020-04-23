@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: changeit
+    username: theman
+category: http
+comment: 'Version: 2.0.1; Level: Administrator; Doc: http://freshmeat.net/projects/madthought/; '
+name: Tim Schaab - Mad.Thought
+port: 0
+vendor: TIM SCHAAB

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: volition
+category: unknown
+comment: 'Version: VOL-0215; Level: Administrator; Doc: http://multimedia.3m.com/mws/mediawebserver?6666660Zjcf6lVs6EVs666xa9COrrrrQ-; '
+name: 3M - Volition
+port: 0
+vendor: 3M

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: brocade1
+    username: admin
+category: unknown
+comment: 'Version: 300e; Level: Administrator; '
+name: Brocade - Silkworm
+port: 0
+vendor: BROCADE

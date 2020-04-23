@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: JDE
+    username: JDE
+category: tcp 1964
+comment: 'Version: All(?); Level: Admin/SECOFR; '
+name: JD Edwards - WorldVision/OneWorld - tcp 1964
+port: 0
+vendor: JD EDWARDS

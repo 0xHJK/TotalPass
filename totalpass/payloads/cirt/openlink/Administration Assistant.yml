@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: http
+comment: 'Level: administrator; '
+name: Openlink - Administration Assistant
+port: 0
+vendor: OPENLINK

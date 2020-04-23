@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: http
+comment: 'Level: Administrator; Doc: https://docs.tibco.com/pub/managed-file-transfer-internet-server/7.2.0-may-2012/MFT%20IS%20v7.2.0%20Installation%20Guide.pdf;
+  Notes: /admin; '
+name: TIBCO - MFT Internet Server
+port: 0
+vendor: TIBCO

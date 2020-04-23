@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+category: multiple
+comment: 'Level: Administrator; Doc: http://www.google.com/url?sa=t&source=web&cd=1&sqi=2&ved=0CBgQFjAA&url=http%3A%2F%2Fcdn.procurve.com%2Ftraining%2FManuals%2Fr52%2F42-10-5100-02_QS_MSC-5100_en.pdf&ei=b1DkTZ7HBInQgAfwzPDCBg&usg=AFQjCNEPTe_QUv1bf17RCW-0wYwrJmS24g; '
+name: Hewlett-Packard - ProcCurve MSC-5100
+port: 0
+vendor: HEWLETT-PACKARD

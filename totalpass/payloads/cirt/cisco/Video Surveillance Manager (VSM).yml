@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: secur4u
+    username: root
+category: multiple
+comment: 'Level: Administrator; Doc: http://www.cisco.com/c/en/us/td/docs/security/physical_security/video_surveillance/network/vsm/6_3/user_guide/cvsm_6_3/overview.html#wp1035089; '
+name: Cisco - Video Surveillance Manager (VSM)
+port: 0
+vendor: CISCO

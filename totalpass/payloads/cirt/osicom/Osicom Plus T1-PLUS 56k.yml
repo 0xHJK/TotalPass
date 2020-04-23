@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: private
+    username: write
+category: telnet
+comment: ''
+name: Osicom - Osicom Plus T1/PLUS 56k
+port: 0
+vendor: OSICOM

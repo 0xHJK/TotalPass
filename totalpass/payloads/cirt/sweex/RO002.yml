@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: rdc123
+    username: rdc123
+category: http
+comment: 'Level: Administrator; '
+name: Sweex - RO002
+port: 0
+vendor: SWEEX

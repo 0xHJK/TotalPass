@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: fibranne
+    username: root
+  - password: password
+    username: admin
+category: unknown
+comment: 'Version: 3.x; Level: Administrator; '
+name: Brocade - Fabric OS
+port: 0
+vendor: BROCADE

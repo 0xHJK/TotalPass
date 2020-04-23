@@ -1,0 +1,11 @@
+auth:
+  credentials:
+  - password: admin
+    username: admin
+  - password: vpasp
+    username: vpasp
+category: unknown
+comment: 'Version: 5.0; Level: Administrator; '
+name: Virtual Programming - VP-ASP Shopping Cart
+port: 0
+vendor: VIRTUAL PROGRAMMING

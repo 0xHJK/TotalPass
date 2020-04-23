@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: apc
+    username: apc
+category: unknown
+comment: 'Version: 2.x; '
+name: APC - SNMP Adapter
+port: 0
+vendor: APC

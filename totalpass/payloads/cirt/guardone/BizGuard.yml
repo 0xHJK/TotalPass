@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: guardone
+    username: n.a
+category: multi
+comment: 'Level: Administrator; '
+name: GuardOne - BizGuard
+port: 0
+vendor: GUARDONE

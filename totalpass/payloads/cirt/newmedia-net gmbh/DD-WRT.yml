@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: admin
+    username: root
+category: http
+comment: 'Version: v23 SP1; Level: Administrator; Doc: http://www.dd-wrt.com/wiki/index.php/Index:FAQ#What.27s_the_default_username_and_password.3F;
+  Notes: HTTP, telnet and SSH.; '
+name: NewMedia-NET GmbH - DD-WRT
+port: 0
+vendor: NEWMEDIA-NET GMBH

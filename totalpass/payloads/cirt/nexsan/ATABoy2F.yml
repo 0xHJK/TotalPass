@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: PASSWORD
+    username: ADMIN
+category: http
+comment: 'Version: 8.10f; Level: Administrator; '
+name: Nexsan - ATABoy2F
+port: 0
+vendor: NEXSAN

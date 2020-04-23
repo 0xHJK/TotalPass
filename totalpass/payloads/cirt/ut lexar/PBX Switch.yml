@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: ''
+    username: lexar
+category: unknown
+comment: 'Level: Maintenance; '
+name: UT Lexar - PBX Switch
+port: 0
+vendor: UT LEXAR

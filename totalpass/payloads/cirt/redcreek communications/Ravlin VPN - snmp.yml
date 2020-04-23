@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: private
+    username: ''
+category: snmp
+comment: 'Notes: SNMP read/write string is "private"; '
+name: Redcreek Communications - Ravlin VPN - snmp
+port: 0
+vendor: REDCREEK COMMUNICATIONS

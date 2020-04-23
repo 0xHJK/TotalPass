@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: GWrv
+    username: ''
+category: unknown
+comment: 'Version: 5000/2500/2000/800; Level: Administrator; '
+name: Tandberg - Vision
+port: 0
+vendor: TANDBERG

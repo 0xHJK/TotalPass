@@ -1,0 +1,17 @@
+auth:
+  credentials:
+  - password: ro
+    username: ro
+  - password: rw
+    username: rw
+  - password: rwa
+    username: rwa
+  - password: l2
+    username: l2
+  - password: l3
+    username: l3
+category: multi
+comment: 'Level: Read Only; '
+name: Nortel - Accelar (Passport) 1000 series routing switches
+port: 0
+vendor: NORTEL

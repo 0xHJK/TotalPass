@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: kn1TG7psLu
+    username: root
+category: ssh
+comment: 'Level: root; '
+name: Aladdin - eSafe Appliance - ssh
+port: 0
+vendor: ALADDIN

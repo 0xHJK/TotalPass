@@ -1,0 +1,10 @@
+auth:
+  credentials:
+  - password: '1234'
+    username: ''
+category: http
+comment: 'Level: Administrator; Doc: http://www.proxicast.com/support/files/GPRS-QuickStartGuide.pdf;
+  Notes: Default LAN IP 192.168.1.1.; '
+name: Proxicast - LAN-Cell Gateway GPRS-401
+port: 0
+vendor: PROXICAST

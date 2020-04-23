@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: SYSTEM
+    username: ''
+category: unknown
+comment: 'Level: Administrator; '
+name: Mintel - Mintel PBX
+port: 0
+vendor: MINTEL

@@ -1,0 +1,9 @@
+auth:
+  credentials:
+  - password: master
+    username: master
+category: unknown
+comment: ''
+name: QualiTeam - X-Cart
+port: 0
+vendor: QUALITEAM
