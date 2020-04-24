@@ -76,10 +76,11 @@ def search(keywords):
 @click.option("-x", "--name", help="指定设备型号或品牌")
 @click.option("-c", "--category", multiple=True, help="指定扫描类型")
 @click.option("-p", "--port", type=int, help="指定扫描端口")
+@click.option("-d", "--dirname", help="指定字典目录或文件")
 @click.option("--common", is_flag=True, default=False, help="使用常见弱口令字典")
 @click.option("-t", "--threads", default=10, type=int, help="指定线程数量")
 @click.option("-v", "--verbose", count=True, help="详细输出模式")
-def scan(target, name, common, category, port, threads, verbose):
+def scan(target, name, common, category, port, dirname, threads, verbose):
     """ 指定目标进行密码扫描 """
 
     if verbose < 1:
@@ -110,6 +111,9 @@ def scan(target, name, common, category, port, threads, verbose):
         opts.categories = addons.__all__
 
     opts.port = port
+
+    if dirname and os.path.exists(dirname):
+        opts.passwds_path = dirname
     # passwds会影响categories，所以必须先load passwds
     opts.passwds = Passwd.load()
     opts.targets = Target.parse(target)

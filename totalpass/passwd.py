@@ -82,11 +82,13 @@ class Passwd(object):
         return True
 
     @classmethod
-    def table(cls, passwds_path=opts.passwds_path) -> list:
+    def table(cls, passwds_path="") -> list:
         """
             返回passwd摘要信息
             name, category, credentials count
         """
+        # 不可以直接在函数参数中设置，否则在调用之前就已经使用了旧的passwds_path
+        passwds_path = passwds_path or opts.passwds_path
         passwds = cls.load(passwds_path)
         return [
             [passwd.name, passwd.category, passwd.port, len(passwd.credentials)]
@@ -94,11 +96,12 @@ class Passwd(object):
         ]
 
     @classmethod
-    def load(cls, passwds_path=opts.passwds_path) -> list:
+    def load(cls, passwds_path="") -> list:
         """
             导入passwd的对外接口
         """
         passwds = []
+        passwds_path = passwds_path or opts.passwds_path
         cls.logger.info("passwds_path: %s" % passwds_path)
         if os.path.isfile(passwds_path):
             passwds = cls._load_file(passwds_path)
