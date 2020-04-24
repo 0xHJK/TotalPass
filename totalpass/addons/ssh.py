@@ -31,7 +31,8 @@ class SSHScanner(Scanner):
             username=self.username,
             password=self.password,
             timeout=opts.timeout,
-            banner_timeout=200,
+            banner_timeout=300,
+            auth_timeout=20,
         )
         stdin, stdout, stderr = c.exec_command("uname -a")
         evidence = stdout.readlines()[0]
