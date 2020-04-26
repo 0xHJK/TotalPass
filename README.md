@@ -15,7 +15,43 @@ TotalPass 是一款快速扫描目标设备是否存在默认密码（弱口令�
 - snmp
 - redis
 
-![github.com/0xHJK/TotalPass](https://github.com/0xHJK/TotalPass/blob/master/docs/totalpass.png)
+```
+$ totalpass scan 192.168.64.162
+
+TotalPass 0.0.1 created by HJK.
+https://github.com/0xHJK/TotalPass
+
+Checking if the target ports are open...
+[+] [TCP] 192.168.64.162:23 is open.
+[+] [TCP] 192.168.64.162:6379 is open.
+[+] [UDP] 192.168.64.162:161 is open.
+[+] [TCP] 192.168.64.162:22 is open.
+
+Loaded 1052 credential profiles.
+Loaded 207 unique scanners.
+
+Testing #SSH test:test@192.168.64.162:22
+[+] Found SSH credential test:test at 192.168.64.162:22
+Linux ubuntu 5.3.0-46-generic #38~18.04.1-Ubuntu SMP Tue Mar 31 04:17:56 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+...
+[+] Found TELNET credential test:test at 192.168.64.162:23
+Last login: Thu Apr 23 01:44:18 PDT 2020 from 192.168.64.1 on pts/7
+...
+Testing #REDIS None:None@192.168.64.162:6379
+[+] Found REDIS credential None:None at 192.168.64.162:6379
+redis_version: 4.0.9, os: Linux 5.3.0-46-generic x86_64
+Testing #SNMP None:public@192.168.64.162:161
+[+] Found SNMP credential None:public at 192.168.64.162:161
+SNMPv2-MIB::sysDescr.0 = Linux ubuntu 5.3.0-46-generic #38~18.04.1-Ubuntu SMP Tue Mar 31 04:17:56 UTC 2020 x86_64
+...
+
+--- Result -------------
+[+] Found SSH credential test:test at 192.168.64.162:22
+[+] Found TELNET credential test:test at 192.168.64.162:23
+[+] Found REDIS credential None:None at 192.168.64.162:6379
+[+] Found SNMP credential None:public at 192.168.64.162:161
+------------------------
+```
 
 ## 快速开始
 
