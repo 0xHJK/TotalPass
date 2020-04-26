@@ -54,21 +54,11 @@ def update():
 
 @main.command()
 @click.argument("keywords", nargs=-1, required=True)
-def search(keywords):
+@click.option("-v", "--verbose", count=True, help="详细输出模式")
+def search(keywords, verbose):
     """ 从密码库中搜索密码 """
-    click.echo("Searching passwords from profiles...")
-    passwds = Passwd.load()
-    matched_passwds = []
-    click.echo("[+] Loaded %s passwd profiles." % len(passwds))
-    for passwd in passwds:
-        if passwd.match(keywords):
-            print("\n------------------------------------")
-            print(passwd.yaml())
-            matched_passwds.append(passwd)
-    if matched_passwds:
-        click.secho("[+] Found %s passwd profiles." % len(matched_passwds), fg="green")
-    else:
-        click.secho("[x] No matching passwd profile found.", fg="red")
+    opts.passwds = Passwd.load()
+    TPCore.anysearch(keywords, verbose)
 
 
 @main.command()

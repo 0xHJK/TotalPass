@@ -13,6 +13,7 @@ import queue
 import logging
 import click
 from threading import Thread
+from prettytable import PrettyTable
 from . import addons
 from .settings import opts
 
@@ -62,7 +63,40 @@ class TPCore(object):
             s.scan()
             self._q_scanners.task_done()
 
-    # def anyping(self):
-    #     click.echo("Checking if the targets are up...")
-    #     hosts = [t.host for t in opts.targets]
-    #     # TODO
+    @classmethod
+    def anysearch(cls, keywords, verbose):
+        """ 从密码库中搜索密码 """
+        click.echo("Searching passwords from profiles...")
+        matched = []
+
+        click.echo("[+] Loaded %s passwd profiles." % len(opts.passwds))
+
+        if verbose < 1:
+            for passwd in opts.passwds:
+                if passwd.match(keywords):
+                    matched += passwd.creds()
+            matched = set(matched)
+            print("\n")
+            for x in matched:
+                print(x)
+            print("\n")
+        elif verbose < 2:
+            for passwd in opts.passwds:
+                if passwd.match(keywords):
+                    matched += passwd.cred_rows()
+            pt = PrettyTable(["Username", "Password", "Name"])
+            pt.align["Name"] = "l"
+            for row in matched:
+                pt.add_row(row)
+            print(pt.get_string())
+        else:
+            for passwd in opts.passwds:
+                if passwd.match(keywords):
+                    print("\n-----------------------------")
+                    print(passwd.yaml())
+                    matched.append(passwd.yaml())
+
+        if matched:
+            click.secho("[+] Found %s passwd." % len(matched), fg="green")
+        else:
+            click.secho("[x] No matching passwd profile found.", fg="red")

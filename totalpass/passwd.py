@@ -59,6 +59,24 @@ class Passwd(object):
         ]
         return [self.name, self.category, self.port, str(creds)]
 
+    def creds(self) -> list:
+        """
+            返回帐号和密码
+        """
+        return [
+            "%s,%s" % (item.get("username", ""), item.get("password", ""))
+            for item in self.credentials
+        ]
+
+    def cred_rows(self) -> list:
+        """
+            返回帐号、密码、名称
+        """
+        return [
+            [item.get("username", ""), item.get("password", ""), self.name]
+            for item in self.credentials
+        ]
+
     def yaml(self):
         """
             把passwd信息格式化成yaml
