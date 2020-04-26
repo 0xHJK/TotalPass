@@ -23,33 +23,19 @@ def banner():
 @click.group()
 @click.version_option(message=banner())
 def main():
-    print(banner())
+    pass
 
 
 @main.command()
 def list():
     """ 列出所有支持的设备信息和服务类型 """
-    pt = PrettyTable(["Name", "Category", "Port", "Passwd Count"])
-    pt.align["Name"] = "l"
-    table = Passwd.table()
-    for row in table:
-        pt.add_row(row)
-    print(pt.get_string())
-    click.secho("[+] Loaded %s passwd profiles." % len(table), fg="green")
+    TPCore.anylist()
 
 
 @main.command()
 def update():
     """ 从 cirt.net 更新密码库"""
-    click.echo("Updating passwords from cirt.net...")
-    from .cirt import CirtPass
-
-    try:
-        CirtPass.update()
-        click.secho("[+] Passwords update completed.", fg="green")
-    except Exception as e:
-        click.secho("[x] Passwords update failed.", fg="red")
-        print("%s Exception: %s" % (type(e).__name__, str(e)))
+    TPCore.anyupdate()
 
 
 @main.command()
@@ -57,7 +43,6 @@ def update():
 @click.option("-v", "--verbose", count=True, help="详细输出模式")
 def search(keywords, verbose):
     """ 从密码库中搜索密码 """
-    opts.passwds = Passwd.load()
     TPCore.anysearch(keywords, verbose)
 
 
@@ -109,9 +94,9 @@ def scan(target, name, common, category, port, dirname, threads, verbose):
     opts.targets = Target.parse(target)
 
     opts.running = True
+    
     try:
-        tpc = TPCore()
-        tpc.anyscan()
+        TPCore.anyscan()
     except KeyboardInterrupt as e:
         opts.running = False
         click.echo("Exit.")

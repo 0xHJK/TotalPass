@@ -16,6 +16,7 @@ from threading import Thread
 from prettytable import PrettyTable
 from . import addons
 from .settings import opts
+from .passwd import Passwd
 
 
 class TPCore(object):
@@ -23,11 +24,16 @@ class TPCore(object):
         核心控制器
     """
 
-    def __init__(self):
-        self.logger = logging.getLogger("TotalPass")
-        self._q_scanners = queue.Queue()
+    logger = logging.getLogger("TotalPass")
+    _q_scanners = queue.Queue()
 
-    def anyscan(self):
+    def __init__(self):
+        pass
+        # self.logger = logging.getLogger("TotalPass")
+        # self._q_scanners = queue.Queue()
+
+    @classmethod
+    def anyscan(cls):
         click.echo("Checking if the target ports are open...")
 
         scanners = []
@@ -39,40 +45,42 @@ class TPCore(object):
         click.echo("Loaded %i unique scanners.\n" % len(scanners))
 
         for s in scanners:
-            self._q_scanners.put(s)
+            cls._q_scanners.put(s)
 
         tasks = []
         for i in range(opts.threads):
-            t = Thread(target=self.scan_worker)
+            t = Thread(target=cls._scan_worker)
             t.start()
             tasks.append(t)
 
-        self._q_scanners.join()
+        cls._q_scanners.join()
         opts.running = False
         for i in range(opts.threads):
-            self._q_scanners.put(None)
+            cls._q_scanners.put(None)
 
         for t in tasks:
             t.join()
 
-    def scan_worker(self):
-        while opts.running and not self._q_scanners.empty():
-            s = self._q_scanners.get()
+    @classmethod
+    def _scan_worker(cls):
+        while opts.running and not cls._q_scanners.empty():
+            s = cls._q_scanners.get()
             if s is None:
                 break
             s.scan()
-            self._q_scanners.task_done()
+            cls._q_scanners.task_done()
 
     @classmethod
     def anysearch(cls, keywords, verbose):
         """ 从密码库中搜索密码 """
         click.echo("Searching passwords from profiles...")
-        matched = []
+        passwds = Passwd.load()
 
-        click.echo("[+] Loaded %s passwd profiles." % len(opts.passwds))
+        matched = []
+        click.echo("[+] Loaded %s passwd profiles." % len(passwds))
 
         if verbose < 1:
-            for passwd in opts.passwds:
+            for passwd in passwds:
                 if passwd.match(keywords):
                     matched += passwd.creds()
             matched = set(matched)
@@ -81,7 +89,7 @@ class TPCore(object):
                 print(x)
             print("\n")
         elif verbose < 2:
-            for passwd in opts.passwds:
+            for passwd in passwds:
                 if passwd.match(keywords):
                     matched += passwd.cred_rows()
             pt = PrettyTable(["Username", "Password", "Name"])
@@ -90,7 +98,7 @@ class TPCore(object):
                 pt.add_row(row)
             print(pt.get_string())
         else:
-            for passwd in opts.passwds:
+            for passwd in passwds:
                 if passwd.match(keywords):
                     print("\n-----------------------------")
                     print(passwd.yaml())
@@ -100,3 +108,28 @@ class TPCore(object):
             click.secho("[+] Found %s passwd." % len(matched), fg="green")
         else:
             click.secho("[x] No matching passwd profile found.", fg="red")
+
+    @classmethod
+    def anyupdate(cls):
+        """ 从 cirt.net 更新密码库"""
+        click.echo("Updating passwords from cirt.net...")
+        from .cirt import CirtPass
+
+        try:
+            CirtPass.update()
+            click.secho("[+] Passwords update completed.", fg="green")
+        except Exception as e:
+            click.secho("[x] Passwords update failed.", fg="red")
+            print("%s Exception: %s" % (type(e).__name__, str(e)))
+
+    @classmethod
+    def anylist(cls):
+        """ 列出所有支持的设备信息和服务类型 """
+        click.echo("Loading passwords from profiles...")
+        pt = PrettyTable(["Name", "Category", "Port", "Passwd Count"])
+        pt.align["Name"] = "l"
+        table = Passwd.table()
+        for row in table:
+            pt.add_row(row)
+        print(pt.get_string())
+        click.secho("[+] Loaded %s passwd profiles." % len(table), fg="green")
