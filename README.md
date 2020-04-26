@@ -3,6 +3,7 @@
 TotalPass (<https://github.com/0xHJK/TotalPass>) 是一款默认口令/弱口令扫描工具。
 
 > ⚠️ 警告：本工具仅用于授权测试，不得用于非法用途，否则后果自负！
+> 
 > ⚠️ Warning：For authorized testing only. Prohibited for illegal use.
 
 ![TotalPass.jpg](https://github.com/0xHJK/TotalPass/raw/master/totalpass.jpg)
@@ -14,10 +15,10 @@ TotalPass (<https://github.com/0xHJK/TotalPass>) 是一款默认口令/弱口令
 3. 支持手动和自动更新密码库
 
 目前支持的默认密码扫描类型有
-- ssh
-- telnet
-- snmp
-- redis
+- SSH
+- Telnet
+- SNMP
+- Redis
 
 ## QuickStart
 
@@ -213,4 +214,5 @@ $ totalpass scan redis://192.168.1.1:6379
 BTC：bc1qn hvev dghq uzc3 fh9c qdja 63ut qqgn va3l h6n2s
 
 Wechat：
+
 ![Wechat](https://github.com/0xHJK/music-dl/raw/master/static/wepay.jpg)
