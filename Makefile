@@ -23,6 +23,9 @@ clean:
 	find . | grep __pycache__ | xargs rm -fr
 	find . | grep .pyc | xargs rm -f
 
+uninstall:
+	pip uninstall -y totalpass
+
 install:
 	python3 setup.py install
 
