@@ -23,7 +23,7 @@ def banner():
 @click.group()
 @click.version_option(message=banner())
 def main():
-    pass
+    print(banner())
 
 
 @main.command()
