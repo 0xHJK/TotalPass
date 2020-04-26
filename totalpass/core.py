@@ -9,6 +9,7 @@
 """
 
 import sys
+import queue
 import logging
 import click
 from threading import Thread
@@ -23,6 +24,7 @@ class TPCore(object):
 
     def __init__(self):
         self.logger = logging.getLogger("TotalPass")
+        self._q_scanners = queue.Queue()
 
     def anyscan(self):
         click.echo("Checking if the target ports are open...")
@@ -35,21 +37,30 @@ class TPCore(object):
         click.echo("\nLoaded %i credential profiles." % len(opts.passwds))
         click.echo("Loaded %i unique scanners.\n" % len(scanners))
 
+        for s in scanners:
+            self._q_scanners.put(s)
+
         tasks = []
-        total = len(scanners)
-        step = int(total / opts.threads) + 1
-        # 将所有任务平分到各个线程中
-        for i in range(0, total, step):
-            t = Thread(target=self.scan_task, args=(scanners[i : i + step],))
+        for i in range(opts.threads):
+            t = Thread(target=self.scan_worker)
             t.start()
             tasks.append(t)
+
+        self._q_scanners.join()
+        opts.running = False
+        for i in range(opts.threads):
+            self._q_scanners.put(None)
 
         for t in tasks:
             t.join()
 
-    def scan_task(self, scanners):
-        for s in scanners:
+    def scan_worker(self):
+        while opts.running and not self._q_scanners.empty():
+            s = self._q_scanners.get()
+            if s is None:
+                break
             s.scan()
+            self._q_scanners.task_done()
 
     # def anyping(self):
     #     click.echo("Checking if the targets are up...")
