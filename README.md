@@ -5,7 +5,6 @@
     <img src="https://github.com/0xHJK/TotalPass/raw/master/totalpass.jpg" alt="totalpass">
   </a>
   <span>TotalPass 是一款默认口令/弱口令扫描工具</span><br>
-  <a href="https://github.com/0xHJK/TotalPass">https://github.com/0xHJK/TotalPass</a>
 <p>
 
 <p align="center">
@@ -15,6 +14,11 @@
   </a>
   <a><img src="https://img.shields.io/github/license/0xHJK/TotalPass.svg"></a>
 </p>
+
+<p align="center">
+  <a href="https://github.com/0xHJK/TotalPass">https://github.com/0xHJK/TotalPass</a>
+</p>
+
 <hr>
 
 > ⚠️ **警告：本工具仅用于授权测试，不得用于非法用途，否则后果自负！**
