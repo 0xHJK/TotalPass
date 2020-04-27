@@ -10,9 +10,9 @@
 <p align="center">
   <a><img src="https://img.shields.io/pypi/pyversions/TotalPass.svg"></a>
   <a href="https://github.com/0xHJK/TotalPass/releases">
-    <img src="https://img.shields.io/github/release/0xHJK/TotalPass.svg">
+    <img src="https://img.shields.io/github/v/release/0xHJK/TotalPass?include_prereleases">
   </a>
-  <a><img src="https://img.shields.io/github/license/0xHJK/TotalPass.svg"></a>
+  <a><img src="https://img.shields.io/github/license/0xHJK/TotalPass"></a>
 </p>
 
 <p align="center">
