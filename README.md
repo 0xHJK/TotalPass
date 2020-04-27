@@ -4,7 +4,7 @@
   <a href="https://github.com/0xHJK/TotalPass">
     <img src="https://github.com/0xHJK/TotalPass/raw/master/totalpass.jpg" alt="totalpass">
   </a>
-  <span>TotalPass 是一款默认口令/弱口令扫描工具</span>
+  <span>TotalPass 是一款默认口令/弱口令扫描工具</span><br>
   <a href="https://github.com/0xHJK/TotalPass">https://github.com/0xHJK/TotalPass</a>
 <p>
 
@@ -17,9 +17,9 @@
 </p>
 <hr>
 
-> ⚠️ 警告：本工具仅用于授权测试，不得用于非法用途，否则后果自负！
+> ⚠️ **警告：本工具仅用于授权测试，不得用于非法用途，否则后果自负！**
 > 
-> ⚠️ WARNING：FOR LEGAL PURPOSES ONLY!
+> ⚠️ **WARNING：FOR LEGAL PURPOSES ONLY!**
 
 
 ## 🤘 Features
@@ -215,7 +215,7 @@ $ totalpass scan redis://192.168.1.1:6379
 
 <https://github.com/0xHJK/TotalPass/blob/master/HISTORY.md>
 
-## ❤️ Contributing
+## 🤝 Contributing
 
 <https://github.com/0xHJK/TotalPass/blob/master/CONTRIBUTING.md>
 
@@ -223,7 +223,7 @@ $ totalpass scan redis://192.168.1.1:6379
 
 [MIT License](https://github.com/0xHJK/TotalPass/blob/master/LICENSE)
 
-## 🧧 Donate
+## ❤️ Donate
 
 BTC：bc1qn hvev dghq uzc3 fh9c qdja 63ut qqgn va3l h6n2s
 
