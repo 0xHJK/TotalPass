@@ -1,0 +1,15 @@
+include \
+    LICENSE \
+    MAINFEST.in \
+    *.md \
+    setup.* \
+    totalpass.jpg
+
+recursive-include totalpass *.yml *.csv
+
+exclude \
+    .env* \
+    .git*
+
+prune build
+prune dist
