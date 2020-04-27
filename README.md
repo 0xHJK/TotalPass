@@ -1,14 +1,28 @@
 # TotalPass
 
-TotalPass (<https://github.com/0xHJK/TotalPass>) 是一款默认口令/弱口令扫描工具。
+<p align="center">
+  <a href="https://github.com/0xHJK/TotalPass">
+    <img src="https://github.com/0xHJK/TotalPass/raw/master/totalpass.jpg" alt="totalpass">
+  </a>
+  <span>TotalPass 是一款默认口令/弱口令扫描工具</span>
+  <a href="https://github.com/0xHJK/TotalPass">https://github.com/0xHJK/TotalPass</a>
+<p>
+
+<p align="center">
+  <a><img src="https://img.shields.io/pypi/pyversions/TotalPass.svg"></a>
+  <a href="https://github.com/0xHJK/TotalPass/releases">
+    <img src="https://img.shields.io/github/release/0xHJK/TotalPass.svg">
+  </a>
+  <a><img src="https://img.shields.io/github/license/0xHJK/TotalPass.svg"></a>
+</p>
+<hr>
 
 > ⚠️ 警告：本工具仅用于授权测试，不得用于非法用途，否则后果自负！
 > 
-> ⚠️ Warning：For authorized testing only. Prohibited for illegal use.
+> ⚠️ WARNING：FOR LEGAL PURPOSES ONLY!
 
-![TotalPass.jpg](https://github.com/0xHJK/TotalPass/raw/master/totalpass.jpg)
 
-## Features
+## 🤘 Features
 
 1. 扫描目标设备是否存在默认密码
 2. 搜索常见设备默认密码
@@ -20,7 +34,7 @@ TotalPass (<https://github.com/0xHJK/TotalPass>) 是一款默认口令/弱口令
 - SNMP
 - Redis
 
-## QuickStart
+## 🚀 QuickStart
 
 ```bash
 $ pip3 install totalpass
@@ -34,7 +48,7 @@ $ cd TotalPass
 $ python3 setup.py install
 ```
 
-## Usage
+## 💫 Usage
 
 查看帮助
 
@@ -71,7 +85,7 @@ Options:
   --help                 Show this message and exit.
 ```
 
-## Scanner
+## 🤖 Scanner
 
 对单一IP进行所有扫描
 ```bash
@@ -105,7 +119,7 @@ $ totalpass scan 192.168.1.1 192.168.1.2
 $ totalpass scan 192.168.1.1/24
 ```
 
-## Passwords
+## 🔑 Passwords
 
 查看支持的扫描类型
 ```bash
@@ -137,7 +151,7 @@ $ totalpass search oracle unix
 $ totalpass update
 ```
 
-## Options
+## 🧩 Options
 
 ### 扫描目标
 
@@ -197,19 +211,19 @@ $ totalpass scan redis://192.168.1.1:6379
 `v`越多，输出越详细
 
 
-## History
+## 📜 History
 
 <https://github.com/0xHJK/TotalPass/blob/master/HISTORY.md>
 
-## Contributing
+## ❤️ Contributing
 
 <https://github.com/0xHJK/TotalPass/blob/master/CONTRIBUTING.md>
 
-## License
+## 📄 License
 
 [MIT License](https://github.com/0xHJK/TotalPass/blob/master/LICENSE)
 
-## Donate
+## 🧧 Donate
 
 BTC：bc1qn hvev dghq uzc3 fh9c qdja 63ut qqgn va3l h6n2s
 
